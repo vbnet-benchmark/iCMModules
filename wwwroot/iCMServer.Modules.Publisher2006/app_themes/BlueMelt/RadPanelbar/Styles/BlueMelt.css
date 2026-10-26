@@ -1,0 +1,110 @@
+.panelbarHeaderCollapsed
+{ 		
+	FONT-SIZE: 11px; 
+	COLOR: #ffffff;
+	FONT-FAMILY: Arial,Verdana;
+	font-weight: bold;
+	cursor: hand;
+	cursor: pointer;
+	height: 35px;
+	background-image: url(../Img/HeaderCollapsed.gif);
+	padding-left: 24px;
+}
+
+.panelbarHeaderHover
+{ 		
+	FONT-SIZE: 11px; 
+	COLOR: #ffffff;
+	FONT-FAMILY: Arial,Verdana;
+	font-weight: bold;
+	cursor: hand;
+	cursor: pointer;
+	height: 35px;
+	background-image: url(../Img/HeaderHover.gif);
+	padding-left: 24px;
+}
+
+.panelbarHeaderExpand
+{
+	FONT-SIZE: 11px; 
+	COLOR: #ffffff;
+	FONT-FAMILY: Arial,Verdana;
+	font-weight: bold;
+	cursor: hand;
+	cursor: pointer;
+	height: 25px;
+	background-image: url(../Img/HeaderExpanded.gif);
+	padding-left: 24px;
+	padding-top: 6px;
+}
+
+.panelbarItem 
+{
+	FONT-SIZE: 11px; 
+	COLOR: #ffffff;
+	FONT-FAMILY: Arial,Verdana;
+	cursor: hand;
+	cursor: pointer;
+	text-decoration: none;
+	padding-left: 24px;
+	height: 24px;
+	background-image: url(../Img/ItemsSeparator.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.panelbarItemHover
+{
+	FONT-SIZE: 11px; 
+	COLOR: #000000;
+	FONT-FAMILY: Arial,Verdana;
+	cursor: hand;
+	cursor: pointer;
+	text-decoration: none;
+	padding-left: 24px;
+	height: 24px;
+	background-image: url(../Img/ItemsSeparator.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+.panelbarItemGroup
+{
+	background-image: url(../Img/ItemsBg.gif);
+}
+
+.panelbarItemCollapsedFooter
+{
+	FONT-SIZE: 11px; 
+	COLOR: #ffffff;
+	FONT-FAMILY: Arial,Verdana;
+	cursor: hand;
+	cursor: pointer;
+	text-decoration: none;
+	padding-left: 24px;
+	height: 30px;
+	padding-bottom:7px;
+	background-image: url(../Img/ItemsFooter.gif);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.panelbarItemExpandedFooter
+{
+	FONT-SIZE: 11px; 
+	COLOR: #000000;
+	FONT-FAMILY: Arial,Verdana;
+	cursor: hand;
+	cursor: pointer;
+	text-decoration: none;
+	padding-left: 24px;
+	height: 30px;
+	padding-bottom:7px;
+	background-image: url(../Img/ItemsFooter.gif);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}

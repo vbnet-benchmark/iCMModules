@@ -1,0 +1,452 @@
+<VisualStudioProject>
+    <VisualBasic
+        ProjectType = "Web"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{477156CC-CBD8-4CA8-9E87-D8A9316CA66D}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "iConsulting.iCMServer.Modules.Publisher"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Flow"
+                DefaultTargetSchema = "IE32Nav30"
+                DelaySign = "false"
+                OutputType = "Library"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "Off"
+                RootNamespace = "iConsulting.iCMServer.Modules.Publisher"
+                StartupObject = "iConsulting.iCMServer.Modules.Publisher.(None)"
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.dll"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Web.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.Web.Services"
+                    AssemblyName = "System.Web.Services"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Web.Services.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.XML.dll"
+                />
+                <Reference
+                    Name = "iConsulting.iCMServer.Components.iCDataGrid"
+                    AssemblyName = "iConsulting.iCMServer.Components.iCDataGrid"
+                    HintPath = "..\..\Source\iConsulting.iCMServer.Components.iCDataGrid.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "iConsulting.iCMServer"
+                    AssemblyName = "iConsulting.iCMServer"
+                    HintPath = "..\..\Source\iConsulting.iCMServer.dll"
+                    Private = "False"
+                />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "System" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "clsPublisher.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "modConstants.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Publisher.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Publisher.ascx.vb"
+                    DependentUpon = "Publisher.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Publisher.ascx.resx"
+                    DependentUpon = "Publisher.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "PublisherEdit.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "PublisherEdit.aspx.vb"
+                    DependentUpon = "PublisherEdit.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "PublisherEdit.aspx.resx"
+                    DependentUpon = "PublisherEdit.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "PublisherEditBackColor.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "PublisherEditForeColor.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "PublisherEditGetFile.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "PublisherEditGetFile.aspx.vb"
+                    DependentUpon = "PublisherEditGetFile.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "PublisherEditGetFile.aspx.resx"
+                    DependentUpon = "PublisherEditGetFile.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "PublisherEditImage.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "PublisherEditImage.aspx.vb"
+                    DependentUpon = "PublisherEditImage.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "PublisherEditImage.aspx.resx"
+                    DependentUpon = "PublisherEditImage.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "PublisherEditLink.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "PublisherEditLink.aspx.vb"
+                    DependentUpon = "PublisherEditLink.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "PublisherEditLink.aspx.resx"
+                    DependentUpon = "PublisherEditLink.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "PublisherEditsLink.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "PublisherEditsLink.aspx.vb"
+                    DependentUpon = "PublisherEditsLink.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "PublisherEditsLink.aspx.resx"
+                    DependentUpon = "PublisherEditsLink.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "PublisherEditSymbol.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "PublisherEditSymbol.aspx.vb"
+                    DependentUpon = "PublisherEditSymbol.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "PublisherEditSymbol.aspx.resx"
+                    DependentUpon = "PublisherEditSymbol.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "PublisherEditTable.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "PublisherEditTable.aspx.vb"
+                    DependentUpon = "PublisherEditTable.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "PublisherEditTable.aspx.resx"
+                    DependentUpon = "PublisherEditTable.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "rem.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\about.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\blank.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\bold.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\bulletlist.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\centre.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\color.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\copy.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\cut.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\delete.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\exit.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\fontback.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\ftp.GIF"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\help.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\hr.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\image.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\indent.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\italic.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\left.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\link.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\lower.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\mail.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\notepad.GIF"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\open.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\orderlist.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\outdent.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\paste.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\preview.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\print.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\redo.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\right.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\save.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\select.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\separator.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\separator-header.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\strikethrough.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\subscript.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\superscript.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\symbol.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\table.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\underline.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\undo.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\update.GIF"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\upper.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Js\PublisherColor.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Js\PublisherFont.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Js\PublisherGeneric.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Js\PublisherMedia.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Js\PublisherTable.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Js\PublisherUIStyle.js"
+                    BuildAction = "Content"
+                />
+            </Include>
+        </Files>
+    </VisualBasic>
+</VisualStudioProject>
+

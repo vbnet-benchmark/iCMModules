@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<localization>
+	<string id="AreaFieldSet">Propriétés de la zone sélectionnée</string>
+	<string id="ImageFieldSet">Image Properties</string>
+	<string id="Update">Mettre à jour la zone</string>
+	<string id="Remove"> Supprimer la zone</string>
+	<string id="RemoveAll">Supprimer Tous</string>
+	<string id="NewArea">Créer</string>
+	<string id="Left">Gauche</string>
+	<string id="Top">Haut</string>
+	<string id="Width">Largeur</string>
+	<string id="Height">Hauteur</string>
+	<string id="Url">Url</string>	
+	<string id="Comment">Commentaire</string>
+	<string id="AlertInvalidProperties"> Propriétés non valable!</string>
+	<string id="AlertInvalidAreaProperties"> Propriétés de zone non valable! S'il vous plaît entrer url.</string>
+	<string id="AlertDeleteArea">Etes vous sure que vous voulez supprimer cette zone.</string>
+	<string id="AlertDeleteAllAreas">Etes vous sure que vous voulez supprimer TOUTES les zones.</string>
+	<string id="AlertWrongAreaDimensions"> Dimensions erronées sont détectées. Sauter cette zone.</string>
+	<string id="ShapeAlt">Faire glisser le coin droit de bas pour redimensionner cette zone.</string>
+	<string id="HowToAdd">Vous pouvez faire glisser au dessus l'image pour créer une nouvelle zone.</string>
+	<string id="RectangleShapeName">Rectangle</string>
+	<string id="CircleShapeName">Cercle</string>
+	<string id="PolygonShapeName">Polygone</string>	
+	<string id="Target">Target</string>	
+	<string id="ImageSrc">Image Src</string>	
+	<string id="SelectImage">Please choose an image in order to create image map.</string>			
+</localization>

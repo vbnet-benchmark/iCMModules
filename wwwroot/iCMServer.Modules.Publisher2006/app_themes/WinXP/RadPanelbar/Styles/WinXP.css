@@ -1,0 +1,87 @@
+.panelbarHeaderCollapsed
+{ 		
+	FONT-SIZE: 11px; 
+	COLOR: #215DC6;
+	FONT-FAMILY: Arial,Verdana;
+	font-weight: bold;
+	cursor: hand;
+	cursor: pointer;
+	background-image: url(../Img/HeaderCollapsedBg.gif);
+	background-repeat: no-repeat;
+	height: 25px;
+	width: 189px;
+	padding-left: 21px;
+	margin-top: 20px;
+}
+
+.panelbarHeaderHover 
+{ 		
+	FONT-SIZE: 11px; 
+	COLOR: #373737;
+	FONT-FAMILY: Arial,Verdana;
+	font-weight: bold;
+	cursor: hand;
+	cursor: pointer;
+	background-image: url(../Img/HeaderCollapsedBg.gif);
+	background-repeat: no-repeat;
+	height: 25px;
+	width: 189px;
+	padding-left: 21px;
+	margin-top: 20px;
+}
+
+.panelbarHeaderExpand
+{
+	FONT-SIZE: 11px; 
+	COLOR: #ffffff;
+	FONT-FAMILY: Arial,Verdana;
+	font-weight: bold;
+	cursor: hand;
+	cursor: pointer;
+	background-image: url(../Img/expandBg.gif);
+	background-repeat: no-repeat;
+	height: 25px;
+	width: 189px;
+	padding-left: 21px;
+	margin-top: 20px;
+}
+
+.panelbarItem 
+{
+	FONT-SIZE: 11px; 
+	COLOR: #215DC6;
+	width: 189px;
+	FONT-FAMILY: Arial,Verdana;
+	cursor: hand;
+	cursor: pointer;
+	background-color: #D7DEF8;
+	text-decoration: none;
+	border-left: 1px solid #white;
+	border-right: 1px solid #white;
+	padding-left: 21px;
+	height: 19px;
+}
+.panelbarItemHover
+{
+	FONT-SIZE: 11px; 
+	COLOR: #373737;
+	width: 189px;
+	FONT-FAMILY: Arial,Verdana;
+	cursor: hand;
+	cursor: pointer;
+	background-color: #D7DEF8;
+	text-decoration: none;
+	border-left: 1px solid #white;
+	border-right: 1px solid #white;
+	padding-left: 21px;
+	height: 19px;
+}
+
+.outerPanelbar
+{
+	background-color: #6487DC;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	border: 1px solid #2151B2;
+	width: 209px;
+}

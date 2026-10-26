@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "iCMServer.Modules.Sites", "http://localhost/Development/iConsulting/iCMModules/wwwroot/iCMServer.Modules.Sites/iCMServer.Modules.Sites.vbproj", "{87B0E662-12CF-4330-8E94-321BDCFC246E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{87B0E662-12CF-4330-8E94-321BDCFC246E}.Debug.ActiveCfg = Debug|.NET
+		{87B0E662-12CF-4330-8E94-321BDCFC246E}.Debug.Build.0 = Debug|.NET
+		{87B0E662-12CF-4330-8E94-321BDCFC246E}.Release.ActiveCfg = Release|.NET
+		{87B0E662-12CF-4330-8E94-321BDCFC246E}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

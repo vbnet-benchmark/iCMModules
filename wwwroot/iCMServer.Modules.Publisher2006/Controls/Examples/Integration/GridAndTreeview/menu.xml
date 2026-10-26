@@ -1,0 +1,87 @@
+<Menu>
+  <Group Flow="Horizontal" CssClass="MainGroup">
+    <Item Text="File">
+      <Group OffsetY="-1" LeftCellWidth="19" RightCellWidth="12">
+        <Item Text="New..." />
+        <Item Text="Open..." />
+        <Item Text="Close..."/>
+        <Item CssClass="Separator" CssClassOver="Separator" Image="separator.gif" ImageHeight="1" />
+        <Item Text="Save..." />
+        <Item Text="Save As..."/>
+        <Item Text="Save as Web Page..." />
+        <Item Text="File Search..."/>
+        <Item CssClass="Separator" CssClassOver="Separator" Image="separator.gif" ImageHeight="1"/>
+        <Item Text="Permission" RightLogo="rightArrow.gif" >
+          <Group LeftCellWidth="19">
+            <Item Text="Unrestricted Access"/>
+            <Item Text="Do Not Distribute..."/>
+			<Item CssClass="Separator" CssClassOver="Separator" Image="separator.gif" ImageHeight="1"/>
+            <Item Text="Restrict Permission As..."/>
+          </Group>
+        </Item>
+        <Item Text="Versions..." />
+        <Item CssClass="Separator" CssClassOver="Separator" Image="separator.gif" ImageHeight="1" />
+        <Item Text="Web Page Preview" />
+        <Item CssClass="Separator" CssClassOver="Separator" Image="separator.gif" ImageHeight="1" />
+        <Item Text="Page Setup..." />
+        <Item Text="Print Preview" />
+        <Item Text="Print" />
+        <Item CssClass="Separator" CssClassOver="Separator" Image="separator.gif" ImageHeight="1" />
+        <Item Text="1. Q:\marketing\fileUploadProcedures.doc" />
+        <Item Text="2. Q:\marketing\testing Guidelines.doc" />
+        <Item Text="3. Q:\marketing\productMatrix.doc" />
+        <Item CssClass="Separator" CssClassOver="Separator" Image="separator.gif" ImageHeight="1" />
+        <Item Text="Exit" />
+      </Group>
+    </Item>
+    <Item Text="Edit">
+      <Group OffsetY="-1" LeftCellWidth="19" RightCellWidth="12">
+        <Item Text="Undo Typing" />
+        <Item CssClass="Separator" CssClassOver="Separator" Image="separator.gif" ImageHeight="1" />
+        <Item Text="Copy" />
+        <Item Text="Office Clipboard..." />
+        <Item Text="Paste Special" />
+		<Item CssClass="Separator" CssClassOver="Separator" Image="separator.gif" ImageHeight="1" />
+        <Item Text="Select All" />
+		<Item CssClass="Separator" CssClassOver="Separator" Image="separator.gif" ImageHeight="1" />
+        <Item Text="Find..." />
+        <Item Text="Replace" />
+      </Group>
+    </Item>
+    <Item Text="View" >
+      <Group OffsetY="-1" LeftCellWidth="19" RightCellWidth="12">
+        <Item Text="Normal" />
+        <Item Text="Web Layout" />
+        <Item Text="Print Layout" />
+        <Item CssClass="Separator" CssClassOver="Separator" Image="separator.gif" ImageHeight="1" />
+        <Item Text="Task Pane" />
+        <Item Text="Toolbars" RightLogo="rightArrow.gif" >
+          <Group LeftCellWidth="19">
+            <Item Text="Standard" />
+            <Item Text="Formatting" />
+            <Item Text="AutoText"/>
+            <Item Text="Control Toolbox"/>
+            <Item Text="Database"/>
+            <Item Text="Drawing"/>
+            <Item Text="E-mail"/>
+            <Item Text="Forms"/>
+            <Item Text="Frames"/>
+            <Item Text="Mail Merge"/>
+            <Item Text="Task Pane" />
+            <Item Text="Visual Basic"/>		
+            <Item Text="Web"/>
+			<Item CssClass="Separator" CssClassOver="Separator" Image="separator.gif" ImageWidth="215" ImageHeight="1" />
+            <Item Text="Customize..."/>
+          </Group>
+        </Item>
+		<Item CssClass="Separator" CssClassOver="Separator" Image="separator.gif" ImageHeight="1" />
+        <Item Text="Thumbnails" />
+		<Item CssClass="Separator" CssClassOver="Separator" Image="separator.gif" ImageHeight="1" />
+        <Item Text="Header and Footer" />
+        <Item Text="Markup" />
+		<Item CssClass="Separator" CssClassOver="Separator" Image="separator.gif" ImageHeight="1" />
+        <Item Text="Zoom..." />
+      </Group>
+    </Item>
+  </Group>
+</Menu>

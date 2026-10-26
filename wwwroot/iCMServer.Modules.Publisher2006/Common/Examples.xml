@@ -1,0 +1,934 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<examples Type="controls">
+  <category text="r.a.d.controls" IconUrl="~/Controls/Img/cs.gif">
+    <example name="Controls/Examples/Default" text="What's New" default="true" />
+    <!-- CONTROLS START -->
+    <example name="Controls/Examples/Integration/Booking" text="Travel Planner" />
+    <example name="Controls/Examples/Integration/Callback/TreeviewAndGrid" text="Outlook" />
+    <example name="Controls/Examples/Integration/Callback/WizardCV" text="CV Wizard" />
+    <example name="Controls/Examples/Integration/Callback/RotatorAndCallback" text="Image Gallery" />
+    <example name="Controls/Examples/Integration/Callback/GridAndTabstrip" text="Shopping Cart" />
+    <example name="Controls/Examples/Integration/GridAndTreeView" text="File Browser" />
+    <example name="Controls/Examples/Integration/DradDropTab" text="AJAX Drag and Drop over Tabs" />
+    <example name="Controls/Examples/Integration/DevEnv" text="Visual Studio" />
+    <!-- CONTROLS END -->
+  </category>
+  <!-- CONTROLS START -->
+  <category text="r.a.d.calendar" IconUrl="~/Controls/Img/cal.gif">
+    <example name="Calendar/Examples/Design/Sunny" text="First Look" default="true" isNew="true" />
+    <category text="Date picker">
+      <example name="Calendar/Examples/DatePicker/CustomPopup" text="Custom popup" default="true" isNew="true" />
+      <example name="Calendar/Examples/DatePicker/Customization" text="Customization" default="true" isNew="true" />
+      <example name="Calendar/Examples/DatePicker/ClientAPI" text="Client-side API" default="true" isNew="true" />
+      <example name="Calendar/Examples/DatePicker/DataBinding" text="Data binding" default="true" isNew="true" />
+      <example name="Calendar/Examples/DatePicker/Validation" text="Validation" default="true" isNew="true" />
+      <example name="Calendar/Examples/DatePicker/SharedCalendar" text="Sharing calendars" default="true" isNew="true" />
+    </category>
+    <category text="Functionality">
+      <example name="Calendar/Examples/Functionality/FastNavigation" text="Fast Navigation" />
+      <example name="Calendar/Examples/Functionality/AjaxNavigation" text="AJAX Navigation" />
+      <example name="Calendar/Examples/Functionality/ClientSideNavigation" text="Client-Side Navigation" />
+      <example name="Calendar/Examples/Functionality/MultiMonthView" text="Multi-Month View" />
+      <example name="Calendar/Examples/Functionality/Preview" text="Preview Areas" />
+      <example name="Calendar/Examples/Functionality/RenderDirection" text="Changing Render Direction" />
+      <example name="Calendar/Examples/Functionality/SpecialDays" text="Special Days" />
+      <example name="Calendar/Examples/Functionality/MultiDaySelection" text="Multi-Day Selection" />
+      <example name="Calendar/Examples/Functionality/MainAreaCustomization" text="Main Area Customization" />
+      <example name="Calendar/Examples/Design/CustomHeaderAndFooter" text="Header and Footer Template" />
+      <example name="Calendar/Examples/Functionality/HeaderFooterTitle" text="Title Customization" />
+      <example name="Calendar/Examples/Functionality/Globalization" text="Globalization" />
+      <example name="Calendar/Examples/Functionality/ReadOnlyCalendar" text="Read-Only Calendar" />
+      <example name="Calendar/Examples/Functionality/Today" text="Today's Date" />
+    </category>
+    <category text="Programming">
+      <example name="Calendar/Examples/Programming/ClientSideAPI" text="Client-Side API" isNew="true" />
+      <example name="Calendar/Examples/Programming/ClientSideEvents" text="Client-Side Events" />
+      <example name="Calendar/Examples/Programming/ServerSideEvents" text="Server-Side Events" />
+      <example name="Calendar/Examples/Programming/CustomDayCellRendering" text="DayRender Event" />
+    </category>
+    <category text="Appearance">
+      <example name="Calendar/Examples/Design/Default" text="Default" />
+      <example name="Calendar/Examples/Design/Outlook" text="Outlook" />
+      <example name="Calendar/Examples/Design/Stylish" text="Stylish" />
+      <example name="Calendar/Examples/Design/Business" text="Business" />
+      <example name="Calendar/Examples/Design/Modern" text="Modern" />
+      <example name="Calendar/Examples/Design/CustomHeaderAndFooter" text="Seasons" />
+      <example name="Calendar/Examples/Design/Orange" text="Orange" />
+      <example name="Calendar/Examples/Design/MacOS" text="MacOS" />
+    </category>
+  </category>
+  <!-- CONTROLS END -->
+  <!-- CONTROLS START -->
+  <category text="r.a.d.callback" IconUrl="~/Controls/Img/cbk.gif">
+    <example name="Callback/Examples/Demos/Contacts" text="First Look" default="true" />
+    <category text="Controls">
+      <example name="Callback/Examples/Controls/Button" text="Button" />
+      <example name="Callback/Examples/Controls/CheckBox" text="CheckBox" />
+      <example name="Callback/Examples/Controls/CheckBoxList" text="CheckBoxList" />
+      <example name="Callback/Examples/Controls/DropDownList" text="DropDownList" />
+      <example name="Callback/Examples/Controls/Image" text="Image" />
+      <example name="Callback/Examples/Controls/ImageButton" text="ImageButton" />
+      <example name="Callback/Examples/Controls/Label" text="Label" />
+      <example name="Callback/Examples/Controls/LinkButton" text="LinkButton" />
+      <example name="Callback/Examples/Controls/ListBox" text="ListBox" />
+      <example name="Callback/Examples/Controls/RadioButton" text="RadioButton" />
+      <example name="Callback/Examples/Controls/RadioButtonList" text="RadioButtonList" />
+      <example name="Callback/Examples/Controls/TextBox" text="TextBox" />
+      <example name="Callback/Examples/Controls/Timer" text="Timer" />
+      <example name="Callback/Examples/Controls/GenericCallback" text="GenericCallback" />
+    </category>
+    <category text="Callback panel">
+      <example name="Callback/Examples/Controls/Panel/ThirdParty" text="AJAX instead of PostBack" isNew="true" />
+      <example name="Callback/Examples/Controls/Panel/RecreateScripts" text="JavaScript after AJAX" isNew="true" />
+      <example name="Callback/Examples/Controls/Panel/OutOfPanel" text="Out of panel update" isNew="true" />
+      <example name="Callback/Examples/Controls/Panel/LoadingPanel" text="Loading panel" isNew="true" />
+    </category>
+    <category text="Functionality">
+      <example name="Callback/Examples/Functionality/ClientEvents" text="Client Events" />
+      <example name="Callback/Examples/Functionality/GettingSettingValues" text="Getting/Setting Values" />
+      <!--
+        <example name="Callback/Examples/Functionality/LoadingUserControls" text="Loading User Controls" />
+        -->
+      <example name="Callback/Examples/Functionality/Settings" text="Callback Settings" />
+      <example name="Callback/Examples/Functionality/Viewstate" text="Persisting ViewState" />
+      <example name="Callback/Examples/Functionality/ShowingWebControls" text="Show/Hide Web Controls " />
+    </category>
+    <category text="Application Scenarios">
+      <example name="Callback/Examples/Demos/Chat" text="Chat" />
+      <example name="Callback/Examples/Demos/Accounts" text="User accounts" />
+      <example name="Callback/Examples/Demos/Configurator" text="Configurator" />
+      <example name="Callback/Examples/Demos/Gallery" text="Gallery" />
+    </category>
+    <category text="Integration">
+      <example name="Controls/Examples/Integration/Callback/Chart" text="AJAX r.a.d.chart" />
+      <example name="Controls/Examples/Integration/Callback/ComboBox" text="AJAX r.a.d.combobox" />
+      <example name="Controls/Examples/Integration/Callback/Dock" text="AJAX r.a.d.dock" />
+      <example name="Controls/Examples/Integration/Callback/Editor" text="AJAX r.a.d.editor" />
+      <example name="Controls/Examples/Integration/Callback/Grid" text="AJAX r.a.d.grid" />
+      <example name="Controls/Examples/Integration/Callback/Menu" text="AJAX r.a.d.menu" />
+      <example name="Controls/Examples/Integration/Callback/Panelbar" text="AJAX r.a.d.panelbar" />
+      <example name="Controls/Examples/Integration/Callback/Rotator" text="AJAX r.a.d.rotator" />
+      <example name="Controls/Examples/Integration/Callback/TabStrip" text="AJAX r.a.d.tabstrip" />
+      <example name="Controls/Examples/Integration/Callback/TreeView" text="AJAX r.a.d.treeview" />
+      <example name="Controls/Examples/Integration/CallbackAndUpload" text="AJAX r.a.d.upload" />
+    </category>
+  </category>
+  <!-- CONTROLS END -->
+  <!-- CONTROLS START -->
+  <category text="r.a.d.chart" IconUrl="~/Controls/Img/c.gif">
+    <example name="Chart/Examples/WhatsNew" text="What's new" default="true" />
+    <category text="Chart types">
+      <example name="Chart/Examples/ChartTypes/Area" text="Area" />
+      <example name="Chart/Examples/ChartTypes/AreaStacked" text="Stacked Area " />
+      <example name="Chart/Examples/ChartTypes/AreaStacked100" text="Stacked Area 100" />
+      <example name="Chart/Examples/ChartTypes/Bar" text="Bar" />
+      <example name="Chart/Examples/ChartTypes/BarStacked" text="Stacked Bar" />
+      <example name="Chart/Examples/ChartTypes/BarStacked100" text="Stacked Bar 100" />
+      <example name="Chart/Examples/ChartTypes/Bezier" text="Bezier" />
+      <example name="Chart/Examples/ChartTypes/Bubble" text="Bubble" />
+      <example name="Chart/Examples/ChartTypes/Gantt" text="Gantt" />
+      <example name="Chart/Examples/ChartTypes/Line" text="Line" />
+      <example name="Chart/Examples/ChartTypes/Point" text="Point" />
+      <example name="Chart/Examples/ChartTypes/Pie" text="Pie" />
+      <example name="Chart/Examples/ChartTypes/Spline" text="Spline" />
+    </category>
+    <category text="Functionality">
+      <example name="Chart/Examples/Functionality/NegativeValues" text="NegativeValues" />
+      <example name="Chart/Examples/Functionality/NumericalAxis" text="Numerical Axis" />
+      <example name="Chart/Examples/Functionality/ImageMaps" text="Image Maps" />
+      <example name="Chart/Examples/Functionality/PostbackEvents" text="Postback Events" />
+      <example name="Chart/Examples/Functionality/PostbackEvents2" text="Postback Events 2" />
+      <example name="Chart/Examples/Functionality/DrillDown" text="Drill Down" />
+      <example name="Chart/Examples/Functionality/DrillDown2" text="Drill Down 2" />
+    </category>
+    <category text="Programming">
+      <example name="Chart/Examples/Programming/SettingValues" text="Setting Values" />
+      <example name="Chart/Examples/Programming/AddingSeries" text="Adding Series" />
+      <example name="Chart/Examples/Programming/DatabaseBinding" text="Database Binding" />
+      <example name="Chart/Examples/Programming/LiveDataFeed" text="Live Data Feed" />
+      <example name="Chart/Examples/Programming/MultilanguageSupport" text="Multilanguage Support" />
+      <example name="Chart/Examples/Programming/Poll" text="Poll" />
+    </category>
+    <category text="Design">
+      <category text="Web Examples">
+        <example name="Chart/Examples/Design/SimplePieChart" text="Simple Pie Chart" />
+        <example name="Chart/Examples/Design/BackgroundPicture" text="Background Images" />
+        <example name="Chart/Examples/Design/ExplodedPieChart" text="Exploded Pie Chart" />
+        <example name="Chart/Examples/Design/NegativeValues" text="Negative Values" />
+        <example name="Chart/Examples/Design/OverlappingBars" text="Overlapping Bars" />
+        <example name="Chart/Examples/Design/Points" text="Points" />
+        <example name="Chart/Examples/Design/StackedAreas" text="Stacked Areas" />
+        <example name="Chart/Examples/Design/StackedAreas100" text="Stacked Areas 100%" />
+        <example name="Chart/Examples/Design/StackedBars" text="Stacked Bars" />
+        <example name="Chart/Examples/Design/StackedBars100" text="Stacked Bars 100%" />
+        <example name="Chart/Examples/Design/TransparentAreaCharts" text="Hatch Fills" />
+      </category>
+      <category text="Bar Chart Templates">
+        <category text="Background Images">
+          <example name="Chart/Examples/Templates/Bar/Background1" text="Bar Skin 1" />
+          <example name="Chart/Examples/Templates/Bar/Background2" text="Bar Skin 2" />
+          <example name="Chart/Examples/Templates/Bar/Background3" text="Bar Skin 3" />
+        </category>
+        <category text="Color Schemes">
+          <example name="Chart/Examples/Templates/Bar/Colorful" text="Bar Colorful" />
+          <example name="Chart/Examples/Templates/Bar/Pastel" text="Bar Pastel" />
+          <example name="Chart/Examples/Templates/Bar/Classic" text="Bar Classic" />
+          <example name="Chart/Examples/Templates/Bar/Green" text="Bar Green" />
+          <example name="Chart/Examples/Templates/Bar/Blue" text="Bar Blue" />
+          <example name="Chart/Examples/Templates/Bar/Brick" text="Bar Brick" />
+        </category>
+        <example name="Chart/Examples/Templates/Bar/Clean" text="Bar Clean Style" />
+        <example name="Chart/Examples/Templates/Bar/Gradient" text="Bar Gradient Style" />
+        <example name="Chart/Examples/Templates/Bar/Excel" text="Bar Excel Style" />
+        <example name="Chart/Examples/Templates/Bar/Stacked" text="Bar Stacked Bars" />
+        <example name="Chart/Examples/Templates/Bar/Stacked100" text="Bar Stacked 100" />
+      </category>
+      <category text="Pie Chart Templates">
+        <category text="Color Schemes">
+          <example name="Chart/Examples/Templates/Pie/Colorful" text="Pie Colorful" />
+          <example name="Chart/Examples/Templates/Pie/Pastel" text="Pie Pastel" />
+          <example name="Chart/Examples/Templates/Pie/Classic" text="Pie Classic" />
+          <example name="Chart/Examples/Templates/Pie/Green" text="Pie Green" />
+          <example name="Chart/Examples/Templates/Pie/Blue" text="Pie Blue" />
+          <example name="Chart/Examples/Templates/Pie/Brick" text="Pie Brick" />
+        </category>
+        <example name="Chart/Examples/Templates/Pie/Background" text="Pie Background Image" />
+        <example name="Chart/Examples/Templates/Pie/Clean" text="Pie Clean Style" />
+        <example name="Chart/Examples/Templates/Pie/Gradient" text="Pie Gradient Style" />
+        <example name="Chart/Examples/Templates/Pie/Hatched" text="Pie Hatched Style" />
+        <example name="Chart/Examples/Templates/Pie/Labels" text="Pie Labels Connector" />
+      </category>
+      <category text="Area Chart Templates">
+        <category text="Color Schemes">
+          <example name="Chart/Examples/Templates/Area/Colorful" text="Area Colorful" />
+          <example name="Chart/Examples/Templates/Area/Pastel" text="Area Pastel" />
+          <example name="Chart/Examples/Templates/Area/Classic" text="Area Classic" />
+          <example name="Chart/Examples/Templates/Area/Green" text="Area Green" />
+          <example name="Chart/Examples/Templates/Area/Blue" text="Area Blue" />
+          <example name="Chart/Examples/Templates/Area/Brick" text="Area Brick" />
+        </category>
+        <example name="Chart/Examples/Templates/Area/Background1" text="Area Background Image 1" />
+        <example name="Chart/Examples/Templates/Area/Background2" text="Area Background Image 2" />
+        <example name="Chart/Examples/Templates/Area/Clean" text="Area Clean Style" />
+        <example name="Chart/Examples/Templates/Area/Stacked" text="Area Stacked" />
+        <example name="Chart/Examples/Templates/Area/Stacked100" text="Area Stacked 100" />
+      </category>
+      <category text="Point Chart Templates">
+        <category text="Color Schemes">
+          <example name="Chart/Examples/Templates/Points/Colorful" text="Point Colorful" />
+          <example name="Chart/Examples/Templates/Points/Pastel" text="Point Pastel" />
+          <example name="Chart/Examples/Templates/Points/Classic" text="Point Classic" />
+          <example name="Chart/Examples/Templates/Points/Green" text="Point Green" />
+          <example name="Chart/Examples/Templates/Points/Blue" text="Point Blue" />
+          <example name="Chart/Examples/Templates/Points/Brick" text="Point Brick" />
+        </category>
+        <example name="Chart/Examples/Templates/Points/Background1" text="Point Background Image 1" />
+        <example name="Chart/Examples/Templates/Points/Background2" text="Point Background Image 2" />
+        <example name="Chart/Examples/Templates/Points/Clean" text="Point Clean Style" />
+        <example name="Chart/Examples/Templates/Points/Gradient" text="Point Gradient Style" />
+        <example name="Chart/Examples/Templates/Points/Hatched" text="Point Hatched Style" />
+      </category>
+    </category>
+    <category text="Integration">
+      <example name="Controls/Examples/Integration/Callback/Chart" text="AJAX r.a.d.chart" />
+    </category>
+  </category>
+  <!-- CONTROLS END -->
+  <!-- CONTROLS START -->
+  <category text="r.a.d.combobox" IconUrl="~/Controls/Img/cmb.gif">
+    <example name="Combobox/Examples/Functionality/WhatsNew" text="First Look" default="true" />
+    <category text="Functionality">
+      <example name="Combobox/Examples/Functionality/AutoCompleteClientSide" text="AutoComplete Client-Side" isNew="true" />
+      <example name="Combobox/Examples/Functionality/MultipleItemsAutoComplete" text="Multi-Item Autocomplete" isNew="true" />
+      <example name="Combobox/Examples/Functionality/MultiColumnCombo" text="Multi-Column Combo" isNew="true" />
+      <example name="Combobox/Examples/Functionality/ExpandEffects" text="Expand Effects" isNew="true" />
+      <example name="Combobox/Examples/Functionality/MultipleComboBoxes" text="Multiple ComboBoxes" />
+      <example name="Combobox/Examples/Functionality/Templates" text="Templates" />
+      <example name="Combobox/Examples/Functionality/ComboInGrid" text="Combo in Grid" />
+      <example name="Combobox/Examples/Functionality/Validation" text="Validation" />
+      <example name="Combobox/Examples/Functionality/Sorting" text="Sorting" />
+      <example name="Combobox/Examples/Functionality/Skinning" text="Skinning" />
+      <example name="Combobox/Examples/Functionality/KeyboardSupport" text="Keyboard Support" />
+      <example name="Combobox/Examples/Functionality/Overlay" text="Overlay" />
+      <example name="Combobox/Examples/Functionality/Rtl" text="Right-to-Left Support" />
+      <example name="Combobox/Examples/Functionality/MultiLanguage" text="Multi-Language Support" />
+    </category>
+    <category text="Programming">
+      <example name="Combobox/Examples/Programming/AutoCompleteSql" text="AJAX AutoComplete from &amp;nbsp;&amp;nbsp;&amp;nbsp;SQL" />
+      <example name="Combobox/Examples/Programming/AutoCompleteDictionary" text="AJAX AutoComplete from &amp;nbsp;&amp;nbsp;&amp;nbsp;Dictionary" />
+      <example name="Combobox/Examples/Programming/CustomAttributes" text="Custom Attributes" />
+      <example name="Combobox/Examples/Programming/ClientEvents" text="Client Events" />
+      <example name="Combobox/Examples/Programming/DataBinding" text="Data Binding" />
+      <example name="Combobox/Examples/Programming/ProgrammaticBinding" text="Programmatic Binding" />
+      <example name="Combobox/Examples/Programming/SqlBinding" text="SQL Binding" />
+      <example name="Combobox/Examples/Programming/XmlStringBinding" text="XML String Binding" />
+      <example name="Combobox/Examples/Programming/ServerEvents" text="Server Events" />
+      <example name="Combobox/Examples/Programming/AddRemoveDisable" text="Add/Remove/Disable Items" />
+    </category>
+    <category text="Integration">
+      <example name="Controls/Examples/Integration/Callback/ComboBox" text="AJAX r.a.d.combobox" />
+    </category>
+  </category>
+  <!-- CONTROLS END -->
+  <category text="r.a.d.dock" IconUrl="~/Controls/Img/dock.gif">
+    <category text="First Look">
+      <example text="Overview" name="Dock/Examples/MyPortal" default="true" />
+      <example text="Key features" name="Dock/Examples/Default" />
+    </category>
+    <category text="Docking zones">
+      <example text="Types" name="Dock/Examples/DockingZoneTypes" />
+      <example text="Highlighting" name="Dock/Examples/DockingZoneHighlightedStyle" />
+      <example text="Fixed width/height" name="Dock/Examples/DockingZoneFixedSize" />
+    </category>
+    <category text="Dockable object">
+      <example text="Docking Modes" name="Dock/Examples/DockingModes" />
+      <example text="Behavior" name="Dock/Examples/Behaviors" />
+      <example text="Allowed docking zones" name="Dock/Examples/AllowedDockingZones" />
+      <example text="Grips" name="Dock/Examples/Grips" />
+      <example text="Appearance" name="Dock/Examples/DockableObjectStyles" />
+      <example text="Custom Commands" name="Dock/Examples/Commands" />
+    </category>
+    <category text="General">
+      <example text="Enabling Docking" name="Dock/Examples/DockEnabled" />
+      <example text="Skins" name="Dock/Examples/Skins" />
+      <example text="Show Content while Dragging" name="Dock/Examples/ShowContentWhileDragging" />
+      <example text="Animation Effects" name="Dock/Examples/Effects" />
+    </category>
+    <category text="Programming">
+      <example text="Saving / Loading State" name="Dock/Examples/SaveLoadState" />
+      <example text="Dynamic object creation" name="Dock/Examples/DockableObjectDynamicCreation" />
+      <example text="Handling the content controls" name="Dock/Examples/HandlingControls" />
+      <example text="Client-side events" name="Dock/Examples/DockStateChanged" />
+      <example text="Expand/Collapse all objects in a zone" name="Dock/Examples/DockingZoneExpandAll" />
+      <example text="Reordering docked objects in a zone" name="Dock/Examples/DockingZoneObjectPos" />
+    </category>
+    <category text="Design">
+      <example text="Post-It Notes" name="Dock/Examples/PostIt" />
+      <example text="Shopping Cart" name="Dock/Examples/ShoppingCart" />
+      <example text="Toolbars" name="Dock/Examples/Toolbar" />
+    </category>
+    <!-- CONTROLS START -->
+    <category text="Integration">
+      <example name="Controls/Examples/Integration/Callback/Dock" text="AJAX r.a.d.dock" />
+      <example name="Controls/Examples/Integration/ToolbarAndDock" text="Docking Toolbar" />
+    </category>
+    <!-- CONTROLS END -->
+  </category>
+  <!-- CONTROLS START -->
+  <category text="r.a.d.editor" IconUrl="~/Controls/Img/e.gif">
+    <category text="First Look">
+      <example name="Editor/Examples/Default" text="Default Configuration" default="true" />
+      <example name="Editor/Examples/WhatsNew" text="What's New" isNew="true" />
+      <example name="Editor/Examples/Basic" text="Basic Configuration" />
+      <example name="Editor/Examples/FullSetOfTools" text="Full Set of Tools" isNew="true" />
+    </category>
+    <category text="Functionality">
+      <example name="Editor/Examples/CleaningWordFormatting" text="Cleaning Word Formatting" />
+      <example name="Editor/Examples/AjaxFileManagers" text="Ajax File Managers" isNew="true" />
+      <example name="Editor/Examples/ToolsFile" text="ToolsFile Structure" />
+      <example name="Editor/Examples/EditorModules" text="External Modules" />
+      <example name="Editor/Examples/Localization" text="Localization" />
+      <example name="Editor/Examples/ExternalCssFiles" text="External CSS Files" />
+      <example name="Editor/Examples/AccessibilityAndXhtml" text="Accessibility and XHTML Compliance" />
+      <example name="Editor/Examples/ToolbarMode" text="Toolbar Modes" isNew="true" />
+      <example name="Editor/Examples/SpellcheckerTypes" text="Spellchecker Types" />
+      <example name="Editor/Examples/UsingValidator" text="Using a Validator" />
+      <example name="Editor/Examples/Skinning" text="Skinning" isNew="true" />
+      <!--<example name="Editor/Examples/SavingContent" text="Saving Content"/>-->
+      <!-- to be removed after saving content example is ready -->
+      <example name="Editor/Examples/SaveInFile" text="Save In File" />
+      <example name="Editor/Examples/Database1" text="Save In Database" />
+    </category>
+    <category text="Programming">
+      <example name="Editor/Examples/ServersideAPI" text="Server-Side API" />
+      <example name="Editor/Examples/ClientsideAPI" text="Client-Side API" />
+      <example name="Editor/Examples/DatagridEdit" text="Datagrid Example" />
+      <example name="Editor/Examples/Security" text="Security Example" />
+    </category>
+    <category text="Advanced">
+      <example name="Editor/Examples/MakingXhtmlContent" text="XHTML Validator" />
+      <example name="Editor/Examples/EditorFilters" text="Content Filters" />
+      <example name="Editor/Examples/ContextMenus" text="Custom Context Menus" />
+      <example name="Editor/Examples/CustomTools" text="Adding Custom Tools" />
+      <example name="Editor/Examples/CustomDialogs" text="Adding Custom Dialogs" />
+      <example name="Editor/Examples/DBImages" text="Images in a Database" />
+    </category>
+    <category text="Integration">
+      <example name="Controls/Examples/Integration/Callback/Editor" text="AJAX r.a.d.editor" />
+      <example name="Controls/Examples/Integration/EditorAndCallback" text="Automatic saving" />
+      <example name="Controls/Examples/Integration/MenuAndEditor" text="Rich Text Processor" />
+      <example name="Controls/Examples/Integration/TreeviewAndEditor" text="Resources Drag and Drop" />
+    </category>
+  </category>
+  <!-- CONTROLS END -->
+  <!-- CONTROLS START -->
+  <category text="r.a.d.grid" IconUrl="~/Controls/Img/g.gif">
+    <example name="Grid/Examples/Programming/WebMail" text="First Look" default="true" />
+    <example name="Grid/Examples/GeneralFeatures/Migration" text="Migration from MS DataGrid" />
+    <category text="Columns">
+      <example name="Grid/Examples/GeneralFeatures/ColumnTypes" text="Column Types" />
+      <example name="Grid/Examples/Client/ColumnsReorder" text="Column Reordering" />
+      <example name="Grid/Examples/Client/Resizing" text="Resizing" />
+    </category>
+    <category text="Rows">
+      <example name="Grid/Examples/Styles/NormalAlternatingRowStyles" text="Normal/Alternating Rows" />
+      <example name="Grid/Examples/Styles/SelectedRowStyle" text="Selected Rows" />
+      <example name="Grid/Examples/Styles/EditRowStyle" text="Edit Rows" />
+      <example name="Grid/Examples/Styles/HeaderFooterPagerStyles" text="Header, Footer and Pager" />
+    </category>
+    <category text="Populating with Data">
+      <example name="Grid/Examples/Programming/SimpleBinding" text="Simple Databinding" isNew="true" />
+      <example name="Grid/Examples/Programming/NeedDataSource" text="NeedDataSource" isNew="true" />
+      <example name="Grid/Examples/Programming/DetailTableDataBind" text="DetailTable DataBind" isNew="true" />
+      <example name="Grid/Examples/Hierarchy/DeclarativeRelations" text="Declarative Relations" />
+      <example name="Grid/Examples/Programming/Binding" text="Various Data-Sources" />
+      <example name="Grid/Examples/Programming/GridFromXml" text="Creation from XML" isNew="true" />
+      <example name="Grid/Examples/Programming/ViewState" text="Optimizing ViewState" />
+    </category>
+    <category text="Sorting">
+      <example name="Grid/Examples/GeneralFeatures/Sorting" text="Basic Sorting" />
+      <example name="Grid/Examples/Programming/Sort" text="Advanced Sorting" />
+    </category>
+    <category text="Paging">
+      <example name="Grid/Examples/GeneralFeatures/Paging" text="Basic Paging" />
+      <example name="Grid/Examples/Programming/PagerTemplate" text="Pager Template" />
+      <example name="Grid/Examples/Programming/CustomizingPager" text="Customizing the Pager" />
+      <example name="Grid/Examples/Programming/CustomPaging" text="Custom Paging" />
+    </category>
+    <category text="Scrolling">
+      <example name="Grid/Examples/Client/Scrolling" text="Basic Scrolling" />
+      <example name="Grid/Examples/AJAX/VirtualScrollPaging" text="Virtual Scrolling and Paging" />
+    </category>
+    <category text="Selecting">
+      <example name="Grid/Examples/Client/Selecting" text="Client-Side Selecting" />
+      <example name="Grid/Examples/Programming/SelectRowWithCheckBox" text="Server-Side Selecting" />
+    </category>
+    <category text="Exporting">
+      <example name="Grid/Examples/GeneralFeatures/Exporting" text="MS Excel and MS Word" />
+    </category>
+    <category text="AJAX">
+      <example name="Grid/Examples/AJAX/ThreeLevel" text="AJAX r.a.d.grid" />
+      <example name="Grid/Examples/AJAX/LoadingTemplate" text="Loading Template" />
+      <example name="Grid/Examples/AJAX/ThirdParty" text="AJAXifying Standard Controls" />
+      <example name="Grid/Examples/AJAX/RequestEvents" text="AJAX Request Events" />
+      <example name="Grid/Examples/AJAX/RecreateScripts" text="JavaScript After AJAX" />
+      <example name="Grid/Examples/AJAX/OutOfGrid" text="Out of Grid Rebind" />
+    </category>
+    <category text="Filtering">
+      <example name="Grid/Examples/GeneralFeatures/Filtering" text="Basic Filtering" />
+      <example name="Grid/Examples/Hierarchy/FilteringDetailTables" text="DetailTables Filtering" />
+      <example name="Grid/Examples/Programming/FilteringTemplateColumns" text="Filtering Template Columns" isNew="true" />
+    </category>
+    <category text="Hierarchy">
+      <example name="Grid/Examples/Hierarchy/ThreeLevel" text="Three-Level Hierarchy" />
+      <example name="Grid/Examples/Hierarchy/TwoTablesAtLevel" text="Several Tables at One Level" />
+      <example name="Grid/Examples/Hierarchy/DefiningStructure" text="Defining Structure" />
+      <example name="Grid/Examples/Programming/Hierarchy" text="Defining Hierarchy Programtically" />
+      <example name="Grid/Examples/Hierarchy/HierarchyLoadModeClient" text="Client Load of Child Tables" />
+      <example name="Grid/Examples/Hierarchy/HierarchyLoadModeMixed" text="Mixed Load of Child Tables" />
+    </category>
+    <category text="Grouping">
+      <example name="Grid/Examples/GroupBy/OutlookStyle" text="Outlook-Style Grouping" />
+      <example name="Grid/Examples/Programming/GroupBy" text="Defining Group-By" />
+      <example name="Grid/Examples/GroupBy/Expressions" text="Group-by Expressions" />
+      <example name="Grid/Examples/GroupBy/GroupLoadModeClient" text="Load Groups on Client" />
+    </category>
+    <category text="Insert/Update/Delete">
+      <example name="Grid/Examples/DataEditing/EditModes" text="Updating Values" />
+      <example name="Grid/Examples/DataEditing/UserControlEditForm" text="UserControls as Edit Form" />
+      <example name="Grid/Examples/DataEditing/TemplateFormUpdate" text="Update from Form Template" isNew="true" />
+      <example name="Grid/Examples/DataEditing/MultiColumnEditForm" text="Edit Form with Multi Columns" />
+      <example name="Grid/Examples/Programming/CommandItem" text="Command Item" />
+      <example name="Grid/Examples/DataEditing/ExtractValues" text="Inserting, Editing, Custom Editors" />
+      <example name="Grid/Examples/AJAX/EditOnDblClick" text="Edit on Double-Click" />
+    </category>
+    <category text="Appearance">
+      <example name="Grid/Examples/Styles/ColorSchemes/WinXP" text="Windows XP" />
+      <example name="Grid/Examples/Styles/ColorSchemes/Windows" text="Windows" />
+      <example name="Grid/Examples/Styles/ColorSchemes/Classic" text="Classic" />
+      <example name="Grid/Examples/Styles/ColorSchemes/Lime" text="Lime" />
+      <example name="Grid/Examples/Styles/ColorSchemes/Grey" text="Grey" />
+      <example name="Grid/Examples/Styles/ColorSchemes/Pink" text="Pink" />
+      <example name="Grid/Examples/Styles/ColorSchemes/Ice" text="Ice" />
+      <example name="Grid/Examples/Styles/ColorSchemes/Glassy" text="Glassy" />
+      <example name="Grid/Examples/Styles/ColorSchemes/3D" text="3D" />
+      <example name="Grid/Examples/Styles/ColorSchemes/Excel" text="Excel" />
+      <example name="Grid/Examples/Styles/ColorSchemes/Blue" text="Blue" />
+      <example name="Grid/Examples/Styles/ColorSchemes/Green" text="Green" />
+      <example name="Grid/Examples/Styles/ColorSchemes/Orange" text="Orange" />
+      <example name="Grid/Examples/Styles/ColorSchemes/Yellow" text="Yellow" />
+      <example name="Grid/Examples/Styles/ColorSchemes/Brick" text="Brick" />
+      <example name="Grid/Examples/Styles/ColorSchemes/Monochrome" text="Monochrome" />
+      <example name="Grid/Examples/Styles/ColorSchemes/Desert" text="Desert" />
+      <example name="Grid/Examples/Programming/Appearance" text="Changing Appearance Programatically" />
+    </category>
+    <category text="Client-Side API and Events">
+      <example name="Grid/Examples/Client/GetClientGridObjects" text="Getting Client Object" />
+      <example name="Grid/Examples/Client/ClientSideEvents" text="Defining Client Events" />
+      <example name="Grid/Examples/Client/ClientSideAPI" text="Client-Side API" />
+    </category>
+    <category text="Integration">
+      <example name="Controls/Examples/Integration/Callback/Grid" text="AJAX r.a.d.grid" />
+      <example name="Controls/Examples/Integration/GridAndMenu" text="Context Menu" />
+      <example name="Controls/Examples/Integration/GridEditorAndCombo" text="Editors" />
+    </category>
+  </category>
+  <!-- CONTROLS END -->
+  <!-- CONTROLS START -->
+  <category text="r.a.d.input" IconUrl="~/Controls/Img/i.gif">
+    <example name="Input/Examples/Functionality/OrderForm" text="First Look" default="true" />
+    <category text="Functionality">
+      <example name="Input/Examples/Functionality/RegistrationForm" text="Registration Form" />
+      <example name="Input/Examples/Functionality/IpAddress" text="IP Address" />
+      <example name="Input/Examples/Functionality/Validation" text="Validation" />
+      <example name="Input/Examples/Functionality/DatePicker" text="Date Input" />
+      <example name="Input/Examples/Functionality/DisplayFormat" isNew="true" text="Display Format" />
+      <example name="Input/Examples/Functionality/ShowHint" text="Hint Support" />
+      <example name="Input/Examples/Functionality/CopyPaste" text="Copy/Paste Support" />
+      <example name="Input/Examples/Functionality/DataGrid" text="Within DataGrid" />
+      <example name="Input/Examples/Functionality/Address" text="Multiline Input" />
+    </category>
+    <category text="Programming">
+      <category text="Client-Side API">
+        <example name="Input/Examples/Programming/ClientSide/DatePickerClientSide" text="Date Input Client-Side API" />
+        <example name="Input/Examples/Programming/ClientSide/OnError" text="Error Handling" />
+        <example name="Input/Examples/Programming/ClientSide/EventLog" text="Event Log" />
+      </category>
+      <category text="Server-Side API">
+        <example name="Input/Examples/Programming/ServerSide/AccessingValue" text="Accessing Value" />
+        <example name="Input/Examples/Programming/ServerSide/ProgrammaticDefinition" text="Programmatic Definition" />
+      </category>
+    </category>
+    <category text="Appearance">
+      <example name="Input/Examples/Appearance/Default" text="Default" />
+      <example name="Input/Examples/Appearance/Custom" text="Custom" />
+      <example name="Input/Examples/Appearance/Gold" text="Gold" />
+      <example name="Input/Examples/Appearance/Grey" text="Grey" />
+      <example name="Input/Examples/Appearance/MacOS" text="MacOS" />
+      <example name="Input/Examples/Appearance/Macromedia" text="Macromedia" />
+    </category>
+  </category>
+  <!-- CONTROLS END -->
+  <category text="r.a.d.menu" IconUrl="~/Controls/Img/m.gif">
+    <example name="Menu/Examples/Functionality/General" text="First Look" default="true" />
+    <example name="Menu/Examples/Functionality/Templates" text="What's New" />
+    <category text="Functionality">
+      <example name="Menu/Examples/Functionality/KeyboardNav" text="Keyboard Support" />
+      <example name="Menu/Examples/Programming/Templates" text="Templates" />
+      <example name="Menu/Examples/Functionality/CheckUncheck" text="Check / Uncheck" />
+      <example name="Menu/Examples/Functionality/LanguageSelect" text="Localization" />
+      <example name="Menu/Examples/Functionality/Static" text="Static Menu" />
+      <example name="Menu/Examples/Functionality/Tooltips" text="Tooltips and Status &lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;Messages" />
+      <example name="Menu/Examples/Functionality/ShowPath" text="Show Path" />
+      <example name="Menu/Examples/Functionality/ClickToOpen" text="Click To Open" />
+      <example name="Menu/Examples/Functionality/OpenOnPostback" text="Open On PostBack" isNew="true" />
+      <example name="Menu/Examples/Functionality/ContextMenu" text="Context Menu" />
+      <example name="Menu/Examples/Functionality/Popup menu" text="Popup Menu" isNew="true" />
+      <example name="Menu/Examples/Functionality/MultipleContext" text="Multiple Context Menus" />
+      <example name="Menu/Examples/Functionality/LeftToRight" text="Right-to-Left Support" isNew="true" />
+      <example name="Menu/Examples/Functionality/Validation" text="Validation" />
+      <category text="Scrollable Menu">
+        <example name="Menu/Examples/Design/Scrollable" text="Horizontal" />
+        <example name="Menu/Examples/Design/ScrollableVertical" text="Vertical" />
+      </category>
+    </category>
+    <category text="Programming">
+      <example name="Menu/Examples/Programming/ProgrammaticBinding" text="Programmatic Binding" />
+      <example name="Menu/Examples/Programming/BreadCrumb" text="Breadcrumb" />
+      <example name="Menu/Examples/Programming/Databinding" text="Databinding" isNew="true" />
+      <example name="Menu/Examples/Programming/XmlStringBinding" text="Xml String Binding" />
+      <example name="Menu/Examples/Programming/Client API" text="Client API" isNew="true" />
+      <example name="Menu/Examples/Programming/ClientEvents" text="Client-Side Events" />
+      <example name="Menu/Examples/Programming/ServerEvents" text="Server-Side Events" />
+      <example name="Menu/Examples/Programming/Multiple related menus" text="Related Menus" isNew="true" />
+      <example name="Menu/Examples/Programming/AddDisableItems" text="Add / Remove / Disable Item" />
+    </category>
+    <category text="Appearance">
+      <example name="Menu/Examples/Design/MultiImageMenus" text="Multi-Image Menu" isNew="true" />
+      <example name="Menu/Examples/Design/Inox" text="Inox - Theme Enabled" />
+      <example name="Menu/Examples/Design/Terminal" text="Terminal - Theme Enabled" />
+      <example name="Menu/Examples/Design/Robotic" text="Robotic - Theme Enabled" />
+      <example name="Menu/Examples/Design/winXP" text="Windows XP Start Menu" />
+      <example name="Menu/Examples/Design/office2003" text="Office 2003" />
+      <example name="Menu/Examples/Design/officeXP" text="OfficeXP" isNew="true" />
+      <example name="Menu/Examples/Design/Windows" text="Windows" />
+      <example name="Menu/Examples/Design/MSDN" text="MSDN" isNew="true" />
+      <example name="Menu/Examples/Design/FlashStyle" text="Flash" />
+      <example name="Menu/Examples/Design/Overlay" text="Overlay" />
+      <example name="Menu/Examples/Design/ExpandEffects" text="Expand Effects" />
+      <example name="Menu/Examples/Design/MCMSControls" text="MCMSControls" />
+      <example name="Menu/Examples/Design/ImagesOnly" text="Image-Only Menu" />
+      <category text="Glassy">
+        <example name="Menu/Examples/Design/glassVertical" text="Vertical Design" />
+        <example name="Menu/Examples/Design/glassHorizontal" text="Horizontal Design" />
+      </category>
+      <category text="Pure Css">
+        <example name="Menu/Examples/Design/CssGreen" text="Green" />
+        <example name="Menu/Examples/Design/CssBlue" text="Blue" />
+        <example name="Menu/Examples/Design/CssBrick" text="Brick" />
+        <example name="Menu/Examples/Design/CssGray" text="Gray" />
+      </category>
+      <category text="Tabs">
+        <example name="Menu/Examples/Design/TabBlue" text="Blue Tabs" />
+        <example name="Menu/Examples/Design/TabOrange" text="Orange Tabs" />
+        <example name="Menu/Examples/Design/TabGreen" text="Green Tabs" />
+        <example name="Menu/Examples/Design/TabGray" text="Gray Tabs" />
+      </category>
+    </category>
+    <!-- CONTROLS START -->
+    <category text="Integration">
+      <example name="Controls/Examples/Integration/Callback/Menu" text="AJAX r.a.d.menu" />
+      <example name="Controls/Examples/Integration/PanelbarAndMenu" text="Collapsing Menu" />
+      <example name="Controls/Examples/Integration/MenuAndEditor" text="Richt Text Processor" />
+    </category>
+    <!-- CONTROLS END -->
+  </category>
+  <category text="r.a.d.panelbar" IconUrl="~/Controls/Img/p.gif">
+    <example name="Panelbar/Examples/FirstLook/WhatsNew" text="First Look" default="true" />
+    <category text="Panelbar Types">
+      <example name="Panelbar/Examples/PanelbarTypes/TextOnly" text="Text-Only Panelbar" />
+      <example name="Panelbar/Examples/PanelbarTypes/TextWithIcons" text="Text with Icons" />
+      <example name="Panelbar/Examples/PanelbarTypes/TextWithImageBackground" text="Text with Image Background" />
+      <example name="Panelbar/Examples/PanelbarTypes/TextWithIconAndWithBackground" text="Text with Icons and &lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;Background" />
+      <example name="Panelbar/Examples/PanelbarTypes/TextClassDifferent" text="Text Class Different from &lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;Item Class" />
+      <example name="Panelbar/Examples/PanelbarTypes/SlidingSideBar" text="Sliding SideBar" />
+      <example name="Panelbar/Examples/PanelbarTypes/SideBar" text="Windows XP SideBar" />
+    </category>
+    <category text="Functionality">
+      <example name="Panelbar/Examples/Functionality/Themes" text="Themes" />
+      <example name="Panelbar/Examples/Functionality/Templates" text="Templates" />
+      <example name="Panelbar/Examples/Functionality/SingleExpandPanel" text="Single Expanded Panel" />
+      <example name="Panelbar/Examples/Functionality/FullExpandedPanels" text="Full Expanded Panels" />
+      <example name="Panelbar/Examples/Functionality/AttributesCollection" text="Attributes Collection" />
+      <example name="Panelbar/Examples/Functionality/AccessKeys" text="Keyboard Support" />
+      <example name="Panelbar/Examples/Functionality/ExpandEffects" text="Expand Effects" />
+      <example name="Panelbar/Examples/Functionality/RightToLeft" text="Right-to-Left Support" />
+      <example name="Panelbar/Examples/Functionality/MultiLanguage" text="Multi-Language Support" />
+      <example name="Panelbar/Examples/Functionality/NestedControls" text="Accessing Nested Controls" />
+    </category>
+    <category text="Programming">
+      <example name="Panelbar/Examples/Programming/XMLDefinition" text="XML Definition" />
+      <example name="Panelbar/Examples/Programming/InlineDefinition" text="Inline Definition" />
+      <example name="Panelbar/Examples/Programming/ServerSideAPI" text="Server-Side API" />
+      <example name="Panelbar/Examples/Programming/ServerSideEvents" text="Server-Side Events" />
+      <example name="Panelbar/Examples/Programming/ClientSideAPI" text="Client-Side API" />
+      <example name="Panelbar/Examples/Programming/ClientSideEvents" text="Client-Side Events" />
+      <example name="Panelbar/Examples/Programming/AddRemoveDisable" text="Add/Remove/Disable Items" />
+      <example name="Panelbar/Examples/Programming/AdvancedTemplates" text="Advanced Templates" />
+      <example name="Panelbar/Examples/Programming/SimpleDataBinding" text="Simple Data Binding" />
+      <example name="Panelbar/Examples/Programming/DataBinding" text="Complex Data Binding" />
+    </category>
+    <category text="Appearance">
+      <example name="Panelbar/Examples/Appearance/Outlook" text="Outlook 2003" />
+      <example name="Panelbar/Examples/Appearance/WinXP" text="Windows XP" />
+      <example name="Panelbar/Examples/Appearance/Mac" text="Mac" />
+      <example name="Panelbar/Examples/Appearance/Golden" text="Golden" />
+      <example name="Panelbar/Examples/Appearance/BlueMelt" text="Blue Melt" />
+      <example name="Panelbar/Examples/Appearance/PinkDrop" text="Pink Drop" />
+      <example name="Panelbar/Examples/Appearance/Dark" text="Dark" />
+      <example name="Panelbar/Examples/Appearance/Folders" text="Folders" />
+      <example name="Panelbar/Examples/Appearance/Glossy" text="Glossy" />
+      <example name="Panelbar/Examples/Appearance/TelerikPanel" text="Telerik.com" />
+      <example name="Panelbar/Examples/Appearance/Sitefinity" text="Sitefinity" />
+    </category>
+    <!-- CONTROLS START -->
+    <category text="Integration">
+      <example name="Controls/Examples/Integration/Callback/Panelbar" text="AJAX r.a.d.panelbar" />
+      <example name="Controls/Examples/Integration/OutlookNavigation" text="Outlook Panels" />
+      <example name="Controls/Examples/Integration/PanelbarAndMenu" text="Collapsing Menu" />
+    </category>
+    <!-- CONTROLS END -->
+  </category>
+  <category text="r.a.d.rotator" IconUrl="~/Controls/Img/r.gif">
+    <example name="Rotator/Examples/Functionality/Default" text="What's New" default="true" />
+    <category text="Functionality">
+      <example name="Rotator/Examples/Functionality/Ticker" text="Rotator with Ticker" />
+      <example name="Rotator/Examples/Functionality/Scroller" text="Scroller" />
+      <example name="Rotator/Examples/Functionality/RadTicker" text="RadTicker and TickerLine" />
+      <example name="Rotator/Examples/Functionality/Slideshow" text="Powerpoint Style" />
+      <example name="Rotator/Examples/Functionality/MultipleScroller" text="Multiple Rotators" />
+      <example name="Rotator/Examples/Functionality/Localization" text="Localization" />
+      <example name="Rotator/Examples/Functionality/LiveXML" text="Live XML Feeds" />
+      <example name="Rotator/Examples/Functionality/ManualScroll" text="Manual Scroll Advance" />
+      <!-- <example name="Rotator/Examples/Functionality/Templates" text="Templates Support" /> -->
+    </category>
+    <category text="Programming">
+      <example name="Rotator/Examples/Programming/IEnumerable" text="Binding to IEnumerable" />
+      <example name="Rotator/Examples/Programming/IListSource" text="Binding to IListSource" />
+      <example name="Rotator/Examples/Programming/XMLSource" text="Binding to XML Source" />
+      <example name="Rotator/Examples/Programming/ClientAPI" text="Client Side Events" />
+      <example name="Rotator/Examples/Programming/ClientAPIControl" text="Client Side API" />
+      <example name="Rotator/Examples/Programming/ServerEvents" text="Server Side Events" />
+    </category>
+    <category text="Appearance">
+      <example name="Rotator/Examples/Appearance/LiveScores" text="Live Scores" />
+      <example name="Rotator/Examples/Appearance/ContentMarquee" text="Content Marquee" />
+      <example name="Rotator/Examples/Appearance/RichContent" text="Rich Content" />
+      <example name="Rotator/Examples/Appearance/BannerRotation" text="Banner Rotation" />
+      <example name="Rotator/Examples/Appearance/News" text="News Example" />
+      <example name="Rotator/Examples/Appearance/Testimonial" text="Testimonials" />
+    </category>
+    <!-- CONTROLS START -->
+    <category text="Integration">
+      <example name="Controls/Examples/Integration/Callback/Rotator" text="AJAX r.a.d.rotator" />
+    </category>
+    <!-- CONTROLS END -->
+  </category>
+  <!-- CONTROLS START -->
+  <category text="r.a.d.spell" IconUrl="~/Controls/Img/s.gif">
+    <example name="Spell/Examples/WhatsNew" text="First Look" default="true" />
+    <category text="Server-Side Functionality">
+      <example name="Spell/Examples/ServerSide" text="Finding Server Controls" />
+      <example name="Spell/Examples/IgnoreSettings" text="Ignore Text Fragments" />
+      <example name="Spell/Examples/PhoneticAlgorithm" text="Phonetic Algorithm" />
+      <example name="Spell/Examples/DifferentDictionaries" text="Different Custom Dictionaries" />
+      <example name="Spell/Examples/ConfigFile" text="Configuration File" />
+      <example name="Spell/Examples/Localization" text="Localization" />
+      <example name="Spell/Examples/MultipleLanguages" text="Multiple Languages" />
+    </category>
+    <category text="Client-Side Functionality">
+      <example name="Spell/Examples/ClientSide" text="Finding Client Controls" />
+      <example name="Spell/Examples/ClientApi" text="Client-Side API" />
+      <example name="Spell/Examples/ClientSideEvents" text="Client-Side Events" />
+      <example name="Spell/Examples/ClientConfiguration" text="Client-Side Configuration" />
+      <example name="Spell/Examples/TextSource" text="Custom Text Source" />
+      <example name="Spell/Examples/SelectionCheck" text="Spellchecking Selections" />
+      <example name="Spell/Examples/MultipleChecks" text="Checking Multiple Controls" />
+    </category>
+    <category text="Appearance">
+      <example name="Spell/Examples/Button" text="Buttons" />
+      <example name="Spell/Examples/Skin" text="Skins" />
+    </category>
+    <category text="Programming">
+      <example name="Spell/Examples/Programming/DynamicCreation" text="Dynamic Creation" />
+      <example name="Spell/Examples/Programming/ServerApi" text="Spellchecking Web-Service" isNew="true" />
+      <example name="Spell/Examples/Programming/AspHtml" text="Placing on ASP or HTML &lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;Pages" />
+      <example name="Spell/Examples/Programming/CustomDictionary" text="Implementing &lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;ICustomDictionarySource" />
+      <example name="Spell/Examples/Programming/DataGrid" text="Spellchecking Datagrid &lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;Controls" />
+      <example name="Spell/Examples/Programming/UserControl" text="Inside a User Control" />
+    </category>
+    <category text="Integration">
+      <example name="Controls/Examples/Integration/SpellCheckMultipleEditors" text="Spellchecking multiple editors" />
+    </category>
+  </category>
+  <!-- CONTROLS END -->
+  <category text="r.a.d.tabstrip" IconUrl="~/Controls/Img/tab.gif">
+    <category text="First Look">
+      <example name="TabStrip/Examples/Functionality/FirstLook" text="Overview" default="true" />
+    </category>
+    <category text="Functionality">
+      <example name="TabStrip/Examples/Functionality/MultiRow" text="Multi Row TabStrip" />
+      <example name="TabStrip/Examples/Functionality/ScrollingTabs" text="Scrollable TabStrip" />
+      <example name="TabStrip/Examples/Functionality/Hierarchical" text="Hierarchical TabStrip" />
+      <example name="TabStrip/Examples/Functionality/Vertical" text="Vertical TabStrip" />
+      <example name="TabStrip/Examples/Functionality/Alignment" text="TabStrip Alignment" />
+      <example name="TabStrip/Examples/Functionality/KeyboardSupport" text="Keyboard support" />
+      <example name="TabStrip/Examples/Functionality/RightToLeft" text="Right to Left support" />
+      <example name="TabStrip/Examples/Functionality/Multipage" text="Multipage" />
+      <example name="TabStrip/Examples/Functionality/Validation" text="Validation" />
+    </category>
+    <category text="Populating the control">
+      <example name="TabStrip/Examples/Programming/DynamicCreation" text="Dynamic Creation" />
+      <example name="TabStrip/Examples/Programming/XmlDefinition" text="XML Definition" />
+      <example name="TabStrip/Examples/Programming/FlatBinding" text="Flat Data Binding" />
+      <example name="TabStrip/Examples/Programming/HierarchicalBinding" text="Hierarchical Data Binding" />
+    </category>
+    <category text="Visual Appearance">
+      <example name="TabStrip/Examples/Functionality/Basic" text="Basic TabStrip" />
+      <example name="TabStrip/Examples/Functionality/Separator" text="Separator" />
+      <example name="TabStrip/Examples/Appearance/Unique" text="Unique tabs" />
+      <example name="TabStrip/Examples/Functionality/TextWithIcons" text="Text With Icons" />
+      <example name="TabStrip/Examples/Functionality/Overlapping" text="Overlapping tabs" />
+      <example name="TabStrip/Examples/Appearance/Horizontal" text="Horizontal Skins" />
+      <example name="TabStrip/Examples/Appearance/Vertical" text="Vertical Skins" />
+    </category>
+    <category text="Using the server-side API">
+      <example name="TabStrip/Examples/Programming/AddRemoveDisable" text="Add/Remove/Disable Tabs" />
+      <example name="TabStrip/Examples/Programming/ServerEvents" text="Server-Side Events" />
+    </category>
+    <category text="Using the client-side API">
+      <example name="TabStrip/Examples/Programming/ClientSideAPI" text="Select/Enable/Disable tabs" />
+      <example name="TabStrip/Examples/Programming/ClientEvents" text="Consuming client-side events" />
+    </category>
+    <category text="Application Scenarios">
+      <example name="TabStrip/Examples/Application/Navigation" text="Site Navigation" />
+      <example name="TabStrip/Examples/Application/DynamicControls" text="Dynamic tabstrip and multipage" />
+      <example name="TabStrip/Examples/Application/CvWizard" text="Registration Wizard" />
+    </category>
+    <!--
+	<category text="Help">
+		<category text="DataBinding">
+			<example name="TabStrip/Examples/Help/DataBinding/Basics" text="Basics"></example>
+			<example name="TabStrip/Examples/Help/DataBinding/FlatArrayList" text="Binding To ArrayList (Flat)"></example>
+			<example name="TabStrip/Examples/Help/DataBinding/FlatArrayListTextValue" text="Binding To ArrayList (Setting Text and Value for Tab)"></example>
+			<example name="TabStrip/Examples/Help/DataBinding/FlatFromSql" text="Flat From SQL"></example>
+			<example name="TabStrip/Examples/Help/DataBinding/HierarchicalFromSql" text="Hierarchical From SQL"></example>
+			<example name="TabStrip/Examples/Help/DataBinding/TabCreatedVsTabDataBound" text="TabDataBound vs. TabCreated events"></example>
+			<example name="TabStrip/Examples/Help/DataBinding/AppendDataBoundItems" text="Append DataBound Items"></example>
+		</category>
+		<category text="Events">
+			<category text="Server-Side">
+				<example name="TabStrip/Examples/Help/Events/ServerSide/TabClick" text="TabClick Event"></example>
+				<example name="TabStrip/Examples/Help/Events/ServerSide/TabDataBound" text="TabDataBound Event"></example>
+				<example name="TabStrip/Examples/Help/Events/ServerSide/TabCreated" text="TabCreated Event"></example>
+			</category>
+			<category text="Client-Side">
+				<example name="TabStrip/Examples/Help/Events/ClientSide/Basics" text="Basics"></example>
+				<example name="TabStrip/Examples/Help/Events/ClientSide/OnClientMouseOut" text="OnClientMouseOut"></example>
+				<example name="TabStrip/Examples/Help/Events/ClientSide/OnClientMouseOver" text="OnClientMouseOver"></example>
+				<example name="TabStrip/Examples/Help/Events/ClientSide/OnClientTabDisabled" text="OnClientTabDisabled"></example>
+				<example name="TabStrip/Examples/Help/Events/ClientSide/OnClientTabEnabled" text="OnClientTabEnabled"></example>
+				<example name="TabStrip/Examples/Help/Events/ClientSide/OnClientTabSelecting" text="OnClientTabSelecting"></example>
+				<example name="TabStrip/Examples/Help/Events/ClientSide/OnClientTabSelected" text="OnClientTabSelected"></example>
+				<example name="TabStrip/Examples/Help/Events/ClientSide/OnClientTabUnSelected" text="OnClientTabUnSelected"></example>
+			</category>			
+		</category>
+	</category>	
+	-->
+    <!-- CONTROLS START -->
+    <category text="Integration">
+      <example name="Controls/Examples/Integration/Callback/TabStrip" text="AJAX r.a.d.tabstrip" />
+      <example name="Controls/Examples/Integration/CallbackAndTabStrip" text="Asynchronous Tabs" />
+      <example name="Controls/Examples/Integration/TabstripAndTreeView" text="Category Search" />
+    </category>
+    <!-- CONTROLS END -->
+  </category>
+  <category text="r.a.d.toolbar" IconUrl="~/Controls/Img/tool.gif">
+    <example name="Toolbar/Examples/FirstLook" text="First Look" default="true" />
+    <category text="Functionality">
+      <example name="Toolbar/Examples/Functionality/ButtonAppearances" text="Button Appearances" />
+      <example name="Toolbar/Examples/Functionality/ButtonTypes" text="Button Types" />
+      <example name="Toolbar/Examples/Functionality/Templates" text="Templates" />
+      <example name="Toolbar/Examples/Functionality/Multiple" text="Multiple Instances" />
+      <example name="Toolbar/Examples/Functionality/Automation" text="Control ActiveX Objects" />
+      <example name="Toolbar/Examples/Functionality/KeyboardSupport" text="Keyboard Support" />
+    </category>
+    <category text="Programming">
+      <category text="Control API">
+        <example name="Toolbar/Examples/Programming/ClientAPI" text="Client API" />
+        <example name="Toolbar/Examples/Programming/ClientEvents" text="Client Events" />
+        <example name="Toolbar/Examples/Programming/ServerEvents" text="Server Events" />
+      </category>
+      <category text="Binding">
+        <example name="Toolbar/Examples/Binding/ProgrammaticBinding" text="Programmatic Binding" />
+        <example name="Toolbar/Examples/Binding/XMLContentFile" text="XML Binding" />
+        <example name="Toolbar/Examples/Binding/DataBinding" text="Data Binding" />
+      </category>
+    </category>
+    <category text="Appearance">
+      <example name="Toolbar/Examples/Functionality/Skinning" text="Skinning" />
+      <example name="Toolbar/Examples/Functionality/SizedSkins" text="Sized Skins" />
+    </category>
+    <!-- CONTROLS START -->
+    <category text="Integration">
+      <example name="Controls/Examples/Integration/ToolbarAndDock" text="Docking Toolbar" />
+      <example name="Controls/Examples/Integration/ToobarAndComboAndMenu" text="Toolbar Templates" />
+    </category>
+    <!-- CONTROLS END -->
+  </category>
+  <category text="r.a.d.treeview" IconUrl="~/Controls/Img/t.gif">
+    <example name="TreeView/Examples/Functionality/Whatsnew" text="First Look" default="true" />
+    <category text="Functionality">
+      <example name="TreeView/Examples/Functionality/CustomAttributes" text="Custom Attributes" isNew="true" />
+      <example name="TreeView/Examples/Functionality/Templates" text="Templates" isNew="true" />
+      <example name="TreeView/Examples/Functionality/ModalDialog" text="Modal Dialog" isNew="true" />
+      <example name="TreeView/Examples/Functionality/Sorting" text="Sorting" />
+      <example name="TreeView/Examples/Functionality/Keyboard" text="Keyboard Support" />
+      <example name="TreeView/Examples/Functionality/DragAndDrop" text="Drag &amp;amp; Drop" />
+      <example name="TreeView/Examples/Functionality/DragAndDropMultiple" text="Drag &amp;amp; Drop &lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;(multiple nodes) " />
+      <example name="TreeView/Examples/Functionality/DragAndDropBetweenTrees" text="Drag &amp;amp; Drop Between Trees" />
+      <example name="TreeView/Examples/Functionality/DragAndDropToHtmlElement" text="Drag &amp;amp; Drop to &lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;Html Elements" />
+      <example name="TreeView/Examples/Functionality/NodeEditing" text="Node Text Editing" />
+      <example name="TreeView/Examples/Functionality/Skinning" text="Skinning" />
+      <example name="TreeView/Examples/Functionality/RightToLeft" text="Right-to-Left Support" />
+      <example name="TreeView/Examples/Functionality/TreeViewComboBox" text="TreeView ComboBox" />
+      <example name="TreeView/Examples/Functionality/CheckBoxes" text="CheckBox Support" />
+      <example name="TreeView/Examples/Functionality/MultipleSelect" text="Multi-Node Selection" />
+      <example name="TreeView/Examples/Functionality/SingleExpandPath" text="Single Expand Path" />
+      <example name="TreeView/Examples/Functionality/ContextMenu" text="Context Menu" />
+      <example name="TreeView/Examples/Functionality/MultiLanguage" text="Multi-Language Support" />
+      <example name="TreeView/Examples/Functionality/Frames" text="Frames Support" external="true" />
+    </category>
+    <category text="Programming">
+      <example name="TreeView/Examples/Programming/ClientLoadOnDemandSql" text="AJAX Load-on-Demand SQL" />
+      <example name="TreeView/Examples/Programming/ClientLoadOnDemandDirectory" text="AJAX Load-on-Demand Directory" />
+      <example name="TreeView/Examples/Programming/LoadOnDemandSql" text="Load-on-Demand (SQL)" />
+      <example name="TreeView/Examples/Programming/LoadOnDemandXml" text="Load-on-Demand (XML)" />
+      <example name="TreeView/Examples/Programming/DataBinding" text="Data Binding" />
+      <example name="TreeView/Examples/Programming/ProgrammaticBinding" text="Programmatic Binding" />
+      <example name="TreeView/Examples/Programming/SqlBinding" text="Sql Binding" />
+      <example name="TreeView/Examples/Programming/XmlStringBinding" text="Xml String Binding" />
+      <example name="TreeView/Examples/Programming/ServerEvents" text="Server Events" />
+      <example name="TreeView/Examples/Programming/DirectoryStructure" text="Directory Structure" />
+      <example name="TreeView/Examples/Programming/AddRemoveDisable" text="Add / Remove / Disable &lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;Nodes" />
+    </category>
+    <category text="Appearance">
+      <example name="TreeView/Examples/Appearance/WindowsXP" text="Windows XP" />
+      <example name="TreeView/Examples/Appearance/Outlook" text="Outlook 2003" />
+      <example name="TreeView/Examples/Appearance/MSDN" text="MSDN" />
+      <example name="TreeView/Examples/Appearance/TextOnly" text="Text Only" />
+      <example name="TreeView/Examples/Appearance/CustomNodeStyle" text="Custom Node Style" />
+      <example name="TreeView/Examples/Appearance/NoLineImages" text="No Line Images" />
+    </category>
+    <!-- CONTROLS START -->
+    <category text="Integration">
+      <example name="Controls/Examples/Integration/Callback/TreeView" text="AJAX r.a.d.treeview" />
+      <example name="Controls/Examples/Integration/TreeviewAndMenu" text="Rich Context Menu" />
+      <example name="Controls/Examples/Integration/OutlookNavigation" text="Outlook Panels" />
+      <example name="Controls/Examples/Integration/TreeviewAndEditor" text="Resources Drag and Drop" />
+    </category>
+    <!-- CONTROLS END -->
+  </category>
+  <!-- CONTROLS START -->
+  <category text="r.a.d.upload" IconUrl="~/Controls/Img/u.gif">
+    <example name="Upload/Examples/Default" text="First Look" default="true" />
+    <category text="Functionality">
+      <example name="Upload/Examples/SingleAndMultipleFiles" text="Single and Multiple Files" />
+      <example name="Upload/Examples/RadUploadCustomization" text="Customizing r.a.d.upload" />
+      <example name="Upload/Examples/ProgressAreaCustomization" text="Progress Area" />
+      <example name="Upload/Examples/SizeValidation" text="Size Validation" />
+      <example name="Upload/Examples/TypeValidation" text="Type Validation" />
+      <example name="Upload/Examples/Localization" text="Localization" />
+    </category>
+    <category text="Programming">
+      <example name="Upload/Examples/ClientSideAPI" text="Client-Side API" />
+      <example name="Upload/Examples/ServerSideAPI" text="Server-Side API" />
+      <example name="Upload/Examples/MemoryUsage" text="Reducing Memory Usage" />
+    </category>
+    <category text="Appearance">
+      <example name="Upload/Examples/Skinning" text="Skinning" />
+      <example name="Upload/Examples/WebBasedMailClient" text="Web Based Mail Client" />
+      <example name="Upload/Examples/OnlineJobEngine" text="Online Job Engine" />
+      <example name="Upload/Examples/PhotoGallery" text="Photo Gallery" />
+    </category>
+    <category text="Integration">
+      <example name="Controls/Examples/Integration/CallbackAndUpload" text="AJAX r.a.d.upload" />
+    </category>
+  </category>
+  <!-- CONTROLS END -->
+  <!-- CONTROLS START -->
+  <category text="r.a.d.window" IconUrl="~/Controls/Img/w.gif">
+    <!-- STRIP START -->
+    <example name="Window/Examples/Default" default="true" text="First Look" />
+    <category text="Functionality">
+      <example name="Window/Examples/ShowAndPosition" default="false" text="Showing and Positioning" />
+      <example name="Window/Examples/WindowManager" default="false" text="r.a.d.window Manager" />
+      <example name="Window/Examples/WindowObject" default="false" text="r.a.d.window Object" />
+      <example name="Window/Examples/BrowserDialogBoxes" default="false" text="Alert, Prompt, Confirm" />
+      <example name="Window/Examples/DialogReturnValue" default="false" text="Returning Values from &lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;a Dialog" />
+      <example name="Window/Examples/MinimizeZones" default="false" text="Minimize Zones" />
+      <example name="Window/Examples/KeyboardSupport" default="false" text="Keyboard Support" />
+      <example name="Window/Examples/Splash" default="false" text="Splash Screens and &lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ad Windows" />
+      <example name="Window/Examples/TargetAttribute" default="false" text="Using the 'target' Attribute" />
+    </category>
+    <category text="Appearance">
+      <example name="Window/Examples/Skinning" default="false" text="Skinning" />
+      <example name="Window/Examples/DemoEmail" default="false" text="E-mail System" />
+      <example name="Window/Examples/WebChat" default="false" text="Web Chat" />
+      <example name="Window/Examples/DemoGallery" default="false" text="Web Gallery" />
+      <example name="Window/Examples/RegWizard" default="false" text="Wizard" />
+      <example name="Window/Examples/DemoJewelry" default="false" text="Jewelry Store" />
+    </category>
+  </category>
+  <!-- CONTROLS END -->
+</examples>

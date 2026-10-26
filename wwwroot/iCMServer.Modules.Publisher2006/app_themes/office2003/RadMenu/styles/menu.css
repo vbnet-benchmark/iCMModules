@@ -1,0 +1,78 @@
+.Office2003_MenuGroup, .ContextMenuGroup
+{
+	cursor: pointer;
+	cursor: hand;
+	border:1px solid #002D96;
+	background-color:#F6F6F6;
+	background-image:url(../Img/itemsBg.gif);
+	background-repeat:repeat-y;
+	padding:1px;
+	text-align: left;
+}
+.Office2003_MainGroup
+{
+	cursor: pointer;
+	cursor: hand;
+}
+.Office2003_MainItem {
+	font-family: Arial, Verdana;
+	font-size:12px;
+	cursor: pointer;
+	cursor: hand;
+	margin:1px;
+	padding:2px 0px 1px 0px;
+}
+.Office2003_MainItemOver {
+	font-family: Arial, Verdana;
+	font-size:12px;
+	cursor: pointer;
+	cursor: hand;
+	background-image: url(../Img/hoverBg.gif);
+	border:1px solid #002D96;
+	padding:2px 0px 1px 0px;
+}
+.Office2003_MenuItem, .ContextMenuItem
+{
+	font-family: Arial, Verdana;
+	font-size:12px;
+	cursor: pointer;
+	cursor: hand;
+	padding:2px 0px 2px 0px;
+	margin:1px;
+	text-align: left;
+}
+.Office2003_MenuItemOver, .Office2003_MenuItemClicked, .ContextMenuItemOver, .ContextMenuItemClicked
+{
+	font-family: Arial, Verdana;
+	font-size:12px;
+	cursor: pointer;
+	cursor: hand;
+	background-color:#FFEEC2;
+	border:1px solid #000080;
+	padding:2px 0px 2px 0px;
+	text-align: left;
+}
+
+.MenuItemToolTip
+{
+	background-color: #fffacd;
+	border-style:solid;
+	border-width:1px;
+	border-color: black; 
+	font-family: Arial;	
+	padding: 3px;
+	font-size:8pt;
+	text-align: left;
+}
+
+.Separator
+{
+	text-align:right;
+	position:relative;
+	left:1px;
+}
+
+.Spacer
+{
+	background-color: Transparent; 
+}

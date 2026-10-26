@@ -1,0 +1,75 @@
+.RadTabStrip_ShoppingCart
+{
+	font: 11px arial, tahoma, sans-serif;
+}
+
+
+.RadTabStrip_ShoppingCart li a
+{
+	padding-left: 15px;
+	background:transparent url('img/tabLeftFirstOff.gif') 0px 0px no-repeat;
+	height: 34px;
+	margin-right: -8px; 
+	color: #000;
+	text-decoration:none;
+}
+
+
+.RadTabStrip_ShoppingCart li a .wrap
+{
+
+	padding-right: 26px;
+	height: 34px;
+	background:transparent url('img/tabRightLastOff.gif') right 0px no-repeat;
+}
+
+.RadTabStrip_ShoppingCart li a:hover
+{
+	color: #000;
+}
+
+.RadTabStrip_ShoppingCart li a .innerWrap
+{
+	line-height: 34px;
+	padding: 0px 5px;
+	background:transparent url('img/tabStripeOff.gif') 0px 0px repeat-x;
+	text-align: center;
+}
+
+.RadTabStrip_ShoppingCart li a.selected
+{
+	padding-top: 0px;
+	padding-left: 15px;
+	background: transparent url('img/tabLeftFirstOn.gif') 0px 0px no-repeat;
+	line-height: 25px;
+}
+
+.RadTabStrip_ShoppingCart li a.selected .wrap
+{
+	background-image:url('img/tabRightLastOn.gif');
+	line-height: 34px;
+	padding-right: 26px;
+	color: #000;
+}
+
+
+.RadTabStrip_ShoppingCart li a.selected .innerWrap
+{
+	background-image:url('img/tabStripeOn.gif');
+	padding-top: 0px;
+}
+
+.RadTabStrip_ShoppingCart li a.disabled,
+.RadTabStrip_ShoppingCart li a.disabled .wrap,
+.RadTabStrip_ShoppingCart li a.disabled .innerWrap
+{
+	cursor: default;
+	text-decoration: line-through;
+}
+
+.RadTabStrip_ShoppingCart li a.red,
+.RadTabStrip_ShoppingCart li a.red .wrap,
+.RadTabStrip_ShoppingCart li a.red .innerWrap
+{
+	color: red;
+}

@@ -1,0 +1,52 @@
+.RadTabStrip_VerticalRight
+{
+	font: 8pt tahoma, sans-serif;
+	text-align: center;
+}
+
+.RadTabStrip_VerticalRight ul
+{
+	width:33px;
+	padding:20px 0;
+}
+
+.RadTabStrip_VerticalRight li a
+{
+	padding-top:20px;
+	white-space:nowrap;
+	background:transparent url(img/tabTopOff.gif) left top no-repeat;
+	line-height:33px;
+	text-decoration:none;
+	margin-top:-34px;
+}
+
+.RadTabStrip_VerticalRight li a .innerWrap
+{
+	writing-mode: tb-rl; 
+	background:transparent url(img/tabOffBg.gif) left bottom repeat-y;
+	padding-top:17px;	
+	padding-bottom:17px;	
+	text-indent:10px;
+}
+
+.RadTabStrip_VerticalRight li a .wrap
+{
+	padding-bottom:20px;
+	background:transparent url(img/tabBottomOff.gif) left bottom no-repeat;
+}
+
+.RadTabStrip_VerticalRight li a.selected
+{
+	background-image:url(img/tabTopOn.gif);
+}
+
+.RadTabStrip_VerticalRight li a.selected .wrap
+{
+	background-image:url(img/tabBottomOn.gif);
+}
+
+.RadTabStrip_VerticalRight li a.selected .innerWrap
+{
+	background-image:url(img/tabOnBg.gif);
+	border-right:1px solid #8f8f8f;
+}

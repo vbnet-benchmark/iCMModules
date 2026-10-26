@@ -1,0 +1,115 @@
+/* r.a.d.upload classic skin */
+.RadUploadTable
+{
+	background-color: #fafafa;
+	border: solid 1px #ccc;
+	border-collapse: collapse !important;
+	filter: progid:DXImageTransform.Microsoft.Shadow(direction=140,color=#404040,strength=3); 
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 350px;
+	font: normal 11px Arial, Verdana, Sans-serif;
+	color: #333333;
+}
+.RadUploadTable TD
+{
+	padding: 4px;
+}
+.RadUploadButtonArea
+{
+	background-color: Transparent;
+}
+
+.RadUploadButton, .radUploadButtonMedium
+{
+	background-image: url(Img/radUploadBtnMedium.gif);
+	background-repeat: no-repeat;
+	border: 0px;
+	height: 21px;
+	width: 114px;
+	background-color: #fff;
+	font: bold 11px Arial, Verdana, Sans-serif;
+	color: #fff;
+}
+
+.RadUploadButtonDisabled
+{
+	background-image: url(Img/radUploadBtnMedium.gif);
+	background-repeat: no-repeat;
+	border: 0px;
+	height: 21px;
+	width: 114px;
+	background-color: #fff;
+	font: bold 11px Arial, Verdana, Sans-serif;
+	color: #fff;
+	filter:alpha(opacity=30);
+	-moz-opacity:0.5;
+	opacity: 0.5;
+}
+
+.RadUploadFileSelector
+{
+	/* checkbox */
+}
+
+.RadUploadInputField
+{
+	width: 140px;
+	border: solid 1px #cfcfcf;
+	border-right: 0px;
+	vertical-align: top;
+	height: 17px;
+	_width: 150px;
+}
+
+input.RealFileInput
+{
+	position: relative;
+	-moz-opacity: 0;
+	filter: alpha(opacity: 0);
+	opacity: 0;
+	z-index: 2;
+}
+
+.RadUploadSelectButton
+{
+	border: 0px;
+	background-color: Transparent;
+	background-image: url(Img/select.gif);
+	background-repeat: no-repeat;
+	font: bold 11px Arial, Verdana, Sans-serif;
+	color: #fff;
+	height: 22px;
+	width: 81px;
+}
+
+.RadUploadRemoveButton
+{
+	border: 0px;
+	background-color: Transparent;
+	background-image: url(Img/radUploadBtnSmall.gif);
+	background-repeat: no-repeat;
+	font: bold 11px Arial, Verdana, Sans-serif;
+	color: #fff;
+	height: 22px;
+	width: 66px;
+	float: right;
+}
+
+.RadUploadClearButton
+{
+	border: 0px;
+	background-color: Transparent;
+	background-image: url(Img/radUploadBtnSmall.gif);
+	background-repeat: no-repeat;
+	font: bold 11px Arial, Verdana, Sans-serif;
+	color: #fff;
+	height: 22px;
+	width: 66px;
+	float: right;
+}
+
+input.NoSkinnedFileUnput
+{
+	border: solid 1x #1f1f1f;
+}

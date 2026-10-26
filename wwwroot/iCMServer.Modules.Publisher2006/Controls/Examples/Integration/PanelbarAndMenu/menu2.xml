@@ -1,0 +1,56 @@
+<Menu>
+	<Group Flow ="Vertical" CssClass="MainGroup" Width="166" >
+		<Item Text="Address Book" LeftLogo="arrow.gif" RightLogo="RightArrow.gif">
+			<Group CssClass="MenuGroup" ExpandDirection="Right" >
+				<Item Text="Friends" CssClass="MenuItem" CssClassOver="MenuItemOver"/>
+				<Item Text="Partners" CssClass="MenuItem" CssClassOver="MenuItemOver"/>
+				<Item Text="Co-workers" CssClass="MenuItem" CssClassOver="MenuItemOver" RightLogo="RightArrow.gif">
+					<Group>
+						<Item Text="Finance"/>
+						<Item Text="Marketing" />
+						<Item Text="Production" />
+					</Group>
+				</Item>
+				<Item Text="Others" />
+			</Group>
+		</Item>
+		<Item Text="Schedule" LeftLogo="arrow.gif" RightLogo="RightArrow.gif">
+			<Group CssClass="MenuGroup" ExpandDirection="Right" >
+				<Item Text="Monthly Schedule" CssClass="MenuItem" CssClassOver="MenuItemOver" RightLogo="RightArrow.gif">
+					<Group>
+						<Item Text="January"/>
+						<Item Text="February" />
+						<Item Text="March" />
+					</Group>
+				</Item>
+				<Item Text="Daily Schedule" CssClass="MenuItem" CssClassOver="MenuItemOver"/>
+				<Item Text="5 Year Plan" CssClass="MenuItem" CssClassOver="MenuItemOver" />
+			</Group>
+		</Item>
+		<Item Text="Projects" LeftLogo="arrow.gif" RightLogo="RightArrow.gif">
+			<Group CssClass="MenuGroup" ExpandDirection="Right" >
+				<Item Text="2006 Budget" CssClass="MenuItem" CssClassOver="MenuItemOver"/>
+				<Item Text="Office Space" CssClass="MenuItem" CssClassOver="MenuItemOver"/>
+				<Item Text="Marketing" CssClass="MenuItem" CssClassOver="MenuItemOver" RightLogo="RightArrow.gif">
+					<Group>
+						<Item Text="Rebranding"/>
+						<Item Text="Product Roadmap" />
+						<Item Text="Advertising" />
+					</Group>
+				</Item>
+				<Item Text="Family" />
+			</Group>
+		</Item>
+		<Item Text="Fun" LeftLogo="arrow.gif" RightLogo="RightArrow.gif">
+			<Group CssClass="MenuGroup" ExpandDirection="Right" >
+				<Item Text="Search Engines" CssClass="MenuItem" CssClassOver="MenuItemOver" RightLogo="RightArrow.gif">
+					<Group>
+						<Item Text="Google"/>
+						<Item Text="Yahoo!" />
+					</Group>
+				</Item>
+				<Item Text="Portals" CssClass="MenuItem" CssClassOver="MenuItemOver"/>
+			</Group>
+		</Item>
+	</Group>
+</Menu>

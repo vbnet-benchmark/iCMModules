@@ -1,0 +1,72 @@
+.RadTabStrip_VerticalVS2005
+{
+	font:8pt tahoma, sans-serif;
+	background:transparent url(img/bottom.gif) 3px bottom no-repeat;
+	padding-bottom:42px;
+	
+	float:left;
+}
+
+.RadTabStrip_VerticalVS2005 ul
+{
+	border-right:1px solid #91A7B4;	
+	background:transparent url(img/top.jpg) 3px top no-repeat;
+	padding-top:5px;
+	padding-left:3px;
+}
+
+.RadTabStrip_VerticalVS2005 li a
+{
+	float:left;
+	border-left:1px solid #91A7B4;
+	text-decoration:none;
+	color:Black;
+	line-height:31px;
+}
+
+.RadTabStrip_VerticalVS2005 li a .wrap
+{
+	background:transparent url(img/tabBkg.jpg) right top repeat-y;
+	float:left;
+	width:108px;
+	cursor:pointer;
+}
+
+.RadTabStrip_VerticalVS2005 li a .innerWrap
+{
+	padding:0 9px;
+	background:transparent url(img/tabTop.jpg) left bottom no-repeat;
+	display:block;	
+	cursor:pointer;
+	width:90px;
+}
+
+.RadTabStrip_VerticalVS2005 li a:hover,
+.RadTabStrip_VerticalVS2005 li a.selected
+{
+	background:white url(img/activeBkg.gif) left top no-repeat;	
+	margin-left:-1px;
+	border-left:none;
+	padding-left:2px;
+	line-height:29px;	
+}
+
+
+.RadTabStrip_VerticalVS2005 li a:hover .wrap,
+.RadTabStrip_VerticalVS2005 li a.selected .wrap
+{
+	border-top:1px solid #91A7B4;
+	border-bottom:1px solid #91A7B4;
+
+}
+
+.RadTabStrip_VerticalVS2005 li a.selected .wrap
+{
+	background:none;
+}
+
+.RadTabStrip_VerticalVS2005 li a:hover .innerWrap,
+.RadTabStrip_VerticalVS2005 li a.selected .innerWrap
+{
+	background:none;
+}

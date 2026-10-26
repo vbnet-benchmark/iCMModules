@@ -1,0 +1,3 @@
+Det ska vara veckodagarnas första bokstäver i rutorna.
+Dagens datum ska markeras.
+De inlägg som slutar innan SelectedDate ska tas bort.

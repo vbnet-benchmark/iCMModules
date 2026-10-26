@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<tabs>
+	<tab name="Examples" text="Examples" alt="Example" default="true" />
+	<tab name="VSProjects" text="VS Projects" alt="VS Projects" />
+	<tab name="Help" text="Help" alt="Help"  />
+	<tab name="Purchase" text="Purchase" alt="Purchase" />
+</tabs>

@@ -1,0 +1,184 @@
+/* 
+external CSS file for 
+r.a.d.dock Visual Studio .Net toolbox example
+- Please, refer to Toolbox.js for object functions and event handlers.
+*/
+
+.RadDockableObjectTitle
+{
+	background-image: url(Img/titleBarBg.gif);
+	background-repeat: repeat-x;
+	background-color: highlight;
+	height: 28px;
+	width: 100%;
+	font: bold 11px Arial, Verdana, Sans-serif;
+	color: white;
+	padding-left: 5px;
+}
+.tdBorder
+{
+	background-color: #666;
+	width: 2px;
+}
+.toolBoxContainer
+{
+	width: 100%;
+	height: 200px;
+	border-top: solid 1px #fff;
+	border-right: solid 1px #808080;
+	border-bottom: solid 1px #808080;
+	border-left: solid 1px #fff;
+	background-color: #d4d0c8;
+}
+.toolBoxTitleBar
+{
+	background-color: highlight;
+	color: white;
+	font: bold 11px Arial, Verdana, Sans-serif;
+	padding-left: 5px;
+	height: 16px;
+	vertical-align: middle;
+	width: 100%;
+}
+.toolBoxCmdCells
+{
+	background-color: highlight;
+	height: 16px;
+	width: 17px;
+}
+#toolboxBody
+{
+	background-color: #d4d0c8;
+	font: normal 12px Arial, Verdana, Sans-serif;
+	color: #000;
+	padding: 2px 1px 1px 1px;
+	height: 257px;
+}
+/* toolbox buttons start */
+/* 3-state button start */
+a.btnNormal, a.btnNormal:link, a.btnNormal:visited
+{
+	font: normal 11px Arial, Verdana, Sans-serif;
+	color: #000;
+	border: solid 1px #d4d0c8;
+	text-align: left;
+	height: 18px;
+	width: auto;
+	display: block;
+	background-color: #d4d0c8;
+	text-decoration: none;
+	padding-left: 4px;
+	cursor: default;
+}
+a.btnNormal:hover
+{
+	border-top: solid 1px #fff;
+	border-right: solid 1px #808080;
+	border-bottom: solid 1px #808080;
+	border-left: solid 1px #fff;
+	cursor: default;
+}
+a.btnNormal:focus, a.btnNormal:active
+{
+	border-right: solid 1px #fff;
+	border-left: solid 1px #808080;
+	border-top: solid 1px #808080;
+	border-bottom: solid 1px #fff;
+	background-color: #e9e5dd;
+	padding-top: 1px;
+	padding-left: 5px;
+}
+img.btnIcon
+{
+	vertical-align: middle;
+	margin-top: 1px;
+	margin-right: 5px;
+	border: none;
+}
+/* 3-state button end */
+/* 2-state button start */
+a.btnOver, a.btnOver:link, a.btnOver:visited, a.btnOver:hover
+{
+	font: normal 11px Arial, Verdana, Sans-serif;
+	color: #000;
+	border-top: solid 1px #fff;
+	border-right: solid 1px #808080;
+	border-bottom: solid 1px #808080;
+	border-left: solid 1px #fff;
+	text-align: left;
+	height: 18px;
+	width: auto;
+	display: block;
+	background-color: #d4d0c8;
+	text-decoration: none;
+	padding-left: 4px;
+	cursor: default;
+}
+a.btnOver:focus, a.btnOver:active
+{
+	border-right: solid 1px #fff;
+	border-left: solid 1px #808080;
+	border-top: solid 1px #808080;
+	border-bottom: solid 1px #fff;
+}
+/* 2-state button end */
+/* panels start */
+#telerik, #clipboardRingPanel, #htmlPanel
+{
+	display: none; /* by default display is set to none, i.e. closed panels */
+	height: 200px;
+	overflow: auto;
+	overflow-x: hidden;
+	scrollbar-face-color: #d4d0c8;
+	scrollbar-shadow-color: #808080;
+	scrollbar-highlight-color: #ffffff;
+	scrollbar-3dlight-color: #808080;
+	scrollbar-darkshadow-color: #808080;
+	scrollbar-track-color: #d4d0c8;
+	scrollbar-arrow-color: #000;
+}
+/* selected tool display pane definitions start */
+#selectedToolDisplayContainer
+{
+	width: 200px;
+	font: normal 11px Arial, Verdana, Sans-serif;
+	color: #000;
+	cursor: default;
+}
+#selectedToolDisplay
+{
+	float: left;
+}
+#removeSeletedTool
+{
+	float: right;
+}
+a.removeTool
+{
+	color: blue;
+}
+a.removeToolDisabled
+{
+	color: #8a8a8a;
+	cursor: default;
+	text-decoration: underline;
+}
+i.noTool
+{
+	color: #8a8a8a;
+}
+/* selected tool display pane definitions end */
+/* selected tools history start <select></select> */
+#myCombo
+{
+	width: 100%;
+	font: normal 11px Arial, Verdana, Sans-serif;
+	color: #000;
+}
+.toolHistory
+{
+	font: normal 11px Arial, Verdana, Sans-serif;
+	color: #000;
+	cursor: default;
+}
+/* selected tools history end */

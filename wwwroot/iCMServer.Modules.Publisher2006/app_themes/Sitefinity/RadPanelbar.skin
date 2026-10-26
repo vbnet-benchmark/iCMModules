@@ -1,0 +1,13 @@
+<%@ Register TagPrefix="radP" Namespace="Telerik.WebControls" Assembly="RadPanelbar" %>
+
+<radP:RadPanelbar Runat="server"
+	CssFile="~/app_themes/Sitefinity/RadPanelbar/Styles/Sitefinity.css"
+	HeaderExpandedCssClass="panelbarHeaderExpand"
+	HeaderCollapsedCssClass="panelbarHeaderCollapsed"
+	HeaderHoverCollapsedCssClass="panelbarHeaderHover"
+	HeaderHoverExpandedCssClass="panelbarHeaderExpand"
+	ItemCollapsedCssClass="panelbarItem"
+	ItemHoverCollapsedCssClass="panelbarItemHover"
+	ItemSelectedCssClass="panelbarItemHover"
+	ImagesBaseDir="~/app_themes/Sitefinity/RadPanelbar/Img/"
+	/>

@@ -1,0 +1,60 @@
+<root>
+	<tools dockable="false">
+		<tool name="FindAndReplace"/>
+		<tool name="Print"/>
+		<tool separator="true"/>
+		<tool name="Cut"/>
+		<tool name="Copy"/>
+		<tool name="Paste"/>
+		<tool name="PasteFromWord"/>
+		<tool name="PastePlainText"/>
+		<tool separator="true"/>
+		<tool name="Undo"/>
+		<tool name="Redo"/>
+		<tool separator="true"/>
+		<tool name="ImageManager"/>
+		<tool name="AbsolutePosition"/>
+		<tool name="InsertTable"/>
+		<tool name="FlashManager"/>
+		<tool name="MediaManager"/>
+		<tool separator="true"/>
+		<tool name="LinkManager"/>
+		<tool name="Unlink"/>
+		<tool name="InsertSymbol"/>
+		<tool name="DocumentManager"/>
+	</tools>
+	<tools dockable="false">
+		<tool name="Bold"/>
+		<tool name="Italic"/>
+		<tool name="Underline"/>
+		<tool separator="true"/>
+		<tool name="JustifyLeft"/>
+		<tool name="JustifyCenter"/>
+		<tool name="JustifyRight"/>
+		<tool name="JustifyFull"/>
+		<tool separator="true"/>
+		<tool name="InsertOrderedList"/>
+		<tool name="InsertUnorderedList"/>
+		<tool name="Outdent"/>
+		<tool name="Indent"/>
+		<tool separator="true"/>
+		<tool name="InsertHorizontalRule"/>
+		<tool name="Superscript"/>
+		<tool name="Subscript"/>
+		<tool name="StrikeThrough"/>
+		<tool name="ToggleTableBorder"/>
+		<tool name="InsertSnippet">	</tool>
+		<tool name="InsertParagraph"/>
+		<tool name="Help"/>
+	</tools>
+	<tools dockable="false">
+		<tool name="FontName"/>
+		<tool name="FontSize"/>
+		<tool name="ForeColor"/>
+		<tool name="BackColor"/>
+		<tool name="ApplyClass"/>
+		<tool name="InsertCustomLink"></tool>
+		<tool name="FormatBlock"/>
+		<tool name="FormatStripper"/>
+	</tools>
+</root>

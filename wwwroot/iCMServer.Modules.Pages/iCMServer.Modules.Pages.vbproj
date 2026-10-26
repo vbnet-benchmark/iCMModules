@@ -1,0 +1,374 @@
+<VisualStudioProject>
+    <VisualBasic
+        ProjectType = "Web"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{34890721-620F-493B-B3D8-7DF580F40C16}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "iConsulting.iCMServer.Modules.Pages"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Flow"
+                DefaultTargetSchema = "IE32Nav30"
+                DelaySign = "false"
+                OutputType = "Library"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "Off"
+                RootNamespace = "iConsulting.iCMServer.Modules.Pages"
+                StartupObject = "iConsulting.iCMServer.Modules.Pages.(None)"
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                    HintPath = "..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Web.dll"
+                />
+                <Reference
+                    Name = "System.Web.Services"
+                    AssemblyName = "System.Web.Services"
+                    HintPath = "..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Web.Services.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.XML.dll"
+                />
+                <Reference
+                    Name = "iConsulting.iCMServer"
+                    AssemblyName = "iConsulting.iCMServer"
+                    HintPath = "..\..\Temp\iConsulting.iCMServer.dll"
+                />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "System" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "clsPages.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EditModulePages.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "EditModulePages.aspx.vb"
+                    DependentUpon = "EditModulePages.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EditModulePages.aspx.resx"
+                    DependentUpon = "EditModulePages.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "EditModulePagesColor.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "EditPages.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "EditPages.aspx.vb"
+                    DependentUpon = "EditPages.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EditPages.aspx.resx"
+                    DependentUpon = "EditPages.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "EditPagesColor.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "EditPagesStream.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "EditPagesStream.aspx.vb"
+                    DependentUpon = "EditPagesStream.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EditPagesStream.aspx.resx"
+                    DependentUpon = "EditPagesStream.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "EditPagesUpload.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "EditPagesUpload.aspx.vb"
+                    DependentUpon = "EditPagesUpload.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EditPagesUpload.aspx.resx"
+                    DependentUpon = "EditPagesUpload.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HandlePages.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HandlePages.aspx.vb"
+                    DependentUpon = "HandlePages.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HandlePages.aspx.resx"
+                    DependentUpon = "HandlePages.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "modConstants.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages.ascx.vb"
+                    DependentUpon = "Pages.ascx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages.ascx.resx"
+                    DependentUpon = "Pages.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "PagesEngine.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "PagesEngine.aspx.vb"
+                    DependentUpon = "PagesEngine.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "PagesEngine.aspx.resx"
+                    DependentUpon = "PagesEngine.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Images\DeletePage.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\downarrow.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\EditPage.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\MovePageDown.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\MovePageLeft.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\MovePageRight.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\MovePageUp.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\uparrow.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Js\Color.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\webfxlayout.local.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\webfxlayout.local.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\xloadtree.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\xmlextras.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\xtree.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\xtree.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\images\blank.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\images\file.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\images\foldericon.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\images\I.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\images\L.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\images\Lminus.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\images\Lplus.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\images\openfoldericon.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\images\T.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\images\Tminus.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\images\Tplus.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\images\xp\file.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\images\xp\folder.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\images\xp\I.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\images\xp\L.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\images\xp\Lminus.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\images\xp\Lplus.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\images\xp\openfolder.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\images\xp\T.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\images\xp\Tminus.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\images\xp\Tplus.png"
+                    BuildAction = "Content"
+                />
+            </Include>
+        </Files>
+    </VisualBasic>
+</VisualStudioProject>
+

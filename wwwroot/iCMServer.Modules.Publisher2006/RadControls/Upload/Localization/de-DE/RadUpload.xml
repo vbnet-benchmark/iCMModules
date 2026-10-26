@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<localization>
+	<string id="Add">Hinzufügen</string>
+	<string id="Delete">Löschen</string>
+	<string id="Select">Auswählen</string>
+	<string id="Remove">Herausnehmen</string>
+	<string id="Clear">Clear</string>
+	<string id="Cancel">Aufheben</string>
+	<string id="CompleteBytesText">%COMPLETE_BYTES% von %TOTAL_BYTES% (%PERCENTS% %) Vollendet</string>
+	<string id="CurrentFileNameText">Momentan Laden: %CURRENT_FILENAME%</string>
+	<string id="CompleteFilesText">%COMPLETE_FILES% von %TOTAL_FILES% Akte (%PERCENTS% %) Vollendet</string>
+	<string id="TimeInformationText">%ELAPSED_SECONDS% Sekunden sind vergangen; Geschätzte Zeit bleibend: %ESTIMATED_REMAINING_TIME% seconds</string>
+	<string id="RequestCancelledText">Die Bitte ist aufgehoben, Warten auf die Seite, wiederzuladen...</string>
+	<string id="FormData">Form Data</string>
+</localization>

@@ -1,0 +1,15 @@
+<PanelItems>
+	<PanelItem Text="My Favorites" DefaultSubPanelItemLookId="Level2PanelItemLook" SubGroupCssClass="Level2Group" SubGroupPanelItemspacing="5" Expanded="true" AutoPostBackOnSelect="false">
+		<PanelItem TemplateID="MenuTemplate" ID="MenuNode"/>
+	</PanelItem>
+
+	<PanelItem Text="My Office" DefaultSubPanelItemLookId="Level2PanelItemLook" SubGroupCssClass="Level2Group" SubGroupPanelItemspacing="5" AutoPostBackOnSelect="false">
+		<PanelItem TemplateID="MenuTemplate2" ID="MenuNode2"/>
+	</PanelItem>
+
+	<PanelItem Text="My Tasks" DefaultSubPanelItemLookId="Level2PanelItemLook" SubGroupCssClass="Level2Group" AutoPostBackOnSelect="false">
+		<PanelItem TemplateID="HelpTemplate" ID="HelpNode"/>
+	</PanelItem>
+</PanelItems>
+
+

@@ -1,0 +1,14 @@
+<root>
+	<tools>
+		<tool name="Bold" enabled="true"/>
+		<tool name="Italic" enabled="true"/>
+		<tool name="Underline" enabled="true"/>
+		<tool separator="true"/>
+		<tool name="JustifyLeft" enabled="true"/>
+		<tool name="JustifyCenter" enabled="true"/>
+		<tool name="JustifyRight" enabled="true" />
+		<tool name="JustifyFull" enabled="true"/>
+		<tool name="FontName" enabled="true" />
+		<tool name="FontSize" enabled="true" />
+	</tools>
+</root>

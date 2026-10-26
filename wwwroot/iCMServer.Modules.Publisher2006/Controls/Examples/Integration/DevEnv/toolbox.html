@@ -1,0 +1,95 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title></title>
+	<link rel="stylesheet" type="text/css" href="VSNetToolbox/Styles.css">
+	<script text="javascript" src="ToolboxJs/Toolbox.js"></script>
+	<style>
+	body 
+	{
+		background-color: #d4d0c8;
+		overflow: hidden;
+		padding: 0px 0px 0px 0px;
+		margin: 0px 0px 0px 0px;
+	}
+	.btnIcon
+	{
+		width: 12px;
+		height: 12px;
+	}	
+	</style>
+</head>
+<body>
+	<table cellpadding="0" cellspacing="0" class="toolBoxContainer">
+							<tr>
+								<td colspan="3" id="toolboxBody" valign="top" align="center">
+									<!-- clipboard ring panel begin -->
+									<a href="javascript:toggleShowClipboardRingPanel();hideOpenPanel1('htmlPanel');hideOpenPanel2('telerik')" class="btnOver" onmouseup="this.blur()">Clipboard Ring</a>
+									<div id="clipboardRingPanel">
+										<a href="javascript:" id="a01" class="btnNormal"><img src="VSNetToolbox/Img/pointer.gif" height="13" width="13" alt="" class="btnIcon" />Pointer</a>
+										<a href="javascript:getTool('a02')" class="btnNormal" id="a02"><img src="VSNetToolbox/Img/btnIcon_MarkupFrgmnt.gif" class="btnIcon" />Markup Fragment</a>
+										<a href="javascript:getTool('a03')" class="btnNormal" id="a03"><img src="VSNetToolbox/Img/btnIcon_MarkupFrgmnt.gif" class="btnIcon" />Markup Fragment</a>
+										<a href="javascript:getTool('a04')" class="btnNormal" id="a04"><img src="VSNetToolbox/Img/btnIcon_MarkupFrgmnt.gif" class="btnIcon" />Markup Fragment</a>
+										<a href="javascript:getTool('a05')" class="btnNormal" id="a05"><img src="VSNetToolbox/Img/btnIcon_MarkupFrgmnt.gif" class="btnIcon" />Markup Fragment</a>
+										<a href="javascript:getTool('a06')" class="btnNormal" id="a06"><img src="VSNetToolbox/Img/btnIcon_MarkupFrgmnt.gif" class="btnIcon" />Markup Fragment</a>
+									<!-- clipboard ring panel end -->
+									</div>
+									<!-- HTML panel begin -->
+									<a href="javascript:toggleShowHtmlPanel();hideOpenPanel1('telerik');hideOpenPanel2('clipboardRingPanel')" class="btnOver" onmouseup="this.blur()">HTML</a>
+									<div id="htmlPanel">
+										<a href="javascript:" class="btnNormal" id="a07"><img src="VSNetToolbox/Img/pointer.gif" class="btnIcon" />Pointer</a>
+										<a href="javascript:getTool('a08')" class="btnNormal" id="a08"><img src="VSNetToolbox/Img/font.gif" class="btnIcon" />Label</a>
+										<a href="javascript:getTool('a09')" class="btnNormal" id="a09"><img src="VSNetToolbox/Img/button.gif" class="btnIcon" />Button</a>
+										<a href="javascript:getTool('a10')" class="btnNormal" id="a10"><img src="VSNetToolbox/Img/submit_reset.gif" height="13" width="13" alt="" class="btnIcon" />Reset Button</a>
+										<a href="javascript:getTool('a11')" class="btnNormal" id="a11"><img src="VSNetToolbox/Img/submit_reset.gif" class="btnIcon" />Submit</a>
+										<a href="javascript:getTool('a12')" class="btnNormal" id="a12"><img src="VSNetToolbox/Img/textbox.gif" class="btnIcon" />Text Field</a>
+										<a href="javascript:getTool('a13')" class="btnNormal" id="a13"><img src="VSNetToolbox/Img/textarea.gif" class="btnIcon" />Text Area</a>
+										<a href="javascript:getTool('a14')" class="btnNormal" id="a14"><img src="VSNetToolbox/Img/textbox.gif" class="btnIcon" />File Field</a>
+										<a href="javascript:getTool('a15')" class="btnNormal" id="a15"><img src="VSNetToolbox/Img/textbox.gif" class="btnIcon" />Password Field</a>
+										<a href="javascript:getTool('a16')" class="btnNormal" id="a16"><img src="VSNetToolbox/Img/checkbox.gif" class="btnIcon" />Checkbox</a>
+										<a href="javascript:getTool('a17')" class="btnNormal" id="a17"><img src="VSNetToolbox/Img/radio.gif" class="btnIcon" />Radio Button</a>
+										<a href="javascript:getTool('a18')" class="btnNormal" id="a18"><img src="VSNetToolbox/Img/hidden.gif" class="btnIcon" />Hidden</a>
+										<a href="javascript:getTool('a19')" class="btnNormal" id="a19"><img src="VSNetToolbox/Img/table.gif" hclass="btnIcon" />Table</a>
+										<a href="javascript:getTool('a20')" class="btnNormal" id="a20"><img src="VSNetToolbox/Img/flowlayoutpanel.gif" class="btnIcon" />Flow Layout Panel</a>
+										<a href="javascript:getTool('a21')" class="btnNormal" id="a21"><img src="VSNetToolbox/Img/gridlayoutpanel.gif" class="btnIcon" />Grid Layout Panel</a>
+										<a href="javascript:getTool('a22')" class="btnNormal" id="a22"><img src="VSNetToolbox/Img/image.gif" class="btnIcon" />Image</a>
+										<a href="javascript:getTool('a23')" class="btnNormal" id="a23"><img src="VSNetToolbox/Img/listbox.gif" class="btnIcon" />Listbox</a>
+										<a href="javascript:getTool('a24')" class="btnNormal" id="a24"><img src="VSNetToolbox/Img/dropdown.gif" class="btnIcon" />Dropdown</a>
+										<a href="javascript:getTool('a25')" class="btnNormal" id="a25"><img src="VSNetToolbox/Img/hr.gif" height="13" width="13" alt=""  class="btnIcon" />Horizontal Rule</a>
+										<a href="javascript:getTool('a26')" class="btnNormal" id="a26"><img src="VSNetToolbox/Img/flowlayoutpanel.gif" class="btnIcon" />Flow Layout Panel</a>
+										<a href="javascript:getTool('a27')" class="btnNormal" id="a27"><img src="VSNetToolbox/Img/gridlayoutpanel.gif" class="btnIcon" />Grid Layout Panel</a>
+										<a href="javascript:getTool('a28')" class="btnNormal" id="a28"><img src="VSNetToolbox/Img/image.gif" class="btnIcon" />Image</a>
+										<a href="javascript:getTool('a29')" class="btnNormal" id="a29"><img src="VSNetToolbox/Img/listbox.gif" alt="" class="btnIcon" />Listbox</a>
+										<a href="javascript:getTool('a30')" class="btnNormal" id="a30"><img src="VSNetToolbox/Img/dropdown.gif" alt="" class="btnIcon" />Dropdown</a>
+										<a href="javascript:getTool('a31')" class="btnNormal" id="a31"><img src="VSNetToolbox/Img/hr.gif" height="13" class="btnIcon" />Horizontal Rule</a>
+									</div>
+									<!-- HTML panel end -->
+									<!-- telerik panel begin -->
+									<a href="javascript:toggleGeneralPanel();hideOpenPanel1('htmlPanel');hideOpenPanel2('clipboardRingPanel')" class="btnOver" onmouseup="this.blur()"><b>t</b>elerik</a>
+									<div id="telerik">
+										<a href="javascript:" class="btnNormal" id="a32"><img src="VSNetToolbox/Img/pointer.gif" class="btnIcon" />Pointer</a>
+										<a href="javascript:getTool('a33')" class="btnNormal" id="a33"><img src="VSNetToolbox/Img/radControls.gif" class="btnIcon" />r.a.d.controls</a>
+										<a href="javascript:getTool('a34')" class="btnNormal" id="a34"><img src="VSNetToolbox/Img/radNavigation.gif" class="btnIcon" />r.a.d.navigation</a>
+										<a href="javascript:getTool('a35')" class="btnNormal" id="a35"><img src="VSNetToolbox/Img/radEditor.gif" class="btnIcon" />r.a.d.editor</a>
+										<a href="javascript:getTool('a36')" class="btnNormal" id="a36"><img src="VSNetToolbox/Img/radGrid.gif" class="btnIcon" />r.a.d. grid</a>
+										<a href="javascript:getTool('a37')" class="btnNormal" id="a37"><img src="VSNetToolbox/Img/radCallback.gif" class="btnIcon" />r.a.d.callback</a>
+										<a href="javascript:getTool('a38')" class="btnNormal" id="a38"><img src="VSNetToolbox/Img/radChart.gif" class="btnIcon" />r.a.d. chart</a>
+										<a href="javascript:getTool('a39')" class="btnNormal" id="a39"><img src="VSNetToolbox/Img/radCombobox.gif" class="btnIcon" />r.a.d.combobox</a>
+										<a href="javascript:getTool('a40')" class="btnNormal" id="a40"><img src="VSNetToolbox/Img/radTreeview.gif" class="btnIcon" />r.a.d.treeview</a>
+										<a href="javascript:getTool('a41')" class="btnNormal" id="a41"><img src="VSNetToolbox/Img/radMenu.gif" class="btnIcon" />r.a.d.menu</a>
+										<a href="javascript:getTool('a42')" class="btnNormal" id="a42"><img src="VSNetToolbox/Img/radTabsrtip.gif" class="btnIcon" />r.a.d.tabstrip</a>
+										<a href="javascript:getTool('a43')" class="btnNormal" id="a43"><img src="VSNetToolbox/Img/radPanelbar.gif" class="btnIcon" />r.a.d.panelbar</a>
+										<a href="javascript:getTool('a44')" class="btnNormal" id="a44"><img src="VSNetToolbox/Img/radSpell.gif" class="btnIcon" />r.a.d.spell</a>
+										<a href="javascript:getTool('a45')" class="btnNormal" id="a45"><img src="VSNetToolbox/Img/radDock.gif" class="btnIcon" />r.a.d.dock</a>
+										<a href="javascript:getTool('a46')" class="btnNormal" id="a46"><img src="VSNetToolbox/Img/radDesigner.gif" class="btnIcon" />r.a.d.designer</a>
+										<a href="javascript:getTool('a47')" class="btnNormal" id="a47"><img src="VSNetToolbox/Img/radRotator.gif" class="btnIcon" />r.a.d.rotator</a>
+									</div>
+									<!-- telerik panel end -->
+									</td>
+								</tr>
+							</table>
+							<div id="selectedToolDisplayContainer">
+							<div id="selectedToolDisplay" unselectable="on">&nbsp;current control:&nbsp;<br /><i class="noTool">&nbsp;none</i></div>
+							<div id="removeSeletedTool"><a class="removeToolDisabled" unselectable="on">remove control</a>&nbsp;</div></div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+.MenuGroup
+{
+	padding: 0px;
+}
+
+.MainGroup
+{
+	background-image: url(../Img/bg.jpg);
+	width: 260px;
+	height: 318px;
+}
+
+.Group1
+{
+	background-image: url(../Img/Group1Bg.gif);
+	width: 255px;
+	height: 115px;
+	padding-left: 160px;
+}
+
+.MenuItem
+{ 
+	padding-top: 1px;
+	cursor:default;    
+}
+
+.MenuItemOver
+{ 
+	cursor:hand;	
+	padding-bottom: 1px;
+}
+
+.Group2
+{
+	background-image: url(../Img/Group2Bg.gif);
+	width: 255px;
+	height: 115px;
+	padding-left: 134px;
+}
+
+.Group3
+{
+	background-image: url(../Img/Group3Bg.gif);
+	width: 300px;
+	height: 115px;
+	padding-left: 190px;
+}

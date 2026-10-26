@@ -1,0 +1,52 @@
+.winWord
+{
+	width: 739px;
+	height: auto;
+	border-bottom: solid 2px #323232;
+}
+.fileBar
+{
+	width: 739px;
+	height: 55px;
+	background-image: url(Img/top.jpg);
+	background-repeat: no-repeat;
+}
+.horizontalDockZoneWrapper
+{
+	border-left: solid 2px #323232;
+	border-right: solid 2px #323232;
+	height: 28px;
+}
+.verticalDockZoneWrapper
+{
+	border-left: solid 2px #323232;
+	width: 28px;
+	height: auto;
+	float: left;
+}
+.editingArea
+{
+	width: 709px;
+	height: 441px;
+	background-color: #e5e5e5;
+	background-image: url(Img/editor.jpg);
+	background-repeat: no-repeat;
+	float: left;
+}
+.mainArea
+{
+	border-right: solid 2px #323232;
+	width: 739px;
+}
+.dumpText
+{
+	width: 409px;
+	height: 270px;
+	margin-top: 100px;
+	margin-left: 140px;
+	text-align: justify;
+	color: #999999;
+	font-family: Arial, Verdana, Sans-Serif;
+	font-weight: normal;
+	font-size: 11px;
+}

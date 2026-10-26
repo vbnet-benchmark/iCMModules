@@ -1,0 +1,97 @@
+.MenuGroup
+{
+	cursor: pointer;
+	cursor: hand;
+	border: 1px solid #D2DBE0;
+	border-top:none;
+	border-bottom:none;
+}
+.MainItem 
+{
+	cursor: pointer;
+	cursor: hand;
+	font-size: 11px;
+	font-family: Arial, Verdana;
+	color: #1B5E86;
+	width: 101px;
+	font-weight: bold;
+	text-align:center;
+	height: 31px;
+}
+.MainItemOver
+{
+	cursor: pointer;
+	cursor: hand;
+	font-size: 11px;
+	font-family: Arial, Verdana;
+	color: #000;
+	width: 101px;
+	font-weight: bold;
+	text-align:center;
+	background-image: url(../Img/MainItemOver.gif);
+	height: 31px;
+}
+.MenuItem
+{
+	background-image:url(../Img/ItemBg.gif);
+	font-family: Arial, Verdana;
+	font:11px;
+	border: 1px solid white;
+	border-top: 0px;
+	color: #596770;
+	cursor: pointer;
+	cursor: hand;
+	font-size: 11px;
+	padding-left: 6px;
+	height: 26px;
+	width: 160px;
+}
+.MenuItemOver
+{
+	background-image:url(../Img/ItemBg.gif);
+	font-family: Arial, Verdana;
+	font:11px;
+	border: 1px solid white;
+	border-top: 0px;
+	color: #000000;
+	cursor: pointer;
+	cursor: hand;
+	font-size: 11px;
+	padding-left: 6px;
+	height: 26px;
+	width: 160px;
+}
+
+.MenuItemFirst
+{
+	background-image:url(../Img/ItemFirstBg.gif);
+	height: 37px;
+	border: 1px solid white;
+	border-top: 0px;
+	color: #596770;
+	cursor: pointer;
+	cursor: hand;
+	font-size: 11px;
+	padding-left: 6px;
+}
+
+.MenuItemFirstOver
+{
+	background-image:url(../Img/ItemFirstBg.gif);
+	height: 37px;
+	border: 1px solid white;
+	border-top: 0px;
+	color: #000000;
+	cursor: pointer;
+	cursor: hand;
+	font-size: 11px;
+	padding-left: 6px;
+}
+
+.Separator
+{
+	margin: 0px;
+	border-right: 2px solid #C5C5C5;
+	height: 2px;
+}
+

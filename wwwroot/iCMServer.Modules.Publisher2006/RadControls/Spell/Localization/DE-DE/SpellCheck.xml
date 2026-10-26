@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<localization>
+	<string id="Title">Rechtschreibprüfung</string>
+	<string id="NoPermission">Sie haben keine Berechtigung diese Seite zu betreten oder Ihre Sitzung ist abgelaufen!<br />Bitte, aktualisieren Sie die Seite!</string>
+	<string id="Tab1HeaderText">Rechtschreibprüfung</string>
+	<string id="ProgressMessage">Rechtschreibprüfung läuft.....</string>
+	<string id="Confirm">Möchten Sie die Änderungen auf den Text anwenden oder abbrechen?</string>
+	<string id="ChangesMade">Sie haben Änderungen am Text vorgenommen.</string>
+	<string id="SpellCheckComplete">Die Rechtschreibprüfung ist abgeschlossen!</string>
+	<string id="Nosuggestions">Keine Änderungsvorschläge</string>
+	<string id="Undo">Rückgängig</string>
+	<string id="UndoEdit">Undo</string>
+	<string id="Ignore">Ignorieren</string>
+	<string id="IgnoreAll">Ignoriere alles</string>
+	<string id="Cancel">Abbrechen</string>
+	<string id="AddCustom">Hinzufügen</string>
+	<string id="Change">Ändern</string>
+	<string id="ChangeAll">Ändere alles</string>
+	<string id="Help">Help</string>
+	<string id="NotInDictionary">Nicht im Wörterbuch:</string>
+	<string id="Suggestions">Änderungsvorschläge:</string>
+	<string id="AddWord1">Sind Sie sicher '</string>
+	<string id="AddWord2">' zum benutzerdefinierten Wörterbuch hinzuzufügen?</string>
+</localization>

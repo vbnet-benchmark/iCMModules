@@ -1,0 +1,18 @@
+<Menu>
+	<Group>
+		<Item Text="Add to ShopCart" CssClass="MainItem" CssClassOver="MainItemOver" CssClassClicked="MainItemOver">
+			<Group Width="180">
+				<Item Text="telerik r.a.d. menu" Category="Add" />
+				<Item Text="telerik r.a.d. editor" Category="Add" />
+				<Item Text="telerik r.a.d. designer" Category="Add" />
+			</Group>
+		</Item>
+		<Item Text="Remove from ShopCart" CssClass="MainItem" CssClassOver="MainItemOver" CssClassClicked="MainItemOver">
+			<Group Width="180">
+				<Item Text="telerik r.a.d. menu" Category="Remove" />
+				<Item Text="telerik r.a.d. editor" Category="Remove" />
+				<Item Text="telerik r.a.d. designer" Category="Remove" />
+			</Group>
+		</Item>
+	</Group>
+</Menu>

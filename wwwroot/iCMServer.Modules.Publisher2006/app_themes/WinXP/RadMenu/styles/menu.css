@@ -1,0 +1,190 @@
+
+.XP_MenuGroup
+{
+	cursor: pointer;
+	cursor: hand;
+	border-left:2px solid #1854C2;
+	border-right:2px solid #1854C2;
+	background-color:#FFFFFF;
+	background-image:url(../Img/itemsBg.gif);
+	background-repeat:repeat-y;
+}
+.SeparatorTop {
+	text-align:right;
+	color:#FFFFFF;
+	margin:0px 0px 0px 0px;
+	font-size:1px;
+}
+.ProgramsExpand {
+	background-image:url(../Img/expandBgLeft.gif);
+	background-repeat:repeat-y;
+	border:1px solid #3884E2;
+	background-color:#FFFFFF;
+	padding-left:4px;
+}
+.SeparatorTopOver {
+	text-align:right;
+	color:#FFFFFF;
+	font-size:1px;
+}
+.XP_MainGroup
+{
+	cursor: pointer;
+	background-color:#FFFFFF;
+	cursor: hand;
+	color: #000000;
+}
+.XP_MainItem, .XP_MainItem A  
+{
+	cursor: pointer;
+	cursor: hand;
+	border:0px;
+	background-color:#FFFFFF;
+}
+.upItem {
+	background-image:url(../Img/upBg.gif);
+	height:65px;
+	color:#1D70DC;
+}
+.upItemOver {
+	background-image:url(../Img/upBg.gif);
+	height:65px;
+	color:#1D70DC;
+}
+.DownItem {
+	background-image:url(../Img/downBg.gif);
+	height:41px;
+	color:#1D70DC;
+}
+.DownItemOver {
+	background-image:url(../Img/downBg.gif);
+	height:41px;
+	color:#1D70DC;
+}
+.ProgramsItem {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	height:26px;
+	color:#373738;
+	text-align:right;
+	padding-right:20px;
+	margin:6px 8px 5px 6px;
+}
+.ProgramsItemOver {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	height:26px;
+	color:#ffffff;
+	text-align:right;
+	padding-right:20px;
+	margin:6px 8px 5px 6px;
+	background-color:#0A246A;
+}
+.XP_MenuItem
+{
+	font-family: Arial, Verdana;
+	font-size:12px;
+	cursor: pointer;
+	cursor: hand;
+	margin:6px 8px 5px 6px;
+	padding-left:4px;
+}
+.XP_MenuItemOver, .XP_MenuItemClicked
+{
+	font-family: Arial, Verdana;
+	font-size:12px;
+	cursor: pointer;
+	cursor: hand;
+	background-color:#0A246A;
+	margin:6px 8px 5px 6px;
+	padding-left:4px;
+	color: white;
+}
+.Programs
+{
+	font-family: Arial, Verdana;
+	font-size:12px;
+	cursor: pointer;
+	cursor: hand;
+	padding:4px 8px 4px 6px;
+}
+.ProgramsOver
+{
+	font-family: Arial, Verdana;
+	font-size:12px;
+	cursor: pointer;
+	cursor: hand;
+	color:#FFFFFF;
+	padding:4px 8px 4px 6px;
+	background-color:#0A246A;
+}
+.MenuItemToolTip
+{
+	background-color: #fffacd;
+	border-style:solid;
+	border-width:1px;
+	border-color: black; 
+	font-family: Arial;	
+	padding: 3px;
+	font-size:8pt;
+	text-align: left;
+}
+.Separator
+{
+	text-align:right;
+	position:relative;
+	left:1px;
+}
+.Spacer
+{
+	background-color: Transparent; 
+}
+.MenuGroup
+{
+	cursor: pointer;
+	cursor: hand;
+	border:1px solid #b1bee1;
+	background-color:#d6dff7;
+	padding:1px;
+}
+.MainGroup
+{
+	cursor: pointer;
+	cursor: hand;
+}
+.MenuItem TD {
+	font-family: Arial, Verdana;
+	font-size:12px;
+	cursor: pointer;
+	cursor: hand;
+	margin:1px;
+	padding:2px 0px 1px 0px;
+	text-align: left;
+	width: 100%;
+}
+.MenuItemOver {
+	font-family: Arial, Verdana;
+	font-size:12px;
+	cursor: pointer;
+	cursor: hand;
+	background-color: white;
+	color: #163263;
+	border:1px solid #002D96;
+	padding:2px 0px 1px 0px;
+	text-align: left;
+}
+.MenuItemOver TD
+{
+	width: 100%;
+}
+
+.MenuItemClicked 
+{
+	cursor: pointer;
+	cursor: hand;
+	padding: 1px;
+	text-align: left;
+}
+

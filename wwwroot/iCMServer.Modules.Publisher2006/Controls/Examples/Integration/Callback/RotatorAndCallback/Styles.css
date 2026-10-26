@@ -1,0 +1,65 @@
+.previewPane
+{
+	background-color: #fff;
+	background-image: url(Images/previewPaneBg.gif);
+	background-repeat: no-repeat;
+}
+.infoPane
+{
+	background-color: #fff;
+	background-image: url(Images/infoPaneBg.gif);
+	background-repeat: no-repeat;
+}
+.infoPaneBg
+{
+	margin-top: 20px;
+	background-color: #fff;
+	background-image: url(Images/grayBg.gif);
+	background-repeat: no-repeat;
+	height: 192px;
+	width: 272px;
+}
+.imageDetailsHeader
+{
+	font: bold 16px Arial, Verdana, Helvetica, Sans-serif;
+	color: #666666;
+	margin-top: 20px;
+	margin-left: 30px;
+	margin-bottom: 5px;
+}
+.details
+{
+	font: normal 11px Arial, Verdana, Helvetica, Sans-serif;
+	color: #666666;
+	margin-left: 30px;
+	width: 230px;
+	vertical-align: middle;
+}
+.detailsTxtBox
+{
+	font: normal 11px Arial, Verdana, Helvetica, Sans-serif;
+	color: #666666;
+	height: 11px;
+	border: solid 1px #ccc;
+}
+a.editBtns, a.editBtns:link, a.editBtns:visited, a.editBtns:active, a.editBtns:focus
+{
+	text-decoration: none;
+	border: solid 1px #808080;
+	display: inline-block;
+	width: 50px;
+	font: bold 11px Arial, Verdana, Helvetica, Sans-serif;
+	text-align: center;
+	margin-top: 4px;
+	background-color: #e8e8e8;
+	color: #808080;
+}
+a.editBtns:hover
+{
+	color: #3b3b3b;
+}
+.thumbsViewer
+{
+	background-color: #fff;
+	background-image: url(Images/thumbsBg.gif);
+}

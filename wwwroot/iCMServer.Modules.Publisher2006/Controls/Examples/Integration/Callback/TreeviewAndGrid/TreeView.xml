@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Tree>
+      <Node Text="Personal' Folders" EditEnabled="False" Value="1" LongDesc="Personal" Category="Items" Image="1PersonalFolders.gif" Expanded="True" ContextMenuName="Mail">
+            <Node Image="2DeletedItems.gif" Category="Folders" Value="2" Text="Deleted Items" ContextMenuName="Mail" ID="2" />
+            <Node Image="3Drafts.gif" Category="Folders" Value="3" Text="Drafts" ContextMenuName="Mail2"/>
+            <Node Image="4Inbox.gif" Category="Folders" Value="4" Text="Inbox" Expanded="True" ContextMenuName="Mail">
+                  <Node Image="folder.gif" Category="Items" Value="5" Text="Invoices" ContextMenuName="Mail"/>
+            </Node>
+            <Node Image="folder.gif" Category="Folders" Value="6" Text="Junk E-mail" ContextMenuName="Mail"/>
+            <Node Image="outbox.gif" Category="Folders" Value="7" Text="Outbox" ContextMenuName="Mail"/>
+            <Node Image="sent.gif" Category="Folders" Value="8" Text="Sent Items" ContextMenuName="Mail" />
+            <Node Image="search.gif" Category="Folders" Value="9" Text="Search Folders" ContextMenuName="Mail">
+                  <Node Image="searchFolder.gif" Category="Items" Value="10" Text="Form Follow Up" ContextMenuName="Mail" />
+                  <Node Image="searchFolder.gif" Category="Items" Value="11" Text="Large Mail" ContextMenuName="Mail"/>
+                  <Node Image="searchFolder.gif" Category="Items" Value="12" Text="Unread Mail" ContextMenuName="Mail"/>
+            </Node>
+      </Node>
+</Tree>
+

@@ -1,0 +1,381 @@
+/* 
+External css file for
+r.a.d.dock Visual Studio .Net IDE example
+- Please, refer to IdeStyles/Ide.css for objects' events, methods and functions;
+*/
+
+/*
+uncomment the following definition if you intend using this example standalone
+body
+{
+	background-color: #808080;
+	overflow: hidden;
+	padding: 0px 0px 0px 0px;
+	margin: 2px 0px 0px 0px;
+}
+*/
+.winCmdButtons
+{
+	float: right;
+	margin-top: 3px;
+}
+img
+{
+	border: none;
+}
+/*r.a.d.docks output and toolbox windows */
+#RadDockableObject1 /* output */
+{
+	position: absolute;
+	left: 348px;
+	top: 300px;
+	border-top: none;
+	border-left: solid 2px #d4d0c8;
+	border-right: solid 1px #404040;
+	border-bottom: solid 1px #404040;
+	background-color: #dbd8d1;
+	z-index: 1000;
+	filter: progid:DXImageTransform.Microsoft.Shadow(direction=157,color=#808080,strength=3);
+	display: none;
+}
+#RadDockableObject2 /* toolbox */
+{
+	position: absolute;
+	left: 800px;
+	top: 300px;
+	border-top: none;
+	border-left: solid 2px #d4d0c8;
+	border-right: solid 1px #404040;
+	border-bottom: solid 1px #404040;
+	background-color: #dbd8d1;
+	z-index: 1000;
+	filter: progid:DXImageTransform.Microsoft.Shadow(direction=157,color=#808080,strength=3);
+	display: block;
+}
+#editorTitleBar
+{
+	background-color: highlight;
+	font: bold 11px Verdana, Arial, Sans-serif;
+	color: #fff;
+	cursor: default;
+	padding-top: 1px;
+	padding-bottom: 2px;
+	padding-right: 0px;
+	padding-left: 1px;
+	filter: progid:DXImageTransform.Microsoft.Gradient(gradientType=1,startColorStr=#0a246a,endColorStr=#a4c8ee);
+}
+.mnuBar
+{
+	height: 26px;
+	width: 100%;
+	background-color: #d4d0c8;
+	padding-top: 1px;
+}
+.ideTbl
+{
+	background-color: #808080;
+	border-top: solid 1px #d4d0c8;
+	border-right: solid 1px #000;
+	border-bottom: solid 1px #000;
+	border-left: solid 1px #d4d0c8;
+}
+/* menubar buttons start */
+a.mnuBarBtns, a.mnuBarBtns:link, a.mnuBarBtns:visited
+{
+	font: normal 8pt Arial, Verdana, Sans-serif;
+	color: #000;
+	text-decoration: none;
+	margin: 0px 1px 0px 1px;
+	vertical-align: middle;
+	padding: 1px 7px 1px 7px;
+	cursor: default;
+	border: solid 1px #d4d0c8;
+	background-color: #d4d0c8;
+	filter: progid:DXImageTransform.Microsoft.Shadow(direction=157,color=#d4d0c8,strength=2); /* IE only */
+	display: inline-block;
+}
+a.mnuBarBtns:hover
+{
+	border: solid 1px #0a246a;
+	background-color: #b6bdd2;
+	filter: progid:DXImageTransform.Microsoft.Shadow(direction=157,color=#808080,strength=2); /* IE only */
+}
+a.mnuBarBtns:active, a.mnuBarBtns:focus
+{
+	border: solid 1px #666666;
+	background-color: #dbd8d1;
+	filter: progid:DXImageTransform.Microsoft.Shadow(direction=157,color=#808080,strength=2); /* IE only */
+}
+/* menubar buttons end */
+/* toobar start */
+.ideToolbar
+{
+	width: 100%;
+	height: 25px;
+	background-color: #dbd8d1;
+}
+/* toolbar end */
+/* statusbar begin */
+.statBar
+{
+	background-color: #d4d0c8;
+	height: 25px;
+	border-top: solid 1px #000;
+}
+.statbarCells
+{
+	border: solid 1px #000;
+	font: normal 11px Arial, Verdana, Sans-serif;
+	color: #000;
+	padding-left: 2px;
+	height: 19px;
+	cursor: default;
+}
+/* statusbar end */
+/* editing area navigation start */
+.editingArea
+{
+	background-color: #808080;
+}
+.editingAreaNavigation
+{
+	background-color: #f7f3e9;
+	height: 20px;
+	padding-left: 10px;
+	border-top: solid 1px #808080;
+}
+.tabEditor
+{
+	font: normal 8pt Arial, Verdana, Sans-serif;
+	color: #555555;
+	display: inline-block;
+	width: 80px;
+	text-align: center;
+	cursor: default;
+	padding: 1px 3px 1px 3px;
+	position: relative;
+	top: 3px;
+	background-color: #f7f3e9;
+	float: left;
+}
+.tabEditorSelected
+{
+	font: bold 8pt Arial, Verdana, Sans-serif;
+	color: #000;
+	display: inline-block;
+	border-right: solid 1px #000;
+	border-top: solid 1px #fff;
+	border-left: solid 1px #fff;
+	width: 80px;
+	text-align: center;
+	cursor: default;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	position: relative;
+	top: 3px;
+	background-color: #d4d0c8;
+	float: left;
+}
+.tabsSeparator
+{
+	display: inline-block;
+	float: left;
+	color: #808080;
+	cursor: default;
+}
+/* editing area navigation end */
+/* editor begin - editing area */
+.editor
+{
+	width: 740px;
+	height: 380px;
+	background-color: #fff;
+	font: normal 14px "Courier New", Courier, Serif;
+	margin-top: 2px;
+	border: solid 1px #808080;
+	white-space: nowrap;
+	overflow: auto;
+	padding-left: 10px;
+	scrollbar-highlight-color: #FFFFFF;
+	scrollbar-shadow-color: #E9E9E9;
+	scrollbar-3dlight-color: #DBDBDB;
+	scrollbar-arrow-color: #787878;
+	scrollbar-track-color: #F5F5F5;
+	scrollbar-darkshadow-color: #AEAEAE;
+}
+/* editor end - editing area */
+/* editor code sample syntax highlighting begin */
+/* please, do not edit this part of the stylesheet unless you are sure what are you doing */
+.S0 {
+	font-family: 'Courier New';
+	color: #000000;
+	background: #FFFFFF;
+	font-size: 11pt;
+}
+.S1 {
+	color: #000080;
+	background: #FFFFFF;
+}
+.S2 {
+	color: #FF0000;
+	background: #FFFFFF;
+}
+.S3 {
+	color: #008080;
+	background: #FFFFFF;
+}
+.S4 {
+	color: #FF0000;
+	background: #FFFFFF;
+}
+.S6 {
+	color: #7F007F;
+	background: #FFFFFF;
+}
+.S8 {
+	color: #800080;
+	background: #FFFFFF;
+}
+.S11 {
+	color: #000080;
+	background: #FFFFFF;
+}
+.S15 {
+	color: #000000;
+	background: #FFFF00;
+}
+.S16 {
+	color: #000000;
+	background: #FFFF00;
+}
+span.edotorCode {
+	font-family: 'Courier New';
+	color: #000000;
+	background: #FFFFFF;
+	font-size: 10pt;
+}
+/* editor code sample syntax highlighting end */
+/* toggle views, i.e. design / HTML mode start */
+.viewSwitch
+{
+	height: 9px;
+	width: 100%;
+	background-color: #d4d0c8;
+}
+.viewSwitchBtn
+{
+	width: 65px;
+	height: 19px;
+	border: solid 1px #d4d0c8;
+	display: inline-block;
+	font: normal 11px Arial, Verdana, Sans-serif;
+	color: #000;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: middle;
+	padding-top: 1px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-left: 17px;
+	cursor: default;
+}
+.viewSwitchBtnClicked
+{
+	width: 65px;
+	height: 19px;
+	border: solid 1px #0a246a;
+	display: inline-block;
+	font: normal 11px Arial, Verdana, Sans-serif;
+	color: #000;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: middle;
+	padding-top: 1px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-left: 3px;
+	cursor: default;
+	background-color: #fff;
+}
+img.view
+{
+	vertical-align: middle;
+	margin-right: 3px;
+}
+/* toggle views, i.e. design / HTML mode end */
+/* ctrBtns start */
+.ctrButtons
+{
+	float: right;
+	vertical-align: middle;
+	background-color: #f7f3e9;
+}
+.cmdButton
+{
+	border: solid 1px #f7f3e9;
+	position: relative;
+	top: 3px;
+}
+/* ctrBtns end */
+/* combo boxes start */
+#comboBoxes
+{
+	height: 25px;
+	width: 100%;
+	padding-top: 1px;
+	background-color: #d5d1c9;
+}
+.editorCombo
+{
+	width: 49%;
+	font: normal 11px Arial, Verdana, Sans-serif;
+	color: #000;
+	float: left;
+}
+#objectsAndEvents /* left combo box */
+{
+	font-weight: bold;
+}
+/* comboboxes end */
+/* toolbar start */
+a.toolbarBtn, a.toolbarBtn:link, a.toolbarBtn:visited
+{
+	height: 22px;
+	width: 23px;
+	border: solid 1px #dbd8d1;
+	background-color: #dbd8d1;
+	cursor: default;
+}
+a.toolbarBtn:hover
+{
+	border: solid 1px #0a246a;
+	background-color: #b6bdd2;
+}
+a.toolbarBtn:active, a.toolbarBtn:focus
+{
+	border: solid 1px #0a246a;
+	background-color: #8592b5;
+}
+a.toolbarBtnDisabled, a.toolbarBtnDisabled:link, a.toolbarBtnDisabled:vusitet, a.toolbarBtnDisabled:active, a.toolbarBtnDisabled:hover, a.toolbarBtnDisabled:focus
+{
+	height: 22px;
+	width: 23px;
+	border: solid 1px #dbd8d1;
+	background-color: #dbd8d1;
+	cursor: default;
+}
+.toolbarCombo
+{
+	width: 100px;
+	vertical-align: middle;
+	position: relative;
+	top: -4px;
+	font: normal 10px Arial, Verdana, Sans-serif;
+}
+.separator
+{
+	position: relative;
+	top: 1px;
+}
+
+/* toolbar end */

@@ -1,0 +1,14 @@
+<%@ Register TagPrefix="radP" Namespace="Telerik.WebControls" Assembly="RadPanelbar" %>
+
+<radP:RadPanelbar Runat="server"
+	CssFile="~/App_Themes/BlueMelt/RadPanelbar/Styles/BlueMelt.css"
+	HeaderExpandedCssClass="panelbarHeaderExpand"
+	HeaderCollapsedCssClass="panelbarHeaderCollapsed"
+	HeaderHoverCollapsedCssClass="panelbarHeaderHover"
+	HeaderHoverExpandedCssClass="panelbarHeaderExpand"
+	ItemCollapsedCssClass="panelbarItem"
+	ItemHoverCollapsedCssClass="panelbarItemHover"
+	ItemSelectedCssClass="panelbarItemHover"
+	ExpandEffect="Fade"
+	ImagesBaseDir="~/App_Themes/BlueMelt/RadPanelbar/Img/"
+	/>

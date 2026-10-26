@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<PanelItems>
+	<PanelItem ID="Panel21" Text="Click to Remove" Expanded="True" SubGroupCssClass="panelbarItemGroup">
+		<PanelItem ID="Panel1_0" Text="Can't Remove" Value="NonRemove" />
+		<PanelItem ID="Panel1_5" Text="r.a.d.editor" Value="Remove" />
+		<PanelItem ID="Panel1_2" Text="r.a.d.panelbar" Value="Remove" />
+		<PanelItem ID="Panel1_3" Text="r.a.d.menu" Value="Remove" />
+		<PanelItem ID="Panel1_4" Text="r.a.d.tabstrip" Value="Remove" />
+	</PanelItem>
+	<PanelItem ID="Panel22" Text="Click to Disable" Expanded="True" SubGroupCssClass="panelbarItemGroup" >
+		<PanelItem ID="Panel2_0" Text="Can't Disable" Value="NonDisable" />
+		<PanelItem ID="Panel2_5" Text="Knowledge Base" Value="Disable" />
+		<PanelItem ID="Panel2_2" Text="Forums" Value="Disable" />
+		<PanelItem ID="Panel2_3" Text="Articles" Value="Disable" />
+		<PanelItem ID="Panel2_4" Text="FAQ" Value="Disable" />
+	</PanelItem>
+	<PanelItem ID="Panel23" Text="Click to Add New" Expanded="True" SubGroupCssClass="panelbarItemGroup">
+		<PanelItem ID="Panel3_0" Text="Can't Make Copy" Value="NonAdd" />
+		<PanelItem ID="Panel3_5" Text="Calendar" Value="Add" />
+		<PanelItem ID="Panel3_2" Text="Forum" Value="Add" />
+		<PanelItem ID="Panel3_3" Text="Support" Value="Add" />
+	</PanelItem>
+</PanelItems>

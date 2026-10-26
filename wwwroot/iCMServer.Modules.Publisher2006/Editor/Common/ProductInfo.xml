@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<product>
+	<controlName>Editor</controlName>
+	<radControlName>RadEditor</radControlName>
+	<firstLetter>E</firstLetter>
+	<version>6.0</version>
+	<chmUrl>http://www.telerik.com/documents/RadEditorManual_6_0.chm</chmUrl>
+	<manualUrl>http://www.telerik.com/help/radeditor/6.0/</manualUrl>
+	<pdfManualUrl>http://www.telerik.com/documents/RadEditorEndUserManual_6_0.pdf</pdfManualUrl>
+</product>

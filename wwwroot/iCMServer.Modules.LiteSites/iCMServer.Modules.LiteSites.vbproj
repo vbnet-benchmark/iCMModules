@@ -1,0 +1,197 @@
+<VisualStudioProject>
+    <VisualBasic
+        ProjectType = "Web"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{477156CC-CBD8-4CA8-9E87-D8A9316CA66D}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "iConsulting.iCMServer.Modules.LiteSites"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Flow"
+                DefaultTargetSchema = "IE32Nav30"
+                DelaySign = "false"
+                OutputType = "Library"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "Off"
+                RootNamespace = "iConsulting.iCMServer.Modules.LiteSites"
+                StartupObject = "iConsulting.iCMServer.Modules.LiteSites.(None)"
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.dll"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Web.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.Web.Services"
+                    AssemblyName = "System.Web.Services"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Web.Services.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.XML.dll"
+                />
+                <Reference
+                    Name = "iConsulting.iCMServer.Components.iCDataGrid"
+                    AssemblyName = "iConsulting.iCMServer.Components.iCDataGrid"
+                    HintPath = "..\..\Source\iConsulting.iCMServer.Components.iCDataGrid.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "iConsulting.iCMServer"
+                    AssemblyName = "iConsulting.iCMServer"
+                    HintPath = "..\..\Source\iConsulting.iCMServer.dll"
+                    Private = "False"
+                />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "System" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "clsLiteSites.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "help.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "LiteSites.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "LiteSites.ascx.vb"
+                    DependentUpon = "LiteSites.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "LiteSites.ascx.resx"
+                    DependentUpon = "LiteSites.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "LiteSitesUpload.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "LiteSitesUpload.aspx.vb"
+                    DependentUpon = "LiteSitesUpload.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "LiteSitesUpload.aspx.resx"
+                    DependentUpon = "LiteSitesUpload.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "LiteSitesView.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "LiteSitesView.aspx.vb"
+                    DependentUpon = "LiteSitesView.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "LiteSitesView.aspx.resx"
+                    DependentUpon = "LiteSitesView.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "modConstants.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Images\Anvandare.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\help4.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\modul.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\none.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\Roller.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\Sidor1.gif"
+                    BuildAction = "Content"
+                />
+            </Include>
+        </Files>
+    </VisualBasic>
+</VisualStudioProject>
+

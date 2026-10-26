@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<PanelItems>
+	<PanelItem ID="Panel1" Text="Favourite Folders" Expanded="True" ImageCollapsed="mail.gif" ImageExpanded="mail.gif" ImageHover="mail.gif">
+		<PanelItem ID="Panel1_1" TemplateID="Template1" />
+	</PanelItem>
+	<PanelItem ID="Panel2" Text="All Mail folders" Expanded="False" ImageCollapsed="mail.gif" ImageExpanded="mail.gif" ImageHover="mail.gif">
+		<PanelItem ID="Panel2_1" TemplateID="Template2" />
+	</PanelItem>
+	<PanelItem ID="Panel3" Text="Calendar" ImageCollapsed="calendar.gif" ImageExpanded="calendar.gif" ImageHover="calendar.gif">
+		<PanelItem Text="Knowledge Base" />
+		<PanelItem Text="Forums" />
+		<PanelItem Text="Articles" />
+		<PanelItem Text="FAQ" />
+	</PanelItem>
+	<PanelItem ID="Panel4" Text="Contacts" ImageCollapsed="contacts.gif" ImageExpanded="contacts.gif" ImageHover="contacts.gif">
+		<PanelItem ImageCollapsed="contactsItems.gif"  Text="My Contacts" />
+		<PanelItem ImageCollapsed="contactsItems.gif" Text="Address Cards" />
+		<PanelItem ImageCollapsed="contactsItems.gif" Text="Phone List" />
+		<PanelItem ImageCollapsed="contactsItems.gif" Text="Shared Contacts" />
+	</PanelItem>
+	<PanelItem ID="Panel5" Text="Tasks" ImageCollapsed="tasks.gif" ImageExpanded="tasks.gif" ImageHover="tasks.gif">
+		<PanelItem ImageCollapsed="tasksItems.gif" Text="My Tasks" />
+		<PanelItem ImageCollapsed="tasksItems.gif" Text="Shared tasks" />
+		<PanelItem ImageCollapsed="tasksItems.gif" Text="Active Tasks" />
+		<PanelItem ImageCollapsed="tasksItems.gif" Text="Completed Tasks" />
+	</PanelItem>
+	<PanelItem ID="Panel6" Text="Notes" ImageCollapsed="notes.gif" ImageExpanded="notes.gif" ImageHover="notes.gif">
+		<PanelItem ImageCollapsed="notesItems.gif" Text="My Notes" />
+		<PanelItem ImageCollapsed="notesItems.gif" Text="Notes List" />
+		<PanelItem ImageCollapsed="notesItems.gif" Text="Shared Notes" />
+		<PanelItem ImageCollapsed="notesItems.gif" Text="Archive" />
+	</PanelItem>
+	<PanelItem ID="Panel7" Text="FolderList" ImageCollapsed="folderList.gif" ImageExpanded="folderList.gif" ImageHover="folderList.gif">
+		<PanelItem ImageCollapsed="icon.gif"  Text="My Client.net" />
+		<PanelItem ImageCollapsed="icon.gif"  Text="My Profile" />
+		<PanelItem ImageCollapsed="icon.gif"  Text="My Support Tickets" />
+		<PanelItem ImageCollapsed="icon.gif"  Text="My Licenses" />
+	</PanelItem>
+</PanelItems>

@@ -1,0 +1,74 @@
+.panelbar_MainCategory
+{
+	color: #EEF5F8;
+	font-weight: bold;
+	font-size: 13px;
+	padding: 18px 0px 4px 18px;
+	border-bottom: 1px solid #90BBCF;
+	width: 217px;
+}
+
+.panelbarHeaderCollapsed
+{
+	color: white;
+	font-size: 11px;
+	height: 25px;
+	border-bottom: 1px solid #78ADC5;
+	cursor: hand;
+	cursor: pointer;
+}
+
+.panelbarHeaderHover
+{
+	color: #CDE1EA;
+	font-size: 11px;
+	height: 25px;
+	border-bottom: 1px solid #78ADC5;
+	cursor: hand;
+	cursor: pointer;
+}
+
+.panelbarHeaderExpand
+{
+	color: white;
+	font-size: 11px;
+	height: 25px;
+	cursor: hand;
+	cursor: pointer;
+	background-image: url(../Img/panelbarBg.gif);
+}
+
+.panelbarItem
+{
+	color: white;
+	font-size: 11px;
+	height: 16px;
+	cursor: hand;
+	cursor: pointer;
+	background-image: url(../Img/panelbarBg.gif);
+}
+
+.panelbarItemHover
+{
+	color: #D5E5EC;
+	font-size: 11px;
+	height: 16px;
+	cursor: hand;
+	cursor: pointer;
+	background-image: url(../Img/panelbarBg.gif);
+}
+
+.panelbar
+{
+	background-image: url(Img/Bg.jpg);
+	background-repeat: repeat-x;
+	background-color: #4693B6;
+	padding: 20px;
+	width: 217px;
+	padding-top:0px;
+}
+
+.panelbarItemGroup
+{
+	border-bottom: 1px solid #90BBCF;
+}

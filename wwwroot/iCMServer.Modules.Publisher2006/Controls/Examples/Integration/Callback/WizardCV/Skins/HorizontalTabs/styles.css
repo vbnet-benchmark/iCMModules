@@ -1,0 +1,138 @@
+.RadTabStrip_HorizontalTabs
+{
+	font: 8pt tahoma, sans-serif;
+	text-align: center;
+}
+
+
+.RadTabStrip_HorizontalTabs ul
+{
+	/**/
+}
+
+/*  level 1 tabs */
+
+.RadTabStrip_HorizontalTabs .level1 li a
+{
+	padding-left: 2px;
+	background: transparent url('img/tabLeftOff.gif') 0px 0px no-repeat;
+	color: black;
+	text-decoration: none;
+	line-height: 35px;
+}
+
+.RadTabStrip_HorizontalTabs .level1 li a .wrap
+{
+
+	padding-right: 8px;
+	line-height: 35px;
+	background: transparent url('img/tabRightOff.gif') right 0px no-repeat;
+	margin-right: 1px;
+}
+
+.RadTabStrip_HorizontalTabs .level1 li a .innerWrap
+{
+
+	padding: 0 5px;
+	background: transparent url('img/tabMiddleOff.gif') 0px 0px repeat-x;
+}
+
+.RadTabStrip_HorizontalTabs .level1 li a.selected
+{
+	line-height: 35px;	
+	margin-top: 2px;
+	background: transparent url('img/tabLeftOn.gif') 0px 0px no-repeat;
+}
+
+.RadTabStrip_HorizontalTabs .level1 li a.selected .wrap
+{
+	background-image: url('img/tabRightOn.gif');
+}
+
+
+.RadTabStrip_HorizontalTabs .level1 li a.selected .innerWrap
+{
+	background-image: url('img/tabMiddleOn.gif');
+}
+
+/* level2 tabs */
+
+.RadTabStrip_HorizontalTabs .level2 ul
+{
+	/**/
+}
+
+.RadTabStrip_HorizontalTabs .level2 li a
+{
+	color: black;
+	padding-left: 4px;
+	padding-right: 4px;
+	text-decoration: none;
+	line-height: 28px;
+	background: transparent url('img/Level2tabMiddleOff.gif') repeat-x;
+}
+
+.RadTabStrip_HorizontalTabs .level2 li a:hover
+{
+	text-decoration: underline;
+}
+
+.RadTabStrip_HorizontalTabs .level2 li a.selected, .RadTabStrip_HorizontalTabs .level2 li a.selected:hover
+{
+	color:  black;
+	line-height: 28px;
+	background: transparent url('img/Level2tabMiddleOn.gif') repeat-x;
+	text-decoration: none;
+}
+
+/* arrows */
+.RadTabStrip_HorizontalTabs .rightArrow, 
+.RadTabStrip_HorizontalTabs .leftArrow,
+.RadTabStrip_HorizontalTabs .rightArrowDisabled, 
+.RadTabStrip_HorizontalTabs .leftArrowDisabled
+{
+	width: 17px;
+	height: 22px;
+	text-indent: -10000px;
+	background-position: left 3px;
+	background-repeat: no-repeat;
+	background-color: white;
+}
+
+.RadTabStrip_HorizontalTabs .leftArrow
+{
+	background-image:url(img/ScrollLeft.png);
+}
+
+.RadTabStrip_HorizontalTabs .rightArrow
+{
+	background-image:url(img/ScrollRight.png);
+}
+
+/* Disabled Arrows */
+
+.RadTabStrip_HorizontalTabs .rightArrowDisabled, 
+.RadTabStrip_HorizontalTabs .leftArrowDisabled
+{
+	cursor: default;
+}
+
+.RadTabStrip_HorizontalTabs .leftArrowDisabled
+{
+	background-image: url(img/ScrollLeftDisabled.png);
+}
+
+.RadTabStrip_HorizontalTabs .rightArrowDisabled
+{
+	background-image: url(img/ScrollRightDisabled.png);
+}
+
+
+
+/* Disabled tab */
+
+.RadTabStrip_HorizontalTabs li a.disabled,
+.RadTabStrip_HorizontalTabs li a.disabled:hover
+{
+	color: gray;
+}

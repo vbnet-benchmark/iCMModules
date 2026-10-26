@@ -1,0 +1,95 @@
+.outlookMainFrame
+{
+	background-color: #c4dafa;
+	border: solid 1px #002d96;
+	width: 100%;
+}
+.outLookTopCell
+{
+	height: 24px;
+	background-image: url(Images/outLookTopCellBg.gif);
+	background-repeat: repeat-x;
+	font: bold 14px Arial, Verdana, Helvetica, Sans-serif;
+	color: #fff;
+	cursor: default;
+	padding-left: 2px;
+	padding-top: 2px;
+}
+.outLookOpenMessageCell
+{
+	border: solid 1px #002d96;
+	background-color: #fff;
+}
+.messageSeparator
+{
+	width: 196px;
+	height: 1px;
+}
+.messageScroll
+{
+	height: 285px;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+.msgTxt
+{
+	font-size: 11px;
+}
+
+
+
+
+.PanelItemsStyle
+{
+	color: white;
+	font-size: 16px;
+}
+
+.PanelStyle
+{
+	background-image: url(Img/topBg.gif);
+	background-repeat: repeat-x;
+	height: 25px;
+	width: 100%;
+}
+
+.OutlookHeader
+{
+	font-size: 11px;
+	font-family: Arial;
+	border-bottom: 3px solid #D2CFBE;
+	font-weight: normal;
+	BORDER-right: 2px inset white;
+	padding-left: 5px;
+}
+.OutlookHeader A
+{
+	color: black;
+	text-decoration: none;
+}
+
+.GroupHeaderItem TD
+{
+	border-bottom: 2px solid #7BA4E0;
+	font-size: 12px;
+	cursor: default;
+	background-color: white;
+}
+
+.OutlookItem TD
+{
+	border-bottom: 1px solid #EAE9E1;
+	font-size: 11px;
+	background-color: white;
+}
+
+.Pager
+{
+	border-top: 1px solid #7BA4E0;
+	font-size: 11px;
+}
+
+.Pager A
+{
+	color: black;
+}

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<localization>
+	<string id="Add">Ajouter</string>
+	<string id="Delete">Effacer</string>
+	<string id="Select">Select</string>
+	<string id="Remove">Supprimer</string>
+	<string id="Clear">Clear</string>
+	<string id="Cancel">Annuler</string>
+	<string id="CompleteBytesText">%COMPLETE_BYTES% of %TOTAL_BYTES% (%PERCENTS% %) Accompli </string>
+	<string id="CurrentFileNameText">Téléchargement en marche: %CURRENT_FILENAME%</string>
+	<string id="CompleteFilesText">%COMPLETE_FILES% of %TOTAL_FILES% files (%PERCENTS% %) Accompli</string>
+	<string id="TimeInformationText">%ELAPSED_SECONDS% secondes passé; Temps restant estimé: %ESTIMATED_REMAINING_TIME% secondes </string>
+	<string id="RequestCancelledText">Request cancelled, waiting for the page to reload...</string>
+	<string id="FormData">Form Data</string>
+</localization>

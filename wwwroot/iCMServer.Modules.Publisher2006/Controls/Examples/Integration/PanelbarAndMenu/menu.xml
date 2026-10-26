@@ -1,0 +1,63 @@
+<Menu>
+	<Group Flow ="Vertical" CssClass="MainGroup" Width="166" >
+		<Item Text="Finance" LeftLogo="arrow.gif" RightLogo="RightArrow.gif">
+			<Group CssClass="MenuGroup" ExpandDirection="Right" >
+				<Item Text="Stocks" CssClass="MenuItem" CssClassOver="MenuItemOver"/>
+				<Item Text="Bonds" CssClass="MenuItem" CssClassOver="MenuItemOver"/>
+				<Item Text="Mutual Funds" CssClass="MenuItem" CssClassOver="MenuItemOver" RightLogo="RightArrow.gif">
+					<Group>
+						<Item Text="International Funds"/>
+						<Item Text="Stock Funds" />
+						<Item Text="Personal Funds" />
+					</Group>
+				</Item>
+				<Item Text="Insurance" />
+			</Group>
+		</Item>
+		<Item Text="Real Estate" LeftLogo="arrow.gif" RightLogo="RightArrow.gif">
+			<Group CssClass="MenuGroup" ExpandDirection="Right" >
+				<Item Text="Villas" CssClass="MenuItem" CssClassOver="MenuItemOver" RightLogo="RightArrow.gif">
+					<Group>
+						<Item Text="France"/>
+						<Item Text="Spain" />
+						<Item Text="Ireland" />
+					</Group>
+				</Item>
+				<Item Text="Houses" CssClass="MenuItem" CssClassOver="MenuItemOver"/>
+				<Item Text="Apartments" CssClass="MenuItem" CssClassOver="MenuItemOver" />
+			</Group>
+		</Item>
+		<Item Text="Leisure" LeftLogo="arrow.gif" RightLogo="RightArrow.gif">
+			<Group CssClass="MenuGroup" ExpandDirection="Right" >
+				<Item Text="Sports" CssClass="MenuItem" CssClassOver="MenuItemOver"/>
+				<Item Text="Movies" CssClass="MenuItem" CssClassOver="MenuItemOver"/>
+				<Item Text="Clubs" CssClass="MenuItem" CssClassOver="MenuItemOver" RightLogo="RightArrow.gif">
+					<Group>
+						<Item Text="Babbles"/>
+						<Item Text="Space" />
+						<Item Text="The Jumping Cat" />
+					</Group>
+				</Item>
+				<Item Text="Family" />
+			</Group>
+		</Item>
+		<Item Text="Internet" LeftLogo="arrow.gif" RightLogo="RightArrow.gif">
+			<Group CssClass="MenuGroup" ExpandDirection="Right" >
+				<Item Text="Search Engines" CssClass="MenuItem" CssClassOver="MenuItemOver" RightLogo="RightArrow.gif">
+					<Group>
+						<Item Text="Google"/>
+						<Item Text="Yahoo!" />
+					</Group>
+				</Item>
+				<Item Text="Portals" CssClass="MenuItem" CssClassOver="MenuItemOver"/>
+			</Group>
+		</Item>
+		<Item Text="Health" LeftLogo="arrow.gif" RightLogo="RightArrow.gif">
+			<Group CssClass="MenuGroup" ExpandDirection="Right" >
+				<Item Text="SPA" CssClass="MenuItem" CssClassOver="MenuItemOver"/>
+				<Item Text="Fitness" CssClass="MenuItem" CssClassOver="MenuItemOver"/>
+				<Item Text="Pharmacy" CssClass="MenuItem" CssClassOver="MenuItemOver" />
+			</Group>
+		</Item>
+	</Group>
+</Menu>

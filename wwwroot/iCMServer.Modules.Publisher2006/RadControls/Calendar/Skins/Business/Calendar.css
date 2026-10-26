@@ -1,0 +1,192 @@
+.calendarWrapper
+{
+	border: solid 1px #e0dfbe;
+	cursor: default;
+	font: normal 12px Arial, Verdana, Sans-serif;
+	color: #686868;
+	filter: progid:DXImageTransform.Microsoft.dropShadow( Color=c7c7a9,offX=2,offY=2,positive=true);
+}
+.radCalDefault, .radCalWeekendDefault
+{
+	color: #5e5d41;
+	font-family: Arial, Verdana, Sans-Serif;
+	font-size: 11px;
+	font-weight: normal;
+	background-color: #f9f8e0;
+	cursor: default;
+	text-align:  right;
+	vertical-align: top;
+	width: 110px;
+	height: 56px;
+	border-top: solid 1px #fff;
+	border-bottom: solid 1px #fff;
+	border-right: solid 1px #dadaa2;
+}
+.radCalHover, .radCalWeekendHover
+{
+	color: #5e5d41;
+	font-family: Arial, Verdana, Sans-Serif;
+	font-size: 11px;
+	font-weight: normal;
+	background-color: #fffff2;
+	cursor: default;
+	text-align: right;
+	vertical-align: top;
+	width: 110px;
+	height: 56px;
+	border-top: solid 1px #fff;
+	border-bottom: solid 1px #fff;
+	border-right: solid 1px #dadaa2;
+}
+.radCalSelect, .radCalWeekendSelect
+{
+	color: #5e5d41;
+	font-family: Arial, Verdana, Sans-Serif;
+	font-size: 11px;
+	font-weight: normal;
+	background-color: #e5e4cc;
+	cursor: default;
+	text-align: right;
+	vertical-align: top;
+	width: 110px;
+	height: 56px;
+	border-top: solid 1px #fff;
+	border-bottom: solid 1px #fff;
+	border-right: solid 1px #dadaa2;
+}
+.DaysOfWeek
+{
+	font-weight: bold;
+	color: #000;
+	font-family: Arial, Verdana, Sans-Serif;
+	font-size: 11px;
+	height: 46px;
+	background-image: url(Img/DaysOfWeek.gif);
+	background-repeat: repeat-x;
+	cursor: default;
+	background-color: transparent;
+	text-align: center;
+}
+.otherMonth
+{
+	color: #dadada;
+	font-family: Arial, Verdana, Sans-Serif;
+	font-size: 11px;
+	font-weight: normal;
+	width: 35px;
+	height: 30px;
+	border-top: solid 1px #f9f9f9;
+	border-left: solid 1px #f9f9f9;
+	border-right: solid 1px #f2f2f2;
+	border-bottom: solid 1px #f2f2f2;
+	background-color: #ffffff;
+	cursor: default;
+	text-align: center;
+}
+
+.titlebar
+{
+	color: #fff;
+	font-family: Arial, Verdana, Sans-Serif;
+	background-image: url(Img/titleBg.gif);
+	background-repeat: repeat-x;
+	background-color: #0dcbf5;
+	font-size: 13px;
+	font-weight: bold;
+	height: 23px;
+	cursor: default;
+	text-align: center;
+}
+
+.TableLayout
+{
+	background-image: url(Img/calendarBg.gif);
+	background-repeat: repeat-x;
+	table-layout: fixed;
+}
+.TableLayout TD
+{
+	padding:0px;
+}
+/*** MonthYearFastNav ***/
+.MonthYearFastNav
+{
+	border: 1px solid #c7c7a9;
+	background-color: #f9f8e0;
+	font: normal 10px Verdana;
+	color: #000000;
+	border-collapse: collapse;
+	filter: progid:DXImageTransform.Microsoft.Shadow(direction=140,color=#666666,strength=3);
+}
+
+.MonthYearFastNav TD
+{
+	text-align: center;
+	vertical-align: middle;
+	border-bottom: 1px solid #c7c7a9;
+	cursor: hand;
+	padding: 4px;
+}
+
+.MonthYearFastNav TD.selected
+{
+	background-color: #0dcbf5;
+	color: #ffffff;
+}
+
+.MonthYearFastNav TD.bottom
+{
+	text-align: center;
+}
+
+.MonthYearFastNav TD INPUT
+{
+	background-color: #0dcbf5;
+	border: 1px solid #c7c7a9;
+	font: normal 10px Verdana;
+	color: #fff;
+	float: left;
+	margin-right: 1px;
+}
+/*** MonthYearFastNav ***/
+/* cell links */
+.radCalDefault A, .radCalWeekendDefault A
+{
+	color: #7f7f7f;
+	font-family: Arial, Verdana, Sans-Serif;
+	font-size: 11px;
+	font-weight: normal;
+	cursor: default;
+	text-decoration: none;
+	padding-top: 3px;
+	padding-right: 14px;
+	display:block;
+}
+.radCalDefault IMG, .radCalHover IMG, .radCalSelect IMG, .radCalWeekendDefault IMG, .radCalWeekendHover IMG, .radCalWeekendSelect IMG
+{
+	float:left;
+}
+.radCalHover A, .radCalWeekendHover A
+{
+	color: #7f7f7f;
+	font-family: Arial, Verdana, Sans-Serif;
+	font-size: 11px;
+	font-weight: normal;
+	text-decoration: none;
+	padding-top: 3px;
+	padding-right: 14px;
+	display:block;
+}
+.radCalSelect A, .radCalWeekendSelect A
+{
+	color: #7f7f7f;
+	font-family: Arial, Verdana, Sans-Serif;
+	font-size: 11px;
+	font-weight: normal;
+	cursor: default;
+	text-decoration: none;
+	padding-top: 3px;
+	padding-right: 14px;
+	display:block;
+}
+/* cell links end */

@@ -1,0 +1,139 @@
+.calendarWrapper
+{
+	background-color: #fff;
+}
+
+.radCalDefault, .radCalWeekendDefault
+{
+	/**/
+}
+
+.radCalHover, .radCalWeekendHover
+{
+	/**/
+
+}
+
+.radCalSelect, .radCalWeekendSelect
+{
+	background-color: #fbe694;
+}
+.DaysOfWeek
+{
+	font-weight: normal;
+	color: #000004;
+	font-family: Arial, sans-serif; 
+	font-size: 11px;
+	height: 15px;
+	width: 17px;
+	cursor: default;
+	text-align: right;
+	text-transform: uppercase;
+	border-bottom: solid 1px #aba5a7;
+}
+
+.otherMonth
+{
+	color: #aca899;
+	font-family: "MS Sans Serif", Arial, sans-serif; 
+	font-size: 10px;
+	font-weight: normal;
+	cursor: default;
+	text-align: right;
+	height: 15px;
+	width: 17px;
+}
+
+.titlebar
+{
+	color: #000;
+	font-family: Arial, sans-serif; 
+	font-size: 11px;
+	font-weight: normal;
+	height: 16px;
+	line-height: 11px;
+	text-align: right;
+	background-color: #9ebef5;
+	background-image: url(Img/titlebarBg.gif);
+}
+
+.TableLayout
+{
+	background-color: #fff;
+	margin: 0px 10px;
+}
+
+.TableLayout td
+{
+	text-align: center;	
+}
+/* today */
+
+.radCalToday
+{
+	height: 15px;
+	width: 17px;
+	border: solid 1px #bb5503;
+}
+
+.radCalTodaySelected
+{
+	background-color: #fbe694;
+	border: solid 1px #bb5503;
+	background-repeat: no-repeat;
+	width: 17px;
+	height: 15px;
+}
+/* /today */
+
+/*** MonthYearFastNav ***/
+.MonthYearFastNav
+{
+	border: 1px solid #9ebef5;
+	background-color: #ffffff;
+	font: normal 10px Verdana;
+	color: #000000;
+	border-collapse: collapse;
+	filter: progid:DXImageTransform.Microsoft.Shadow(direction=140,color=#666666,strength=3);
+}
+
+.MonthYearFastNav TD
+{
+	vertical-align: middle;
+	cursor: hand;
+}
+
+.MonthYearFastNav TD.selected
+{
+	background-color: #fbe694;
+	color: #000;
+	text-align: center;
+}
+
+.MonthYearFastNav TD.bottom
+{
+	text-align: right;
+	padding-left: 9px;
+}
+
+.MonthYearFastNav TD INPUT
+{
+	background-color: #9ebef5;
+	border: solid 1px #000;
+	font: normal 10px Arial, Tahoma, Verdana;
+	color: #000000;
+	float: left;
+	width: auto;
+	margin-right: 1px;
+}
+/*** MonthYearFastNav ***/
+/* cell links */
+.radCalDefault A, .radCalHover A, .radCalSelect A, .radCalToday A, .radCalTodaySelected A, .radCalWeekendDefault A, .radCalWeekendHover A, .radCalWeekendSelect A
+{
+	color: #000;
+	font-family: Arial, Verdana, Sans-Serif;
+	font-size: 11px;
+	cursor: default;
+	text-decoration: none;
+}
+/* cell links end */

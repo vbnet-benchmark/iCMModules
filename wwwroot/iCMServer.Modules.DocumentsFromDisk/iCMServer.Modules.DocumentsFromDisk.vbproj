@@ -1,0 +1,409 @@
+<VisualStudioProject>
+    <VisualBasic
+        ProjectType = "Web"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{477156CC-CBD8-4CA8-9E87-D8A9316CA66D}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "iConsulting.iCMServer.Modules.DocumentsFromDisk"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Flow"
+                DefaultTargetSchema = "IE32Nav30"
+                DelaySign = "false"
+                OutputType = "Library"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "Off"
+                RootNamespace = "iConsulting.iCMServer.Modules.DocumentsFromDisk"
+                StartupObject = "iConsulting.iCMServer.Modules.DocumentsFromDisk.(None)"
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.dll"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Web.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.Web.Services"
+                    AssemblyName = "System.Web.Services"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Web.Services.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.XML.dll"
+                />
+                <Reference
+                    Name = "iConsulting.iCMServer"
+                    AssemblyName = "iConsulting.iCMServer"
+                    HintPath = "..\..\Source\iConsulting.iCMServer.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Windows.Forms.dll"
+                />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "System" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "clsDocuments.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Documents.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Documents.ascx.vb"
+                    DependentUpon = "Documents.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Documents.ascx.resx"
+                    DependentUpon = "Documents.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "DocumentsEdit.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "DocumentsEdit.aspx.vb"
+                    DependentUpon = "DocumentsEdit.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DocumentsEdit.aspx.resx"
+                    DependentUpon = "DocumentsEdit.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "DocumentsEditSimple.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "DocumentsEditSimple.aspx.vb"
+                    DependentUpon = "DocumentsEditSimple.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DocumentsEditSimple.aspx.resx"
+                    DependentUpon = "DocumentsEditSimple.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "DocumentsEngine.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "DocumentsEngine.aspx.vb"
+                    DependentUpon = "DocumentsEngine.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DocumentsEngine.aspx.resx"
+                    DependentUpon = "DocumentsEngine.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "DocumentsFolderEdit.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "DocumentsFolderEdit.aspx.vb"
+                    DependentUpon = "DocumentsFolderEdit.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DocumentsFolderEdit.aspx.resx"
+                    DependentUpon = "DocumentsFolderEdit.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "DocumentsGetFiles.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "DocumentsGetFiles.aspx.vb"
+                    DependentUpon = "DocumentsGetFiles.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DocumentsGetFiles.aspx.resx"
+                    DependentUpon = "DocumentsGetFiles.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "DocumentsStream.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "DocumentsStream.aspx.vb"
+                    DependentUpon = "DocumentsStream.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DocumentsStream.aspx.resx"
+                    DependentUpon = "DocumentsStream.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "IConsultingComparer.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "modConstants.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "mySQL_DocumentsFromDisk.sql"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "rem.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\AddFolder.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\DefaultView.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\DeleteFolder.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\edit.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\EditFolder.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\Refresh.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\SimpleView.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\UploadFile.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\webdocslide.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\webfxlayout.local.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\webfxlayout.local.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\xloadtree.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\xmlextras.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\xtree.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\xtree.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\images\blank.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\images\file.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\images\foldericon.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\images\I.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\images\L.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\images\Lminus.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\images\Lplus.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\images\net.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\images\netdoc.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\images\openfoldericon.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\images\T.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\images\Tminus.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\images\Tplus.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\images\xp\blank.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\images\xp\file.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\images\xp\folder.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\images\xp\I.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\images\xp\L.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\images\xp\Lminus.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\images\xp\Lplus.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\images\xp\net.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\images\xp\netdoc.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\images\xp\openfolder.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\images\xp\T.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\images\xp\test.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\images\xp\Tminus.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XLoadTree\images\xp\Tplus.png"
+                    BuildAction = "Content"
+                />
+            </Include>
+        </Files>
+    </VisualBasic>
+</VisualStudioProject>
+

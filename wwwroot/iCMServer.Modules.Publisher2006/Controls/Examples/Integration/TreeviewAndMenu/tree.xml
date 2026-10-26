@@ -1,0 +1,12 @@
+﻿<Tree>
+	<Node Text="Folder 1" Category="Folder" Expanded="True">
+		<Node Text="Item 1.1" Category="Item"></Node>
+		<Node Text="Item 1.2" Category="Item"></Node>
+		<Node Text="Item 1.3" Category="Item"></Node>
+	</Node>
+	<Node Text="Folder 2" Category="Folder" Expanded="True">
+		<Node Text="Item 2.1" Category="Item"></Node>
+		<Node Text="Item 2.2" Category="Item"></Node>
+		<Node Text="Item 2.3" Category="Item"></Node>
+	</Node>
+</Tree>

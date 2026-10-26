@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+  <tab name="Examples" text="Examples" alt="Example" default="true" />
+  <tab name="Config" text="Configurator" alt="Configurator" />
+  <tab name="Quickstart" text="Quickstart" alt="Quickstart" />
+  <tab name="UpgradeInstructions" text="Upgrade" alt="Upgrade Instructions" />
+  <tab name="Help" text="Help" alt="Help" />
+  <tab name="Purchase" text="Purchase" alt="Purchase" />
+</tabs>

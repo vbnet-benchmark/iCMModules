@@ -1,0 +1,87 @@
+<Menu>
+	<Group Flow="Horizontal" CssClass="Office2003_MainGroup">
+		<Item Text="File" CssClass="Office2003_MainItem" CssClassOver="Office2003_MainItemOver"
+			CssClassClicked="Office2003_MainItemOver">
+			<Group OffsetY="-1" LeftCellWidth="28" RightCellWidth="12" CssClass="Office2003_MenuGroup">
+				<Item CssClass="Office2003_MenuItem" CssClassOver="Office2003_MenuItemOver" CssClassClicked="Office2003_MenuItemOver"
+					Text="Print" LeftLogo="16print.gif" Command="Print" Category="File" />
+				<Item CssClass="Office2003_MenuItem" CssClassOver="Office2003_MenuItemOver" CssClassClicked="Office2003_MenuItemOver"
+					Text="Close" Category="File" Command="Close" />
+			</Group>
+		</Item>
+		<Item Text="Edit" CssClass="Office2003_MainItem" CssClassOver="Office2003_MainItemOver"
+			CssClassClicked="Office2003_MainItemOver">
+			<Group CssClass="Office2003_MenuGroup" OffsetY="-1" LeftCellWidth="28" RightCellWidth="12">
+				<Item CssClass="Office2003_MenuItem" CssClassOver="Office2003_MenuItemOver" CssClassClicked="Office2003_MenuItemOver"
+					Text="Undo" LeftLogo="21undo.gif" Category="Edit" Command="Undo" />
+				<Item CssClass="Separator" CssClassOver="Separator" CssClassClicked="Separator" Image="separator.gif"
+					ImageWidth="115" ImageHeight="1" Category="Edit" />
+				<Item CssClass="Office2003_MenuItem" CssClassOver="Office2003_MenuItemOver" CssClassClicked="Office2003_MenuItemOver"
+					Text="Copy" LeftLogo="22copy.gif" Category="Edit" Command="Copy" />
+				<Item CssClass="Office2003_MenuItem" CssClassOver="Office2003_MenuItemOver" CssClassClicked="Office2003_MenuItemOver"
+					Text="Paste from Office" LeftLogo="23clipboard.gif" Category="Edit" Command="PasteFromWord" />
+				<Item CssClass="Office2003_MenuItem" CssClassOver="Office2003_MenuItemOver" CssClassClicked="Office2003_MainItemOver"
+					Text="Paste" Category="Edit" Command="Paste" />
+				<Item CssClass="Separator" CssClassOver="Separator" CssClassClicked="Separator" Image="separator.gif"
+					ImageWidth="115" ImageHeight="1" Category="Edit" />
+				<Item CssClass="Office2003_MenuItem" CssClassOver="Office2003_MenuItemOver" CssClassClicked="Office2003_MenuItemOver"
+					Text="Select All" Category="Edit" Command="SelectAll" />
+				<Item CssClass="Separator" CssClassOver="Separator" CssClassClicked="Separator" Image="separator.gif"
+					ImageWidth="115" ImageHeight="1" Category="Edit" />
+				<Item CssClass="Office2003_MenuItem" CssClassOver="Office2003_MenuItemOver" CssClassClicked="Office2003_MenuItemOver"
+					Text="Replace" Category="Edit" Command="FindAndReplace" />
+			</Group>
+		</Item>
+		<Item Text="Format" CssClass="Office2003_MainItem" CssClassOver="Office2003_MainItemOver"
+			CssClassClicked="Office2003_MainItemOver">
+			<Group CssClass="Office2003_MenuGroup" OffsetY="-1" LeftCellWidth="28" RightCellWidth="12">
+				<Item CssClass="Office2003_MenuItem" CssClassOver="Office2003_MenuItemOver" CssClassClicked="Office2003_MenuItemOver"
+					Text="Bold" Category="Format" Command="Bold" LeftLogo="Bold.gif" />
+				<Item CssClass="Office2003_MenuItem" CssClassOver="Office2003_MenuItemOver" CssClassClicked="Office2003_MenuItemOver"
+					Text="Italic" Category="Format" Command="Italic" LeftLogo="Italic.gif" />
+				<Item CssClass="Office2003_MenuItem" CssClassOver="Office2003_MenuItemOver" CssClassClicked="Office2003_MenuItemOver"
+					Text="Underline" Category="Format" LeftLogo="Underline.gif" Command="Underline" />
+			</Group>
+		</Item>
+		<Item Text="Insert" CssClass="Office2003_MainItem" CssClassOver="Office2003_MainItemOver"
+			CssClassClicked="Office2003_MainItemOver">
+			<Group CssClass="Office2003_MenuGroup" OffsetY="-1" LeftCellWidth="28" RightCellWidth="12">
+				<Item CssClass="Office2003_MenuItem" CssClassOver="Office2003_MenuItemOver" CssClassClicked="Office2003_MenuItemOver"
+					LeftLogo="LinkManager.gif" Text="Link" Category="Insert" Command="LinkManager" />
+				<Item CssClass="Office2003_MenuItem" CssClassOver="Office2003_MenuItemOver" CssClassClicked="Office2003_MenuItemOver"
+					LeftLogo="ImageManager.gif" Text="Image" Category="Insert" Command="ImageManager" />
+				<Item CssClass="Office2003_MenuItem" CssClassOver="Office2003_MenuItemOver" CssClassClicked="Office2003_MenuItemOver"
+					LeftLogo="FlashManager.gif" Text="Flash" Category="Insert" Command="FlashManager" />
+				<Item CssClass="Office2003_MenuItem" CssClassOver="Office2003_MenuItemOver" CssClassClicked="Office2003_MenuItemOver"
+					LeftLogo="DocumentManager.gif" Text="Document" Category="Insert" Command="DocumentManager" />
+				<Item CssClass="Office2003_MenuItem" CssClassOver="Office2003_MenuItemOver" CssClassClicked="Office2003_MenuItemOver"
+					LeftLogo="MediaManager.gif" Text="Media" Category="Insert" Command="MediaManager" />
+				<Item CssClass="Office2003_MenuItem" CssClassOver="Office2003_MenuItemOver" CssClassClicked="Office2003_MenuItemOver"
+					LeftLogo="TemplateManager.gif" Text="Template" Category="Insert" Command="TemplateManager" />
+			</Group>
+		</Item>
+		<Item Text="View" CssClass="Office2003_MainItem" CssClassOver="Office2003_MainItemOver"
+			CssClassClicked="Office2003_MainItemOver">
+			<Group CssClass="Office2003_MenuGroup" OffsetY="-1" LeftCellWidth="28" RightCellWidth="12">
+				<Item CssClass="Office2003_MenuItem" CssClassOver="Office2003_MenuItemOver" CssClassClicked="Office2003_MenuItemOver"
+					LeftLogo="ToggleScreenMode.gif" Text="Full Screen" Category="View" Command="ToggleScreenMode" />
+				<Item CssClass="Office2003_MenuItem" CssClassOver="Office2003_MenuItemOver" CssClassClicked="Office2003_MenuItemOver"
+					LeftLogo="ButtonDesign.gif" Text="Design Mode" Category="View" Command="1" />
+				<Item CssClass="Office2003_MenuItem" CssClassOver="Office2003_MenuItemOver" CssClassClicked="Office2003_MenuItemOver"
+					LeftLogo="ButtonHtml.gif" Text="Html Mode" Category="View" Command="2" />
+				<Item CssClass="Office2003_MenuItem" CssClassOver="Office2003_MenuItemOver" CssClassClicked="Office2003_MenuItemOver"
+					LeftLogo="ButtonPreview.gif" Text="Preview Mode" Category="View" Command="3" />
+			</Group>
+		</Item>
+		<Item CssClass="Spacer" CssClassOver="Spacer" Image="spacer.gif" ImageWidth="110" ImageHeight="1" />
+		<Item CssClass="Office2003_MenuItem" CssClassOver="Office2003_MenuItemOver" Text="Help"
+			CssClassClicked="Office2003_MainItemOver">
+			<Group CssClass="Office2003_MenuGroup" OffsetY="-1" LeftCellWidth="28" RightCellWidth="12">
+				<Item CssClass="Office2003_MenuItem" CssClassOver="Office2003_MenuItemOver" CssClassClicked="Office2003_MenuItemOver"
+					LeftLogo="Help.gif" Text="Help" Category="Help" Command="Help" />
+				<Item CssClass="Office2003_MenuItem" CssClassOver="Office2003_MenuItemOver" CssClassClicked="Office2003_MenuItemOver"
+					LeftLogo="AboutDialog.gif" Text="About" Category="Help" Command="AboutDialog" />
+			</Group>
+		</Item>
+	</Group>
+</Menu>

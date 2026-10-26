@@ -1,0 +1,85 @@
+.panelbar
+{
+	border-right: 1px solid #888784;
+	border-left: 1px solid #A6A5A2;
+}
+.panelbarHeaderCollapsed
+{ 		
+	FONT-SIZE: 11px; 
+	COLOR: #ffffff;
+	FONT-FAMILY: Arial,Verdana;
+	font-weight: bold;
+	cursor: hand;
+	cursor: pointer;
+	height: 35px;
+	padding-left: 25px;
+	background-image: url(../Img/headerCollapsed.gif);
+}
+
+.panelbarHeaderExpand
+{
+	FONT-SIZE: 11px; 
+	COLOR: #1A1710;
+	FONT-FAMILY: Arial,Verdana;
+	font-weight: bold;
+	cursor: hand;
+	cursor: pointer;
+	height: 37px;
+	padding-left: 25px;
+	background-image: url(../Img/headerExpanded.gif);
+}
+
+.panelbarItem 
+{
+	FONT-SIZE: 11px; 
+	COLOR: #000000;
+	FONT-FAMILY: Arial,Verdana;
+	cursor: hand;
+	cursor: pointer;
+	text-decoration: none;
+	padding-left: 25px;
+	height: 26px;
+	background-image: url(../Img/ItemsSeparator.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.panelbarItemHover
+{
+	FONT-SIZE: 11px; 
+	COLOR: #774403;
+	FONT-FAMILY: Arial,Verdana;
+	cursor: hand;
+	cursor: pointer;
+	text-decoration: none;
+	padding-left: 25px;
+	height: 26px;
+	background-image: url(../Img/ItemsSeparator.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.panelbarItemGroup
+{
+	background-image: url(../Img/ItemsBg.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	background-color: white;	
+}
+
+.penalberItemDesabled
+{
+	FONT-SIZE: 11px; 
+	COLOR: #ab9e8d;
+	FONT-FAMILY: Arial,Verdana;
+	text-decoration: none;
+	padding-left: 25px;
+	height: 26px;
+	background-image: url(../Img/ItemsSeparator.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}

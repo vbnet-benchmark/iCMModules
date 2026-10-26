@@ -1,0 +1,87 @@
+body
+{
+}
+.RubNote
+{
+	font-weight: bold;
+	font-size: xx-small;
+	color: ghostwhite;
+	font-family: Verdana;
+}
+
+.LabelNote
+{
+	font-weight: normal;
+	font-size: xx-small;
+	color: ghostwhite;
+	font-family: Verdana;
+}
+
+.LabelNote2
+{
+	font-weight: normal;
+	font-size: xx-small;
+	color: red;
+	font-family: Verdana;
+}
+
+.tableBG
+{
+	background-color:#8CA4C3;
+	font-weight: normal;
+	font-size: xx-small;
+	color: black;
+	font-family: Verdana;
+}
+
+.tableHeadBG
+{
+	background-color:#264e81;
+	font-weight: normal;
+	font-size: xx-small;
+	color: black;
+	font-family: Verdana;
+ 
+}
+
+
+.buttonBar
+{
+	background-color:#efefef;
+	font-weight: normal;
+	font-size: xx-small;
+	color: black;
+	font-family: Verdana;
+}
+
+
+.MenuButton
+{
+	font-weight: normal;
+	font-size: x-small;
+	color: ghostwhite;
+	font-family: Verdana;
+}
+
+.MonthBarBack
+{
+	background-color: #264E81;
+}
+
+.MonthBar
+{
+	font-weight: bold;
+	font-size: xx-small;
+	color: ghostwhite;
+	font-family: Verdana;
+}
+
+.Button
+{
+	font-weight: normal;
+	font-size: x-small;
+	color: #264E81;
+	font-family: Verdana;
+}
+
+

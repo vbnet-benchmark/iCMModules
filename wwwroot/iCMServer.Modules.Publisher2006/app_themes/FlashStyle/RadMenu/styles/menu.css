@@ -1,0 +1,124 @@
+.MenuGroup
+{
+	cursor: pointer;
+	cursor: hand;
+	background-image:url(../Img/menuBgDown.gif);
+	width: 146px;
+}
+.MainGroup
+{
+	background-image: url(../Img/cornerbg.gif);
+	background-position: CENTER;
+	background-repeat: repeat-x;
+	cursor: pointer;
+	cursor: hand;
+}
+.MainItem 
+{
+	height:40px;
+	cursor: pointer;
+	cursor: hand;
+	font-weight: bold;
+	font-size: 11px;
+	font-family: Arial, Verdana;
+	color: #666666;
+	padding: 0px 11px 3px 11px;
+}
+.MainItemOver
+{
+	height:40px;
+	cursor: pointer;
+	cursor: hand;
+	font-weight: bold;
+	font-size: 11px;
+	font-family: Arial, Verdana;
+	color: #000000;
+	padding: 0px 11px 5px 11px;
+}
+.MenuItem
+{
+	font-family: Arial, Verdana;
+	font-weight: bold;
+	font-size: 11px;
+	cursor: pointer;
+	cursor: hand;
+	padding: 6px 0px 7px 0px;
+	text-align: center;
+	color: #EFEFEF;
+}
+.MenuItemOver, .MenuItemClicked
+{
+	color: #B7E2FA;
+	font-family: Arial, Verdana;
+	font-weight: bold;
+	font-size: 11px;
+	cursor: pointer;
+	cursor: hand;
+	padding: 5px 0px 8px 0px;
+	text-align: center;
+}
+.HeaderItem
+{
+	background-image: url(../Img/menuBgUp.gif);
+	font-weight: bold;
+	font-size: 10px;
+	font-family: Arial, Verdana;
+	color: #666666;
+	padding: 0px 2px 4px 2px;
+	text-align: center; 
+}
+.HeaderItemOver
+{
+	background-image: url(../Img/menuBgUp.gif);
+	font-weight: bold;
+	font-size: 10px;
+	font-family: Arial, Verdana;
+	color: #666666;
+	padding: 0px 2px 4px 2px;
+	text-align: center; 
+}
+.FooterItem 
+{
+	background-image: url(../Img/menuFooter.gif);
+	height:35px;
+	font-weight: bold;
+	font-size: 12px;
+	font-family: Arial, Verdana;
+	color: White;
+	text-align: center;
+}
+.FooterItemOver
+{
+	background-image: url(../Img/menuFooter.gif);
+	height:35px;
+	font-weight: bold;
+	font-size: 12px;
+	font-family: Arial, Verdana;
+	color: White;
+	text-align: center;
+}
+.MenuItemToolTip
+{
+	background-color: #fffacd;
+	border-style:solid;
+	border-width:1px;
+	border-color: black; 
+	font-family: Arial;	
+	padding: 3px;
+	font-size:8pt;
+	text-align: left;
+}
+
+
+.Separator
+{
+	text-align:center;
+}
+.SeparatorOver
+{
+	text-align:center;
+}
+.Spacer
+{
+	background-color: Transparent; 
+}

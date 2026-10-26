@@ -1,0 +1,326 @@
+<VisualStudioProject>
+    <VisualBasic
+        ProjectType = "Web"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{87B0E662-12CF-4330-8E94-321BDCFC246E}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "iConsulting.iCMServer.Modules.Sites"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Flow"
+                DefaultTargetSchema = "IE32Nav30"
+                DelaySign = "false"
+                OutputType = "Library"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "Off"
+                RootNamespace = "iConsulting.iCMServer.Modules.Sites"
+                StartupObject = "iConsulting.iCMServer.Modules.Sites.(None)"
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Data.dll"
+                />
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                    HintPath = "..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Web.dll"
+                />
+                <Reference
+                    Name = "System.Web.Services"
+                    AssemblyName = "System.Web.Services"
+                    HintPath = "..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Web.Services.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.XML.dll"
+                />
+                <Reference
+                    Name = "iConsulting.iCMServer"
+                    AssemblyName = "iConsulting.iCMServer"
+                    HintPath = "..\..\Source\iConsulting.iCMServer.dll"
+                    Private = "False"
+                />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "System" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "clsSites.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EditSites.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "EditSites.aspx.vb"
+                    DependentUpon = "EditSites.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EditSites.aspx.resx"
+                    DependentUpon = "EditSites.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "EditSitesStream.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "EditSitesStream.aspx.vb"
+                    DependentUpon = "EditSitesStream.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EditSitesStream.aspx.resx"
+                    DependentUpon = "EditSitesStream.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "EditSitesUpload.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "EditSitesUpload.aspx.vb"
+                    DependentUpon = "EditSitesUpload.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EditSitesUpload.aspx.resx"
+                    DependentUpon = "EditSitesUpload.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "modConstants.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Sites.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Sites.ascx.vb"
+                    DependentUpon = "Sites.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Sites.ascx.resx"
+                    DependentUpon = "Sites.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Color\EditSitesColor.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Color\EditSitesColor10.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Color\EditSitesColor11.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Color\EditSitesColor12.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Color\EditSitesColor13.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Color\EditSitesColor14.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Color\EditSitesColor15.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Color\EditSitesColor16.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Color\EditSitesColor17.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Color\EditSitesColor18.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Color\EditSitesColor19.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Color\EditSitesColor2.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Color\EditSitesColor3.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Color\EditSitesColor4.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Color\EditSitesColor5.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Color\EditSitesColor6.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Color\EditSitesColor7.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Color\EditSitesColor8.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Color\EditSitesColor9.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\Arrow.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\Cancel.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\Delete.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\Edit.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\hammer.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\handsaw.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\inch.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\meny-advance.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\meny-standard.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\Roles.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\Sites.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\Sites-2.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\Style.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\Style_2.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\Style-2.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\Update.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\waterpass.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Js\Color.js"
+                    BuildAction = "Content"
+                />
+            </Include>
+        </Files>
+    </VisualBasic>
+</VisualStudioProject>
+

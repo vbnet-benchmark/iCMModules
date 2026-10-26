@@ -1,0 +1,20 @@
+<Menu>
+  <Group Flow="Vertical">
+    <Item Text="Edit" TextAlign="Left" LeftLogo="Spacer.gif">
+      <Group >
+		<Item Text="Delete" TextAlign="Left" LeftLogo="Spacer.gif"/>
+		<Item Text="Rename" TextAlign="Left" LeftLogo="Spacer.gif"/>
+      </Group>
+    </Item>
+    <Item Text="Add" TextAlign="Left" LeftLogo="Spacer.gif">
+    </Item>
+    <Item Text="Disable" TextAlign="Left" LeftLogo="Spacer.gif">
+    </Item>
+    <Item Text="Enable All" TextAlign="Left" LeftLogo="Spacer.gif">
+    </Item>
+    <Item Text="Expand" TextAlign="Left" LeftLogo="Spacer.gif">
+    </Item>
+    <Item Text="Collapse"  TextAlign="Left" LeftLogo="Spacer.gif">
+    </Item>
+  </Group>
+</Menu>

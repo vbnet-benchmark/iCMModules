@@ -1,0 +1,6 @@
+<%@ Register TagPrefix="radM" Namespace="Telerik.WebControls" Assembly="RadMenu" %>
+	<radM:radmenu
+		runat="server"
+		CssFile="~/app_themes/Windows/RadMenu/styles/menu.css"
+		ImagesBaseDir="~/app_themes/Windows/RadMenu/Img/" >
+	</radM:radmenu>

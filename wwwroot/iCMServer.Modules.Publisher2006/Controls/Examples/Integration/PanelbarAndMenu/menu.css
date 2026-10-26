@@ -1,0 +1,70 @@
+.MenuGroup
+{
+	cursor: pointer;
+	cursor: hand;
+	border:1px solid #b1bee1;
+	background-color:#d6dff7;
+	padding:1px;
+}
+.MainGroup
+{
+	cursor: pointer;
+	cursor: hand;
+}
+.MenuItem TD {
+	font-family: Arial, Verdana;
+	font-size:12px;
+	cursor: pointer;
+	cursor: hand;
+	margin:1px;
+	padding:2px 0px 1px 0px;
+	text-align: left;
+	width: 100%;
+}
+.MenuItemOver {
+	font-family: Arial, Verdana;
+	font-size:12px;
+	cursor: pointer;
+	cursor: hand;
+	background-color: white;
+	color: #163263;
+	border:1px solid #002D96;
+	padding:2px 0px 1px 0px;
+	text-align: left;
+}
+.MenuItemOver TD
+{
+	width: 100%;
+}
+
+.MenuItemToolTip
+{
+	background-color: #fffacd;
+	border-style:solid;
+	border-width:1px;
+	border-color: black; 
+	font-family: Arial;	
+	padding: 3px;
+	font-size:8pt;
+	text-align: left;
+}
+
+.MenuItemClicked 
+{
+	cursor: pointer;
+	cursor: hand;
+	padding: 1px;
+	text-align: left;
+}
+
+.Separator
+{
+	text-align:right;
+	position:relative;
+	left:1px;
+}
+
+.Spacer
+{
+	background-color: Transparent; 
+}

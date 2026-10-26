@@ -1,0 +1,32 @@
+<root>
+	<tools>
+		<tool name="FindAndReplace" title="Find And Replace"  />
+		<tool name="Print" title="Print"  />
+		<tool name="SpellCheck" title="Spellchecker"  separator="true" />
+		<tool name="Cut" title="Cut"  />
+		<tool name="Copy" title="Copy"  />
+		<tool name="Paste" title="Paste"  />
+		<tool name="PasteFromWord" title="Paste from Word"  />
+		<tool name="PastePlainText" title="Paste Plain Text"  separator="true" />
+		<tool name="Undo" title="Undo"  />
+		<tool name="Redo" title="Redo"  separator="true" />
+	</tools>
+	<tools>
+		<tool name="Bold" title="Bold"  />
+		<tool name="Italic" title="Italic"  />
+		<tool name="Underline" title="Underline"  separator="true" />
+		<tool name="JustifyLeft" title="Align Left"  />
+		<tool name="JustifyCenter" title="Center"  />
+		<tool name="JustifyRight" title="Align Right"  />
+		<tool name="JustifyFull" title="Justify"  separator="true" />
+		<tool name="InsertOrderedList" title="Numbered List"  />
+		<tool name="InsertUnorderedList" title="Bullet List"  />
+	</tools>
+	<tools>
+		<tool name="FontName"></tool>
+		<tool name="FontSize" title="Font Size"  />
+		<tool name="ForeColor" title="Foreground Color"  />
+		<tool name="BackColor" title="Background Color" />
+		<tool name="ApplyClass"></tool>
+	</tools>
+</root>

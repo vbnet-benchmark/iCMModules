@@ -1,0 +1,248 @@
+<VisualStudioProject>
+    <VisualBasic
+        ProjectType = "Web"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{477156CC-CBD8-4CA8-9E87-D8A9316CA66D}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "iConsulting.iCMServer.Modules.Template004"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Flow"
+                DefaultTargetSchema = "IE32Nav30"
+                DelaySign = "false"
+                OutputType = "Library"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "Off"
+                RootNamespace = "iConsulting.iCMServer.Modules.Template004"
+                StartupObject = "iConsulting.iCMServer.Modules.Template004.(None)"
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.dll"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Web.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.Web.Services"
+                    AssemblyName = "System.Web.Services"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Web.Services.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.XML.dll"
+                />
+                <Reference
+                    Name = "iConsulting.iCMServer"
+                    AssemblyName = "iConsulting.iCMServer"
+                    HintPath = "..\..\wwwroot\bin\iConsulting.iCMServer.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "Interop.Scripting"
+                    AssemblyName = "Interop.Scripting"
+                    HintPath = "..\..\wwwroot\bin\Interop.Scripting.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "iConsulting.Library"
+                    AssemblyName = "iConsulting.Library"
+                    HintPath = "..\..\wwwroot\bin\iConsulting.Library.dll"
+                    Private = "False"
+                />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "System" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "clsTemplate004.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "modConstants.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Template004.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Template004.ascx.vb"
+                    DependentUpon = "Template004.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Template004.ascx.resx"
+                    DependentUpon = "Template004.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Template004.sql"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Template004Edit.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Template004Edit.aspx.vb"
+                    DependentUpon = "Template004Edit.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Template004Edit.aspx.resx"
+                    DependentUpon = "Template004Edit.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Images\copyr.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\dummy.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\flash.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\foto.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\link.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\linkbubbla.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\loggaunder.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\movie.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\moviebubbla.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\navigeringspil.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\page.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\pdf.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\pdfbubbla.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\pic.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\plugin.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\pluginbubbla.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\sound.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\soundbubbla.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\svrtgronlog.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\word.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\wordbubbla.gif"
+                    BuildAction = "Content"
+                />
+            </Include>
+        </Files>
+    </VisualBasic>
+</VisualStudioProject>
+

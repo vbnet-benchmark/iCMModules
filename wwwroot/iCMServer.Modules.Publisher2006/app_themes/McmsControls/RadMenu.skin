@@ -1,0 +1,10 @@
+<%@ Register TagPrefix="radM" Namespace="Telerik.WebControls" Assembly="RadMenu" %>
+	<radM:radmenu
+		runat="server"
+		CssFile="~/app_themes/McmsControls/RadMenu/styles/menu.css"
+		DefaultGroupCss="MCMS_MenuGroup"
+		DefaultItemCss="MCMS_MenuItem"
+		DefaultItemOverCss="MCMS_MenuItemOver"
+		ImagesBaseDir="~/app_themes/McmsControls/RadMenu/Img/" 
+		>
+	</radM:radmenu>

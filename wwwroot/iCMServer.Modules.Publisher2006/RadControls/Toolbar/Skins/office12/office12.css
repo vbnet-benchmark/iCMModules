@@ -1,0 +1,314 @@
+/* Microsoft Office 12 Toolbar Skin Stylesheet */
+
+/* normal button */
+.office12_radbutton_normal 
+{
+	background-image: url(Img/btnNormalBg.gif);
+	background-color: transparent;
+	background-repeat: no-repeat;
+	cursor: default;
+	height: 24px;
+	width: 24px;
+}
+
+.office12_radbutton_hover
+{
+	background-image: url(Img/btnHoverBg.gif);
+	background-repeat: no-repeat;
+	background-color: transparent;	
+	cursor: default;
+	height: 24px;
+	width: 24px;
+}
+
+.office12_radbutton_disabled
+{
+	background-image: url(Img/btnNormalBg.gif);
+	background-color: transparent;
+	background-repeat: no-repeat;
+	border: none;
+	cursor: default;
+	filter: progid:DXImageTransform.Microsoft.Alpha(style=1,opacity=40,finishOpacity=100,startX=100,finishX=100,startY=100,finishY=100);/* IE */
+	-moz-opacity: .40;/* Mozilla */
+	cursor: no-drop;
+}
+.office12_radbutton_mousedown
+{
+	background-image: url(Img/btnMouseDown.gif);
+	background-repeat: no-repeat;
+	background-color: orange;
+	cursor: default;
+}
+/* end normal button */
+
+/* toggle button */
+.office12_radtbutton_normal 
+{
+	background-image: url(Img/btnNormalBg.gif);
+	background-color: transparent;
+	background-repeat: no-repeat;
+	cursor: default;
+	height: 24px;
+	width: 24px;
+}
+
+.office12_radtbutton_hover
+{
+	background-image: url(Img/btnHoverBg.gif);
+	background-repeat: no-repeat;
+	background-color: #ffd091;	
+	cursor: default;
+	height: 24px;
+	width: 24px;
+}
+
+.office12_radtbutton_toggled, .office12_radtbutton_hover_toggled
+{
+	background-image: url(Img/btnToggled.gif);
+	background-repeat: no-repeat;
+	background-color: transparent;
+	cursor: default;
+}
+
+.office12_radtbutton_disabled
+{
+	background-color: transparent;
+	border: none;
+	cursor: default;
+}
+
+.office12_radtbutton_mousedown
+{
+	background-image: url(Img/btnMouseDown.gif);
+	background-repeat: no-repeat;
+	background-color: orange;
+	cursor: default;
+}
+/* end toggle button */
+
+/* horizontal toobar */
+.office12_radtoolbar_horizontal
+{
+	background-image: url(Img/toolbarBgH.gif);
+	background-color: #fff;
+	background-repeat: repeat-x;
+	font-size: 10pt;
+	font-family: Verdana;
+	border-collapse: collapse;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+/* end horizontal toobar */
+
+/* vertical toobar */
+.office12_radtoolbar_vertical
+{
+	background-image: url(Img/toolbarBgV.gif);
+	background-color: #fff;
+	background-repeat: repeat-y;
+	font-size: 10pt;
+	font-family: Verdana;
+	border-collapse: collapse;
+	padding-left: 1px;
+	padding-right: 1px;
+}	
+/* end vertical toobar */
+
+/* horizonatal toolbar grips */
+/* left */
+.office12_radtoolbar_left
+{
+	background-image: url(Img/toolbarLeft.gif);
+	background-repeat: no-repeat;
+	background-color: transparent;
+	width: 2px;
+}
+/* right */
+.office12_radtoolbar_right
+{
+	background-image: url(Img/toolbarRight.gif);
+	background-repeat: no-repeat;
+	background-color: transparent;
+	width: 6px;
+}
+/* end horizonatal toolbar grips */
+
+/* vertical toolbar grips */
+/* top */
+.office12_radtoolbar_top
+{
+	background-image: url(Img/toolbarLeftV.gif);
+	background-repeat: no-repeat;
+	background-color: transparent;
+	height: 4px;
+}
+/* bottom */
+.office12_radtoolbar_bot
+{
+	background-image: url(Img/toolbarRightV.gif);
+	background-repeat: no-repeat;
+	background-color: transparent;
+	height: 6px;
+}
+/* end vertical toolbar grips */
+/* separators */
+/* horizontal */
+.office12_radseparator_h
+{
+	background-image: url(Img/separator_h.gif);
+	background-color: transparent;
+	background-repeat: repeat-y;
+	width: 2px;
+	height: 21px;
+	margin-left:2px;
+	margin-right:1px;
+	margin-top: 1px;
+	margin-bottom: 2px;
+}
+/* vertical */
+.office12_radseparator_v
+{
+	background-image: url(Img/separator_v.gif);
+	background-repeat: repeat-x;
+	height: 2px;
+	font-size: 2px;
+	width: 22px;
+	margin-left: 1px;
+	margin-right: 1px;
+}
+/* end separators */
+
+/* margins fix */
+.office12_radbutton_normal IMG, .office12_radbutton_hover IMG, .office12_radbutton_normal SPAN, .office12_radbutton_hover SPAN
+{
+	margin-top: 1px;
+}
+
+.office12_radtbutton_mousedown IMG, .office12_radtbutton_mousedown SPAN, .office12_radtbutton_toggled IMG, .office12_radtbutton_hover_toggled IMG
+{
+	margin-top: 2px;
+	margin-left: 3px;
+}
+
+.office12_radtbutton_normal IMG, .office12_radtbutton_hover IMG, .office12_radtbutton_normal SPAN, .office12_radtbutton_hover SPAN
+{
+	margin-top: 1px;
+}
+.office12_radbutton_mousedown IMG, .office12_radbutton_mousedown SPAN
+{
+	margin-top: 2px;
+	margin-left: 3px;
+}
+.office12_radbutton_disabled IMG
+{
+	margin-top: 1px;
+}
+
+/* buttons with text begin */
+/* normal button */
+.office12_radbutton_text_normal
+{
+	color: #808080;
+	font: bold 10px Arial, Verdana, Helvetica;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+/* hover */
+.office12_radbutton_text_hover
+{
+	color: #808080;
+	cursor: default;
+	font-family: Arial, Verdana, Helvetica;
+	font-size: 10px;
+	font-weight: bold;
+	background-image: url(Img/btnTxtHoverBg.gif);
+	background-repeat: repeat-x;
+	border-left: solid 1px #b0b3b8;
+	border-right: solid 1px #b0b3b8;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+/* mousedown */
+.office12_radbutton_text_mousedown
+{
+	color: #808080;
+	cursor: default;
+	font-family: Arial, Verdana, Helvetica;
+	font-size: 10px;
+	font-weight: bold;
+	background-image: url(Img/btnTxtMouseDownBg.gif);
+	background-repeat: repeat-x;
+	border-left: solid 1px #b0b3b8;
+	border-right: solid 1px #b0b3b8;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+/* toggle button */
+/* normal */
+.office12_radtbutton_text_normal
+{
+	color: #808080;
+	font-family: Arial, Verdana, Sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+/* hover */
+.office12_radtbutton_text_hover
+{
+	color: #808080;
+	cursor: default;
+	font-family: Arial, Verdana, Sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	background-image: url(Img/btnTxtHoverBg.gif);
+	background-repeat: repeat-x;
+	border-left: solid 1px #b0b3b8;
+	border-right: solid 1px #b0b3b8;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+/* toggled & hover toggled */
+.office12_radtbutton_text_toggled, .office12_radtbutton_text_hover_toggled
+{
+	color: #808080;
+	cursor: default;
+	font-family: Arial, Verdana, Sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	background-image: url(Img/btnTxtToggledBg.gif);
+	background-repeat: repeat-x;
+	border-left: solid 1px #b0b3b8;
+	border-right: solid 1px #b0b3b8;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+.office12_radtbutton_text_mousedown
+{
+	color: #808080;
+	cursor: default;
+	font-family: Arial, Verdana, Sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	background-image: url(Img/btnTxtMouseDownBg.gif);
+	background-repeat: repeat-x;
+	border-left: solid 1px #6c6c6c;
+	border-right: solid 1px #6c6c6c;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+/*  button text */
+.office12_radbutton_text_normal SPAN, .office12_radbutton_text_hover SPAN, .office12_radbutton_text_mousedown SPAN, .office12_radtbutton_text_normal SPAN, .office12_radtbutton_text_hover SPAN, .office12_radtbutton_text_toggled SPAN, .office12_radtbutton_text_hover_toggled SPAN, .office12_radtbutton_text_mousedown SPAN
+{
+	display: inline-block;
+	margin-top: 4px;
+	float: left;
+}
+/**/
+.office12_radtbutton_text_normal IMG, .office12_radtbutton_text_hover IMG, .office12_radtbutton_text_toggled IMG, .office12_radtbutton_text_toggled IMG, .office12_radtbutton_text_hover_toggled IMG, .office12_radtbutton_text_mousedown IMG, .office12_radbutton_text_normal IMG, .office12_radbutton_text_hover IMG, .office12_radbutton_text_mousedown IMG
+{
+	float: left;
+	margin-top: 4px;
+}
+/* buttons with text end */

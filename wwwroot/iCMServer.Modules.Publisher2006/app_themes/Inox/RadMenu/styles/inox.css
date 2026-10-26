@@ -1,0 +1,188 @@
+.MenuGroup
+{
+	cursor: pointer;
+	cursor: hand;
+	border-right:2px solid #C2C2C2;
+	border-bottom:2px solid #C2C2C2;
+}
+.MainGroup
+{
+	cursor: pointer;
+	cursor: hand;
+}
+.MainItemOrange 
+{
+	height:50px;
+	cursor: pointer;
+	cursor: hand;
+	font-size: 11px;
+	font-family: Arial, Verdana;
+	color: #000000;
+	width: 120px;
+	text-align: center; 
+	background-image: url(../Img/orange.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	vertical-align:top;
+}
+.MainItemOrangeOver
+{
+	height:50px;
+	cursor: pointer;
+	cursor: hand;
+	font-size: 11px;
+	font-weight: bold;
+	font-family: Arial, Verdana;
+	color: #000000;
+	width: 120px;
+	text-align: center; 
+	background-image: url(../Img/orange.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	vertical-align:top;
+}
+.MainItemBlue 
+{
+	height:50px;
+	cursor: pointer;
+	cursor: hand;
+	font-size: 11px;
+	font-family: Arial, Verdana;
+	color: #000000;
+	width: 120px;
+	text-align: center; 
+	background-image: url(../Img/blue.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	vertical-align:top;
+}
+.MainItemBlueOver
+{
+	height:50px;
+	cursor: pointer;
+	cursor: hand;
+	font-size: 11px;
+	font-weight: bold;
+	font-family: Arial, Verdana;
+	color: #000000;
+	width: 120px;
+	text-align: center; 
+	background-image: url(../Img/blue.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	vertical-align:top;
+}
+.MainItemGreen 
+{
+	height:50px;
+	cursor: pointer;
+	cursor: hand;
+	font-size: 11px;
+	font-family: Arial, Verdana;
+	color: #000000;
+	width: 120px;
+	text-align: center; 
+	background-image: url(../Img/green.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	vertical-align:top;
+}
+.MainItemGreenOver
+{
+	height:50px;
+	cursor: pointer;
+	cursor: hand;
+	font-size: 11px;
+	font-weight: bold;
+	font-family: Arial, Verdana;
+	color: #000000;
+	width: 120px;
+	text-align: center; 
+	background-image: url(../Img/green.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	vertical-align:top;
+}
+.MainItemYellow 
+{
+	height:50px;
+	cursor: pointer;
+	cursor: hand;
+	font-size: 11px;
+	font-family: Arial, Verdana;
+	color: #000000;
+	width: 120px;
+	text-align: center; 
+	background-image: url(../Img/yellow.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	vertical-align:top;
+}
+.MainItemYellowOver
+{
+	height:50px;
+	cursor: pointer;
+	cursor: hand;
+	font-size: 11px;
+	font-weight: bold;
+	font-family: Arial, Verdana;
+	color: #000000;
+	width: 120px;
+	text-align: center; 
+	background-image: url(../Img/yellow.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	vertical-align:top;
+}
+.MenuItem
+{
+	font-family: Arial, Verdana;
+	width:160px;
+	font-size:11px;
+	cursor: pointer;
+	cursor: hand;
+	height: 30px;
+	padding: 6px 0px 6px 7px;
+	background-image: url(../Img/menuItemBg.gif);
+	background-repeat: repeat-x;
+	background-position: center;
+	border-bottom: 1px solid #BDBDBD;
+	border-top: 1px solid white;
+	border-left: 1px solid #D5D5D5;
+	border-right: 1px solid #BABABA;
+	text-align: left;
+}
+.MenuItemOver
+{
+	font-family: Arial, Verdana;
+	font-size:11px;
+	cursor: pointer;
+	cursor: hand;
+	height: 30px;
+	padding: 6px 0px 6px 7px;
+	background-image: url(../Img/menuItemBgOver.gif);
+	background-repeat: repeat-x;
+	background-position: center;
+	border-bottom: 1px solid #BDBDBD;
+	border-top: 1px solid white;
+	border-left: 1px solid #FE9D56;
+	border-right: 1px solid #BABABA;
+	text-align: left;
+}
+.MenuItemToolTip
+{
+	background-color: #fffacd;
+	border-style:solid;
+	border-width:1px;
+	border-color: black; 
+	font-family: Arial;	
+	padding: 3px;
+	font-size:8pt;
+	text-align: left;
+}
+
+.Separator 
+{
+	cursor: pointer;
+	cursor: hand;
+}

@@ -1,0 +1,78 @@
+.MenuGroup
+{
+	cursor: pointer;
+	cursor: hand;
+	border-top: 1px solid #D2DBE0;
+	border-right: 1px solid #D2DBE0;
+	background-image: url(../Img/ItemBg.gif);
+	background-repeat: repeat-x;
+	background-color: #E7F7FF;
+}
+
+.MainItem 
+{
+	cursor: pointer;
+	cursor: hand;
+	font-size: 11px;
+	font-family: Arial, Verdana;
+	color: #1B5E86;
+	width: 205px;
+	font-weight: bold;
+	padding-left: 20px;
+	height: 31px;
+	background-image: url(../Img/MainItemSeparator.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+.MainItemOver
+{
+	cursor: pointer;
+	cursor: hand;
+	font-size: 11px;
+	font-family: Arial, Verdana;
+	color: #1B5E86;
+	width: 205px;
+	font-weight: bold;
+	padding-left: 20px;
+	height: 31px;
+	background-image: url(../Img/MainItemOver.gif);
+}
+.MenuItem
+{
+	background-image:url(../Img/ItemSeparator.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	font-family: Arial, Verdana;
+	font-size :11px;
+	border-right: 1px solid white;
+	color: #596770;
+	cursor: pointer;
+	cursor: hand;
+	font-size: 11px;
+	padding-left: 6px;
+	height: 31px;
+	width: 160px;
+}
+.MenuItemOver
+{
+	background-image:url(../Img/MainItemOver.gif);
+	background-repeat: repeat-x;
+	font-family: Arial, Verdana;
+	font-size :11px;
+	border-right: 1px solid white;
+	color: #596770;
+	cursor: pointer;
+	cursor: hand;
+	font-size: 11px;
+	padding-left: 6px;
+	height: 31px;
+	width: 160px;
+}
+
+.Separator
+{
+	margin: 0px;
+	border-right: 2px solid #C5C5C5;
+	height: 2px;
+}
+

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<localization>
+  <string id="Tab1HeaderText">Wählen Sie ein Template</string>
+  <string id="Tab2HeaderText">Aktualisieren Sie das Template</string>
+  <string id="TemplateURL">URL:</string>
+  <string id="AlertFile">Bitte Template Datei zum hochladen angeben</string>
+  <string id="AlertExists">Eine gleichnamige Datei existiert bereits in diesem Verzeichnis!</string>
+  <string id="MessageValid">Bitte geben Sie eine gültige Templatedatei an!</string>
+  <string id="MessageSize">Die angegebene Templatedatei überschreitet die erlaubte Max.größe!</string>
+  <string id="MessageNothingPost">Bitte geben Sie eine Templatedatei an!</string>
+</localization>

@@ -1,0 +1,33 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title></title>
+	<link rel="stylesheet" type="text/css" href="VSNetOutput/Styles.css">
+	<script text="javascript" src="IdeOutput/Output.js"></script>
+	<style>
+	body 
+	{
+		background-color: #808080;
+		overflow: hidden;
+		padding: 0px 0px 0px 0px;
+		margin: 0px 0px 0px 0px;
+	}
+	</style>		
+</head>
+<body>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+	<tr>
+		<td class="tdBorder">&nbsp;</td>
+		<td width="100%">
+			<select class="outputCombo" id="outputCombo" onchange= "location = '' + this.options[this.selectedIndex ].value;">
+			<option value="javascript:alert('Please, select an action from dropdown list!')" selected>[select action]</option>
+			<option value="javascript:simulateBuild()">simulate successful compilation</option>
+			<option value="javascript:simulateError()">simulate compilation error</option>
+			</select>
+			<div id="output"></div>
+		</td>
+		<td class="tdBorder">&nbsp;</td>
+	</tr>
+</table>
+</body>
+</html>

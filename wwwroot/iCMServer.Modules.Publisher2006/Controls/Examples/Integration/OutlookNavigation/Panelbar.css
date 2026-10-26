@@ -1,0 +1,67 @@
+.panelbarHeaderCollapsed
+{ 		
+	FONT-SIZE: 11px; 
+	COLOR: #10110F;
+	FONT-FAMILY: Arial,Verdana;
+	font-weight: bold;
+	cursor: hand;
+	cursor: pointer;
+	background-image: url(Img/CollapsedBg.gif);
+	height: 32px;
+	padding-left: 7px;
+}
+
+.panelbarHeaderHover 
+{ 		
+	FONT-SIZE: 11px; 
+	COLOR: #10110F;
+	FONT-FAMILY: Arial,Verdana;
+	font-weight: bold;
+	cursor: hand;
+	cursor: pointer;
+	background-image: url(Img/HoverBg.gif);
+	height: 32px;
+	padding-left: 7px;
+}
+
+.panelbarHeaderExpand
+{
+	FONT-SIZE: 11px; 
+	COLOR: #10110F;
+	FONT-FAMILY: Arial,Verdana;
+	font-weight: bold;
+	cursor: hand;
+	cursor: pointer;
+	background-image: url(Img/ExpandBg.gif);
+	height: 32px;
+	padding-left: 7px;
+}
+
+.panelbarItem 
+{
+	FONT-SIZE: 11px; 
+	COLOR: #333333;
+	FONT-FAMILY: Arial,Verdana;
+	width: 100%;
+	background-image: url(Img/itemsBg.gif);
+	background-repeat: repeat-y;
+	background-color: #F6F9EB;
+	text-decoration: none;
+	padding-left: 7px;
+	height: 26px;
+}	
+.panelbarItemHover
+{
+	FONT-SIZE: 11px; 
+	COLOR: #000;
+	FONT-FAMILY: Arial,Verdana;
+	width: 100%;
+	background-image: url(Img/itemsBg.gif);
+	text-decoration: none;
+	padding-left: 7px;
+	height: 26px;
+}
+.panelbar 
+{
+	border: 1px solid #608058;
+}

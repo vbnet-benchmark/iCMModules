@@ -1,0 +1,92 @@
+.MenuGroup
+{
+	cursor: pointer;
+	cursor: hand;
+	background-image:url(../Img/menuItemBg.gif);
+}
+.MainGroup
+{	
+	cursor: pointer;
+	cursor: hand;
+}
+.MainItemFirst
+{
+	width:84px;
+	height:25px;
+	cursor: pointer;
+	cursor: hand;
+	font: 11px Arial, Verdana;
+	background-image:url(../Img/mainItemFirst.gif);
+	padding: 0px 0px 0px 6px;
+}
+.MainItem 
+{
+	width:84px;
+	height:25px;
+	cursor: pointer;
+	cursor: hand;
+	font: 11px Arial, Verdana;
+	background-image:url(../Img/mainItem.gif);
+	padding: 0px 0px 0px 6px;
+}
+.MainItemOver
+{
+	width:84px;
+	height:25px;
+	cursor: pointer;
+	cursor: hand;
+	font: 11px Arial, Verdana;
+	background-image:url(../Img/mainItemOver.gif);
+	padding: 0px 0px 0px 6px;
+}
+.MenuItem
+{
+	font-family: Arial, Verdana;
+	font-size: 11px;
+	cursor: pointer;
+	cursor: hand;
+	padding-bottom:4px;
+	color: #333333;
+	width: 80px;
+}
+.MenuItemOver, .MenuItemClicked
+{
+	font-family: Arial, Verdana;
+	font-size: 11px;
+	font-size: 11px;
+	cursor: pointer;
+	cursor: hand;
+	padding-bottom:7px;
+	color: #000000;
+	width: 80px;
+}
+.MenuItemToolTip
+{
+	background-color: #fffacd;
+	border-style:solid;
+	border-width:1px;
+	border-color: black; 
+	font-family: Arial;	
+	padding: 3px;
+	font-size:8pt;
+	text-align: left;
+}
+
+.MenuItemClicked
+{
+	cursor: pointer;
+	cursor: hand;
+	padding: 1px;
+}
+.Separator
+{
+	text-align:center;
+}
+.SeparatorOver
+{
+	text-align:center;
+}
+.Spacer
+{
+	background-color: Transparent; 
+}

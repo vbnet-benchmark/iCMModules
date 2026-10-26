@@ -1,0 +1,42 @@
+body
+{
+}
+.weekCalender TABLE
+{
+}
+
+.weekCalender TABLE TD
+{
+	cursor:hand;
+	overflow:hidden;
+	background:white;
+	/*background:#eeeecc;*/
+	border-left:#ffffff; 
+	border-right:#cccc99;
+	border-bottom:#cccc99;
+	border-width:1pt;
+	border-style:solid;
+	font-weight:bold;
+	font-size: xx-small;
+
+}
+	
+
+.rub1
+{
+	font-weight: bold;
+	font-size: x-small;
+	color: white;
+	font-family: Verdana;
+	background-color: #d55202;
+}
+
+.information
+{
+	font-weight: bold;
+	font-size: x-small;
+	color: black;
+	font-family: Verdana;
+	background-color: white;
+
+}

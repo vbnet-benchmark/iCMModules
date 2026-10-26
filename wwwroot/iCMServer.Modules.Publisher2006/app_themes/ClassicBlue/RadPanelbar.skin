@@ -1,0 +1,13 @@
+<%@ Register TagPrefix="radP" Namespace="Telerik.WebControls" Assembly="RadPanelbar" %>
+
+<radP:RadPanelbar Runat="server"
+	CssFile="~/App_Themes/ClassicBlue/RadPanelbar/Styles/ClassicBlue.css"
+	HeaderExpandedCssClass="panelbarHeaderExpand"
+	HeaderCollapsedCssClass="panelbarHeader"
+	HeaderHoverCollapsedCssClass="panelbarHeaderHover"
+	HeaderHoverExpandedCssClass="panelbarHeaderHover"
+	ItemCollapsedCssClass="panelbarItem"
+	ItemHoverCollapsedCssClass="panelbarItemSelected"
+	ItemHoverExpandedCssClass="panelbarItemSelected"
+	ItemSelectedCssClass="panelbarItemSelected"
+	/>

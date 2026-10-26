@@ -1,0 +1,12 @@
+<Menu>
+  <Group Flow="Vertical">
+    <Item Text="Delete" TextAlign="Left" LeftLogo="Spacer.gif">
+    </Item>
+    <Item Text="Rename" TextAlign="Left" LeftLogo="Spacer.gif">
+    </Item>
+    <Item Text="Disable" TextAlign="Left" LeftLogo="Spacer.gif">
+    </Item>
+    <Item Text="Enable All" TextAlign="Left" LeftLogo="Spacer.gif">
+    </Item>
+  </Group>
+</Menu>

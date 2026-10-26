@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<Tree>
+	<Node Image="SSFolder.gif" Text="$/" Expanded="True">
+		<Node Image="SSFolder.gif" Text="r.a.d.chart" />
+		<Node Image="SSFolder.gif" Text="r.a.d.menu" />
+		<Node Image="SSFolder.gif" Text="r.a.d.treeview" />
+	</Node>
+</Tree>

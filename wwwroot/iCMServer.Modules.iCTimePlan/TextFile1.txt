@@ -1,0 +1,8 @@
+
+-For insert in iCTimePlam
+
+<%If IsAuthorized Then%>
+	<IMG onclick="OPENNEW<%=ModuleId%>('<%=ViewState.Item("iCMServer.Modules.Calendar.SelectedDay" & ModuleId)%>');" id="imgA" alt="" src="Desktop/Modules/Calendar/Images/newappointment.gif"
+		style="CURSOR: hand">
+<%End If%>
+			

@@ -1,0 +1,71 @@
+.RadTabStrip_telerik
+{
+	font:8pt tahoma, sans-serif;
+}
+
+
+.RadTabStrip_telerik li a
+{
+	padding-left:7px;
+	background:transparent url('img/tabLeftFirstOff.gif') 0px 0px no-repeat;
+	height:29px;
+	margin-right:-10px; 
+	color:#333;
+	text-decoration:none;
+}
+
+
+.RadTabStrip_telerik li a .wrap
+{
+
+	padding-right:16px;
+	background:transparent url('img/tabRightLastOff.gif') right 0px no-repeat;
+
+}
+
+.RadTabStrip_telerik li a:hover
+{
+	color:#6699ff;
+}
+
+.RadTabStrip_telerik li a .innerWrap
+{
+	line-height:29px;
+	padding:0 5px;
+	background:transparent url('img/tabStripeOff.gif') 0px 0px repeat-x;
+	text-align:center;
+}
+
+.RadTabStrip_telerik li a.selected
+{
+	padding-top:0px;
+	background:transparent url('img/tabLeftFirstOn.gif') 0px 0px no-repeat;
+}
+
+.RadTabStrip_telerik li a.selected .wrap
+{
+	background-image:url('img/tabRightLastOn.gif');
+}
+
+
+.RadTabStrip_telerik li a.selected .innerWrap
+{
+	background-image:url('img/tabStripeOn.gif');
+}
+
+.RadTabStrip_telerik li a.disabled,
+.RadTabStrip_telerik li a.disabled .wrap,
+.RadTabStrip_telerik li a.disabled .innerWrap
+{
+	cursor:default;
+	text-decoration:line-through;
+	color:Gray;
+}
+
+.RadTabStrip_telerik li a.red,
+.RadTabStrip_telerik li a.red .wrap,
+.RadTabStrip_telerik li a.red .innerWrap
+{
+	color:Red;
+}
+

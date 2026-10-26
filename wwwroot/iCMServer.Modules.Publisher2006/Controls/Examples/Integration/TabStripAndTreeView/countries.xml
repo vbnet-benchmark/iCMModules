@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Tree>
+	<Node Text="North America">
+		<Node Text="U.S.A.">
+			<Node Text="New York" />
+			<Node Text="Los Angeles" />
+			<Node Text="Boston" />
+			<Node Text="Chicago" />
+		</Node>
+		<Node Text="Canada">
+			<Node Text="Toronto" />
+			<Node Text="Vancouver" />
+			<Node Text="Calgary" />
+			<Node Text="Ottawa" />
+		</Node>
+		<Node Text="Mexico">
+			<Node Text="Campeche" />
+			<Node Text="Guadalajara" />
+			<Node Text="Mexico City" />
+			<Node Text="Puebla" />
+		</Node>
+	</Node>
+	<Node Text="Europe">
+		<Node Text="England">
+			<Node Text="London" />
+			<Node Text="Liverpool" />
+			<Node Text="Leeds" />
+			<Node Text="Manchester" />
+		</Node>
+		<Node Text="France">
+			<Node Text="Paris" />
+			<Node Text="Cannes" />
+			<Node Text="Grenoble" />
+			<Node Text="Toulouse" />
+		</Node>
+		<Node Text="Germany">
+			<Node Text="Berlin" />
+			<Node Text="Bonn" />
+			<Node Text="Bremen" />
+			<Node Text="Munich" />
+		</Node>
+	</Node>	
+	<Node Text="South America">
+		<Node Text="Brasil">
+			<Node Text="Rio de Janeiro " />
+			<Node Text="Sao Paulo" />
+			<Node Text="Campinas" />
+			<Node Text="Brasilia" />
+		</Node>
+		<Node Text="Argentina">
+			<Node Text="Buenos Aires " />
+			<Node Text="Cordoba" />			
+		</Node>
+		<Node Text="Chile">
+			<Node Text="Arica" />
+			<Node Text="Copiapo" />
+			<Node Text="Puerto Montt" />
+		</Node>
+	</Node>
+	<Node Text="Africa">
+		<Node Text="South Africa">
+			<Node Text="Cape Town" />
+			<Node Text="Johannesburg" />
+			<Node Text="Pretoria " />
+		</Node>
+		<Node Text="Zambia">
+			<Node Text="Lusaka" />			
+		</Node>
+		<Node Text="Zimbabwe">
+			<Node Text="Harare" />			
+		</Node>
+	</Node>	
+</Tree>

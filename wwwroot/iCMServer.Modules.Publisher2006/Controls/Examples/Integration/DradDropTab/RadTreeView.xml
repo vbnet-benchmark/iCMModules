@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<Tree>
+    <Node Text="Desktop" Image="desktop.gif" Expanded="True">
+        <Node Image="myDocuments.gif" Text="My Documents" Expanded="True">
+            <Node Image="folder.gif" Text="r.a.d.tabstrip" />
+            <Node Image="folder.gif" Text="r.a.d.editor" />
+            <Node Image="folder.gif" Text="r.a.d.panelbar" />
+            <Node Image="myDataSources.gif" Text="My Data Sources" />
+            <Node Image="19myMusic.gif" Text="My Music" />
+            <Node Image="18myPics.gif" Text="My Pictures" >
+                <Node Image="folder.gif" Text="10.11.2004" />
+                <Node Image="folder.gif" Text="14.10.2004" />
+                <Node Image="folder.gif" Text="16.09.2004" />
+            </Node>
+            <Node Image="17myWebs.gif" Text="My Webs" />
+        </Node>
+        <Node Image="2PCRemote.gif" Text="My Computer" Expanded="True">
+            <Node Image="15hardDisk.gif" Text="Local Disk (C:)" Expanded="True">
+                <Node Image="folder.gif" Text="archive" />
+                <Node Image="folder.gif" Text="Documents and Settings">
+                    <Node Image="folder.gif" Text="Administrators Documents">
+                        <Node Image="folder.gif" Text="My Documents" />
+                        <Node Image="folder.gif" Text="Application Data" />
+                        <Node Image="folder.gif" Text="Cookies" />
+                        <Node Image="folder.gif" Text="Desktop" />
+                        <Node Image="folder.gif" Text="Local Settings" />
+                        <Node Image="folder.gif" Text="NetHood" />
+                        <Node Image="folder.gif" Text="PrintHood" />
+                    </Node>
+                    <Node Image="folder.gif" Text="All Users">
+                        <Node Image="folder.gif" Text="My Documents" />
+                        <Node Image="folder.gif" Text="Application Data" />
+                        <Node Image="folder.gif" Text="Cookies" />
+                        <Node Image="folder.gif" Text="Desktop" />
+                        <Node Image="folder.gif" Text="Local Settings" />
+                        <Node Image="folder.gif" Text="NetHood" />
+                        <Node Image="folder.gif" Text="PrintHood" />
+                    </Node>
+                    <Node Image="folder.gif" Text="Default User">
+                        <Node Image="folder.gif" Text="My Documents" />
+                        <Node Image="folder.gif" Text="Application Data" />
+                        <Node Image="folder.gif" Text="Cookies" />
+                        <Node Image="folder.gif" Text="Desktop" />
+                        <Node Image="folder.gif" Text="Local Settings" />
+                        <Node Image="folder.gif" Text="NetHood" />
+                        <Node Image="folder.gif" Text="PrintHood" />
+                    </Node>
+                </Node>
+                <Node Image="folder.gif" Text="downloads" />
+                <Node Image="folder.gif" Text="Intepub" >
+                    <Node Image="folder.gif" Text="AdminScripts" />
+                    <Node Image="folder.gif" Text="iissamples" />
+                    <Node Image="folder.gif" Text="mailroot" />
+                    <Node Image="folder.gif" Text="Scripts" />
+                    <Node Image="17myWebs.gif" Text="wwwroot" >
+                        <Node Image="folder.gif" Text="_private" />
+                        <Node Image="folder.gif" Text="_vti_cnf" />
+                        <Node Image="folder.gif" Text="aspnet_client" />
+                        <Node Image="folder.gif" Text="images" />
+                        <Node Image="folder.gif" Text="r.a.d.editor5.5" />
+                        <Node Image="folder.gif" Text="r.a.d.tabstrip2.5" />
+                        <Node Image="folder.gif" Text="r.a.d.panelbar3.5" />
+                    </Node>
+                </Node>
+                <Node Image="folder.gif" Text="my Files" />
+                <Node Image="folder.gif" Text="Program Files">    
+                    <Node Image="folder.gif" Text="Adobe" />
+                    <Node Image="folder.gif" Text="Allaire" />
+                    <Node Image="folder.gif" Text="Common Files" />
+                    <Node Image="folder.gif" Text="DivX" />
+                    <Node Image="folder.gif" Text="ICQ" />
+                    <Node Image="folder.gif" Text="Internet Explorer" />
+                    <Node Image="folder.gif" Text="Macromedia" />
+                    <Node Image="folder.gif" Text="Microsoft Mobile Internet Toolkit" />
+                    <Node Image="folder.gif" Text="Microsoft Office" />
+                    <Node Image="folder.gif" Text="Microsoft SQL Server" />
+                    <Node Image="folder.gif" Text="Microsoft Visual Studio .NET" />
+                    <Node Image="folder.gif" Text="Microsoft.NET" />
+                </Node>
+                <Node Image="folder.gif" Text="settings" />
+                <Node Image="folder.gif" Text="setup" />
+                <Node Image="folder.gif" Text="TEMP" />
+                <Node Image="folder.gif" Text="TODOs" />
+                <Node Image="folder.gif" Text="WINDOWS" />
+            </Node>
+        </Node>
+    </Node>
+</Tree>

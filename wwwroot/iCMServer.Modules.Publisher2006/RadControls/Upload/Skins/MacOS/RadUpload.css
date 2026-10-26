@@ -1,0 +1,125 @@
+/* r.a.d.upload MacOS skin */
+.RadUploadTable
+{
+	background-image: url(Img/RadUploadTable.gif);
+	background-color: #fafafa;
+	border: solid 1px #828282;
+	border-collapse: collapse;
+	filter: progid:DXImageTransform.Microsoft.Shadow(direction=140,color=#404040,strength=3); 
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 350px;
+	font: normal 11px Arial, Verdana, Sans-serif;
+	color: #333333;
+}
+.RadUploadTable TD
+{
+	padding: 4px;
+}
+.RadUploadButtonArea
+{
+	background-color: Transparent;
+}
+
+.RadUploadButton, .radUploadButtonMedium
+{
+	background-image: url(Img/radUploadBtnMedium.gif);
+	background-repeat: no-repeat;
+	border: 0px;
+	height: 22px;
+	width: 114px;
+	background-color: transparent;
+	font: bold 11px Arial, Verdana, Sans-serif;
+	color: #000;
+}
+
+.RadUploadButtonDisabled
+{
+	background-image: url(Img/radUploadBtnMedium.gif);
+	background-repeat: no-repeat;
+	border: 0px;
+	height: 22px;
+	width: 114px;
+	background-color: #fff;
+	font: bold 11px Arial, Verdana, Sans-serif;
+	color: #000;
+	filter:alpha(opacity=30);
+	-moz-opacity:0.5;
+	opacity: 0.5;
+}
+
+.RadUploadFileSelector
+{
+	/* checkbox */
+}
+
+.RadUploadInputField
+{
+	width: 135px;
+	background-image: url(Img/RadUploadInputField.gif);
+	background-repeat: no-repeat;
+	_background-attachment: fixed;
+	_width: 145px;
+	border: 0px;
+	vertical-align: top;
+	height: 21px;
+	font-family: Arial, Verdana, Sans-Serif;
+	font-size: 11px;
+	color: #000;
+	font-weight: bold;
+	padding-top: 3px;
+	padding-left: 6px;
+}
+
+input.RealFileInput
+{
+	position: relative;
+	-moz-opacity: 0;
+	filter: alpha(opacity: 0);
+	opacity: 0;
+	z-index: 2;
+}
+
+.RadUploadSelectButton
+{
+	border: 0px;
+	background-color: Transparent;
+	background-image: url(Img/select.gif);
+	background-repeat: no-repeat;
+	font: bold 11px Arial, Verdana, Sans-serif;
+	color: #000;
+	height: 22px;
+	width: 81px;
+}
+
+.RadUploadRemoveButton
+{
+	border: 0px;
+	background-color: Transparent;
+	background-image: url(Img/radUploadBtnSmall.gif);
+	background-repeat: no-repeat;
+	font: bold 11px Arial, Verdana, Sans-serif;
+	color: #000;
+	height: 22px;
+	width: 66px;
+	float: right;
+}
+
+.RadUploadClearButton
+{
+	border: 0px;
+	background-color: Transparent;
+	background-image: url(Img/radUploadBtnSmall.gif);
+	background-repeat: no-repeat;
+	font: bold 11px Arial, Verdana, Sans-serif;
+	color: #000;
+	height: 22px;
+	width: 66px;
+	float: right;
+}
+
+input.NoSkinnedFileUnput
+{
+	border: solid 1x #1a43b0;
+}
+

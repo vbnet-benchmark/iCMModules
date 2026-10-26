@@ -1,0 +1,129 @@
+<root>
+	<modules>
+		<module name="RadEditorStatistics" dockable="false" dockingZone="Bottom" enabled="true" visible="true"/>						
+		<module name="RadEditorHtmlInspector" dockable="false" dockingZone="Module" enabled="true" visible="false" />		
+	</modules>
+	<tools name="MainToolbar" dockable="false" enabled="true">
+		<tool name="IncreaseSize" shortcut="F10"/>		
+		<tool name="DecreaseSize" shortcut="F9"/>	
+		<tool name="SpellCheck" />
+		<tool name="Print" shortcut="CTRL+P"/>		
+		<tool separator="true"/>
+		<tool name="Cut" shortcut="CTRL+X"/>		
+		<tool name="Copy" shortcut="CTRL+C"/>
+		<tool name="Paste" shortcut="CTRL+V"/>		
+		<tool separator="true"/>
+		<tool name="Undo" shortcut="CTRL+Z"/>
+		<tool name="Redo" shortcut="CTRL+Y"/>		
+	</tools>
+	<tools dockable="false"  enabled="true">		
+		<tool name="Bold" shortcut="CTRL+B"/>
+		<tool name="Italic" shortcut="CTRL+I"/>
+		<tool name="Underline" shortcut="CTRL+U"/>
+		<tool separator="true"/>
+		<tool name="JustifyLeft" />
+		<tool name="JustifyCenter" />
+		<tool name="JustifyRight" />
+		<tool name="JustifyFull" />
+		<tool name="JustifyNone" />
+		<tool separator="true"/>
+		<tool name="Superscript" />
+		<tool name="Subscript" />
+		<tool separator="true"/>
+		<tool name="InsertParagraph" />	
+		<tool name="AboutDialog" />
+		<tool name="Help" shortcut="F1"/>
+	</tools>
+	<tools name="DropdownToolbar" dockable="false"  enabled="true">
+		<tool name="ForeColor" />
+		<tool name="BackColor"></tool>
+		<tool name="FontName"></tool>
+		<tool name="FontSize"></tool>						
+		<tool separator="true"/>								
+		<tool name="InsertTable" />
+		<tool name="InsertSnippet" />
+		<tool name="InsertFormElement" />
+		<tool name="InsertSymbol" />								
+		<tool name="InsertCustomLink"/>
+		<tool name="InsertHorizontalRule" />
+			
+		<tool name="InsertDate" />
+		<tool name="InsertTime" />				
+		<tool separator="true"/>
+		<tool name="FormatStripper" />	
+	</tools>	
+	<tools name="EnhancedEditToolbar" dockingZone="Bottom" enabled="true" dockable="false">
+		<tool name="ToggleScreenMode" shortcut="F11"/>
+		<tool name="ToggleTableBorder" />		
+		<tool name="ModuleManager" />		
+		<tool name="RepeatLastCommand" shortcut="F4"/>
+	</tools>
+	<links>
+		<link name="telerik" href="http://www.telerik.com">
+			<link name="Products" href="http://www.telerik.com/products">
+				<link name="r.a.d.controls suite" href="http://www.telerik.com/radcontrols" />
+				<link name="r.a.d.navigation suite" href="http://www.telerik.com/radnavigation" />
+				<link name="r.a.d.editor" href="http://www.telerik.com/radeditor" />
+				<link name="r.a.d.designer" href="http://www.telerik.com/raddesigner" />
+				<link name="r.a.d.spell" href="http://www.telerik.com/radspell" />
+				<link name="r.a.d.chart" href="http://www.telerik.com/radchart" />
+				<link name="r.a.d.menu" href="http://www.telerik.com/radmenu" />
+				<link name="r.a.d.treeview" href="http://www.telerik.com/radtreeview" />
+				<link name="r.a.d.panelbar" href="http://www.telerik.com/radpanelbar" />
+				<link name="r.a.d.rotator" href="http://www.telerik.com/radrotator" />
+				<link name="r.a.d.tabstrip" href="http://www.telerik.com/radtabstrip" tooltip="Tooltip" />
+			</link>
+			<link name="Purchase" href="http://www.telerik.com/purchase" />
+			<link name="Support" href="http://www.telerik.com/support" />
+			<link name="Client.Net" href="http://www.telerik.com/clientnet" />
+		</link>
+		<link name="Microsoft">
+			<link name="Main Site" href="http://www.microsoft.com" />
+			<link name="MSDN Online" href="http://msdn.microsoft.com" />
+			<link name="Windows Update" href="http://windowsupdate.microsoft.com" />
+		</link>
+		<link name="Search Engines">
+			<link name="Google" href="http://www.google.com" />
+			<link name="Yahoo" href="http://www.yahoo.com" />
+			<link name="AltaVista" href="http://www.altavista.com" />
+		</link>
+	</links>
+	<snippets>
+		<snippet name="Order Confirmation">
+				<![CDATA[
+					<div style="width:300px;border:2px outset #D8D2BD;padding:34px;font-family:Arial, Verdana; font-size:11px;background-color:#F1EFE6;">
+					Dear ____________________,<br />
+					Thank you for inquiring about ____________. Your request will be processed in 48 hours and shipped at the address you have provided. 
+					<br /><br />
+						<b>Please, contact us if you have any problems.</b>
+					</div>
+				]]>
+			</snippet>
+			<snippet name="Email Signature">
+				<![CDATA[
+					<div style="margin-top:30px;width:80%;border-top:1px dotted gray;padding-top:4px;font-family:Arial, Verdana; font-size:11px;">
+					<b>John Wigham</b><br />
+					Senior Web Developer<br />
+						<a href="#">john@mysite.com</a>
+						<br />
+							<br />
+								<i>Disclaimer: The contents of this e-mail are privileged and confidential and intended for the addressees at the specified e-mail addresses only.</i>
+					</div>
+				]]>
+			</snippet>
+			<snippet name="Problem Report Feedback">
+				<![CDATA[
+					<div style="width:300px;border:2px outset #D8D2BD;padding:34px;font-family:Arial, Verdana; font-size:11px;background-color:#F1EFE6;">
+					Hi ____________________,<br />
+					Thank you for reporting this issue. We have verified the problem and it is logged in our system. We will notify you once we have a solution. 
+					<br /><br />
+						<b>Please, contact us if you have any problems.</b>
+					</div>
+				]]>
+			</snippet>
+	</snippets>		
+	<symbols></symbols>	
+	<fontNames>	</fontNames>	
+	<fontSizes></fontSizes>
+	<colors></colors>		
+</root>

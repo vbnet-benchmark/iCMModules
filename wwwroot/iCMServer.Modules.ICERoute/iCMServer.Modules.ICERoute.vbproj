@@ -1,0 +1,279 @@
+<VisualStudioProject>
+    <VisualBasic
+        ProjectType = "Web"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{477156CC-CBD8-4CA8-9E87-D8A9316CA66D}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "iConsulting.iCMServer.Modules.ICERoute"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Flow"
+                DefaultTargetSchema = "IE32Nav30"
+                DelaySign = "false"
+                OutputType = "Library"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "Off"
+                RootNamespace = "iConsulting.iCMServer.Modules.ICERoute"
+                StartupObject = "iConsulting.iCMServer.Modules.ICERoute.(None)"
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.dll"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Web.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.Web.Services"
+                    AssemblyName = "System.Web.Services"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Web.Services.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.XML.dll"
+                />
+                <Reference
+                    Name = "iConsulting.iCMServer.Components.iCDataGrid"
+                    AssemblyName = "iConsulting.iCMServer.Components.iCDataGrid"
+                    HintPath = "..\..\Source\iConsulting.iCMServer.Components.iCDataGrid.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "iConsulting.iCMServer"
+                    AssemblyName = "iConsulting.iCMServer"
+                    HintPath = "..\..\Source\iConsulting.iCMServer.dll"
+                    Private = "False"
+                />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "System" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AddRoute.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "AddRoute.aspx.vb"
+                    DependentUpon = "AddRoute.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AddRoute.aspx.resx"
+                    DependentUpon = "AddRoute.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "AddTrip.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "AddTrip.aspx.vb"
+                    DependentUpon = "AddTrip.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AddTrip.aspx.resx"
+                    DependentUpon = "AddTrip.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ICERoute.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ICERoute.ascx.vb"
+                    DependentUpon = "ICERoute.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ICERoute.ascx.resx"
+                    DependentUpon = "ICERoute.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ICERoute.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "modConstants.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ShowRoute.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ShowRoute.aspx.vb"
+                    DependentUpon = "ShowRoute.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ShowRoute.aspx.resx"
+                    DependentUpon = "ShowRoute.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Images\Add.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\AUTO0001.BMP"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\Back.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\Delete.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\DeletePage.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\downarrow.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\EditPage.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\exMap.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\Forward.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\GetPos.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\Go.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\List.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\Measure.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\MovePageDown.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\MovePageLeft.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\MovePageRight.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\MovePageUp.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\Open.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\Print.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\Print2.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\Save.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\uparrow.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\ZoomIn.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\ZoomOut.jpg"
+                    BuildAction = "Content"
+                />
+            </Include>
+        </Files>
+    </VisualBasic>
+</VisualStudioProject>
+

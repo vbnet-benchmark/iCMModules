@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabCollection>
+<Tab ID="Tab1" Text="Add Tabs" Value="Tab1">
+<Tab ID="Tab1_1" Text="Tab 1" Value="Add"></Tab>
+<Tab ID="Tab1_2" Text="Tab 2" Value="Add"></Tab>
+<Tab ID="Tab1_3" Text="Tab 3" Value="Add"></Tab>
+</Tab>
+<Tab ID="Tab2" Text="Remove Tabs" Value="Tab2">
+<Tab ID="Tab2_1" Text="Can't Remove" Value="CANTRemove"></Tab>
+<Tab ID="Tab2_2" Text="Remove 1" Value="Remove"></Tab>
+<Tab ID="Tab2_3" Text="Remove 2" Value="Remove"></Tab>
+<Tab ID="Tab2_4" Text="Remove 3" Value="Remove"></Tab>
+<Tab ID="Tab2_5" Text="Remove 4" Value="Remove"></Tab>
+<Tab ID="Tab2_6" Text="Remove 5" Value="Remove"></Tab>
+</Tab>
+<Tab ID="Tab3" Text="Disable Tabs" Value="Tab3">
+<Tab ID="Tab3_1" Text="Can't Disable" Value="CANTDisable"></Tab>
+<Tab ID="Tab3_2" Text="Disable 1" Value="Disable"></Tab>
+<Tab ID="Tab3_3" Text="Disable 2" Value="Disable"></Tab>
+<Tab ID="Tab3_4" Text="Disable 3" Value="Disable"></Tab>
+<Tab ID="Tab3_5" Text="Disable 4" Value="Disable"></Tab>
+<Tab ID="Tab3_6" Text="Disable 5" Value="Disable"></Tab>
+</Tab>
+</TabCollection>

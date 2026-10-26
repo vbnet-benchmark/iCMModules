@@ -1,0 +1,15 @@
+<%@ Register TagPrefix="radP" Namespace="Telerik.WebControls" Assembly="RadPanelbar" %>
+
+<radP:RadPanelbar Runat="server"
+	CssFile="~/app_themes/PinkDrop/RadPanelbar/Styles/PinkDrop.css"
+	CssClass="Panelbar"
+	HeaderExpandedCssClass="panelbarHeaderExpand"
+	HeaderCollapsedCssClass="panelbarHeaderCollapsed"
+	HeaderHoverCollapsedCssClass="panelbarHeaderHover"
+	HeaderHoverExpandedCssClass="panelbarHeaderExpand"
+	ItemCollapsedCssClass="panelbarItem"
+	ItemHoverCollapsedCssClass="panelbarItemHover"
+	ItemSelectedCssClass="panelbarItemHover"
+	ImagesBaseDir="~/app_themes/PinkDrop/RadPanelbar/Img/"
+	SpaceBetweenPanelItems="9"
+	/>

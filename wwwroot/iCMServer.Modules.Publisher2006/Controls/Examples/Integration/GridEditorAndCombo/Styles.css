@@ -1,0 +1,55 @@
+.RadGrid
+{
+	border-left: 1px solid #319AEA;
+	border-right: 1px solid #319AEA;
+	font-size: 11px;
+	font-family: Arial, Verdana;
+}
+
+.RadGrid TABLE
+{
+	font-size: 11px;
+	font-family: Arial, Verdana;
+}
+.GridHeader
+{
+	font-weight: bold;
+	color: white;
+	background-image: url(Img/headerBg.gif);
+}
+
+.GridHeader
+{
+	font-weight: bold;
+	color: white;
+	background-image: url(Img/headerBg.gif);	
+}
+
+.GridHeader A
+{
+	color: white;
+}
+
+.GridRow
+{
+	background-image: url(Img/rowBg.gif);
+	padding-left: 5px;
+}
+
+.GridAltRow
+{
+	background-image: url(Img/altRowBg.gif);
+	padding-left: 5px;
+}
+
+.GridPager
+{
+	background-image: url(Img/pagerBg.gif);
+	color: #333333;
+	padding-left: 6px;
+}
+
+.GridPager A
+{
+	color: #333333;
+}

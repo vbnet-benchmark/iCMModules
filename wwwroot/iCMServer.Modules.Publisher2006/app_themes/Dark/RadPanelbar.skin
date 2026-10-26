@@ -1,0 +1,16 @@
+<%@ Register TagPrefix="radP" Namespace="Telerik.WebControls" Assembly="RadPanelbar" %>
+
+<radP:RadPanelbar Runat="server"
+	CssFile="~/app_themes/Dark/RadPanelbar/Styles/Dark.css"
+	HeaderExpandedCssClass="panelbarHeaderExpand"
+	HeaderCollapsedCssClass="panelbarHeaderCollapsed"
+	HeaderHoverCollapsedCssClass="panelbarHeaderCollapsed"
+	HeaderHoverExpandedCssClass="panelbarHeaderExpand"
+	ItemCollapsedCssClass="panelbarItem"
+	ItemHoverCollapsedCssClass="panelbarItemHover"
+	ItemSelectedCssClass="panelbarItemHover"
+	ItemDisabledCssClass="penalberItemDesabled"
+	CssClass="panelbar"
+	ExpandEffect="Fade"
+	ImagesBaseDir="~/app_themes/Dark/RadPanelbar/Img/"
+	/>

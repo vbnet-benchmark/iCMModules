@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Products>
+	<Product>
+		<ID>Tab1</ID>
+		<ProductLogo>TabStripLogo.gif</ProductLogo>
+		<ProductImage>TabStrip.gif</ProductImage>
+		<ProductDescription>
+		<![CDATA[
+		<strong>t</strong>elerik r.a.d.<strong>tabstrip</strong> is a flexible component 
+for building tabbed interfaces in ASP.NET applications: CSS-based text-only 
+tabstrips, fully graphical with simple or overlapping image backgrounds, 
+scrollable, vertical, aligned, or multi-level nested tabstrips. The product 
+fully supports .NET 2.0 and the integrated Themes mechanism.<br /><br />
+		r.a.d.<b>tabstrip</b> supports all major browsers Internet Explorers 4.0+, Netscape 6.0+, Mozilla 0.6+ and Opera 7+ both on PC and Mac. The product is available individually or as a part of the r.a.d.<b>controls</b> and r.a.d.<b>navigation</b> suites - "Unleashing the power of Thin Client".
+		]]>
+		</ProductDescription>
+		<Price>$199.00</Price>
+	</Product>
+	<Product>
+		<ID>Tab2</ID>
+		<ProductLogo>PanelbarLogo.gif</ProductLogo>
+		<ProductImage>Panelbar.gif</ProductImage>
+		<ProductDescription>
+		<![CDATA[
+		<strong>t</strong>elerik 
+r.a.d.<strong>panelbar</strong> is a versatile component for building 
+collapsible side-menu systems and Outlook-type panels. It is developed to 
+facilitate what is found in almost any web-site - the typical left/right-side 
+navigation, but cannot be achieved using the conventional drop-down menu 
+components.<br /><br />
+		r.a.d.<b>panelbar</b> can be customized extensively (with or without CSS) to deliver attractive and convenient navigation - from standard Outlook®-bars to fully graphical side-menus. The product offers wide cross-browser compatibility (IE5+, NS7+, Mozilla, FireFox, Opera, Safari) and is available as an individual component or as part of the r.a.d.<b>controls</b> and r.a.d.<b>navigation</b> suites - "Unleashing the power of Thin Client".
+		]]>
+		</ProductDescription>
+		<Price>$249.00</Price>
+	</Product>
+	<Product>
+		<ID>Tab3</ID>
+		<ProductLogo>MenuLogo.gif</ProductLogo>
+		<ProductImage>Menu.gif</ProductImage>
+		<ProductDescription>
+		<![CDATA[
+		r.a.d.<strong>menu</strong> is the most 
+advanced drop-down menu component for ASP.NET. The product allows developers to 
+build horizontal, vertical, pop-up, and scrollable menus, which mimic the 
+sophistication of the Windows navigation systems. r.a.d.<strong>menu</strong> is 
+shipped with an abundant set of ready-to-use skins, which can jump start your 
+implementations.<br /><br />
+		r.a.d.<b>menu</b> is available individually or as part of the r.a.d.<b>controls</b> and r.a.d.<b>navigation</b> suites - "Unleashing the power of Thin Client".
+		]]>
+		</ProductDescription>
+		<Price>$249.00</Price>
+	</Product>
+	<Product>
+		<ID>Tab4</ID>
+		<ProductLogo>EditorLogo.gif</ProductLogo>
+		<ProductImage>Editor.gif</ProductImage>
+		<ProductDescription>
+		<![CDATA[
+		<strong>t</strong>elerik r.a.d.<strong>editor</strong> is the leading WYSIWYG 
+rich-text editor for ASP.NET. The product can replace any TextBox with an 
+intuitive Word®-like editor, which enables even non-technical users to author 
+and manage HTML content as easily as writing a document. 
+r.a.d.<strong>editor</strong> is available for <a 
+href="http://www.sharepointcontrols.com/">Sharepoint</a>, <a 
+href="http://www.mcmscontrols.com/">MCMS 2002</a> and <a 
+href="http://www.telerik.com/dnn/">DotNetNuke</a>.	<br/><br/>	r.a.d.<b>editor</b> is available individually or as part of the r.a.d.<b>controls</b> suite - "Unleashing the power of Thin Client".
+		]]>
+		</ProductDescription>
+		<Price>$349.00</Price>
+	</Product>
+	<Product>
+		<ID>Tab5</ID>
+		<ProductLogo>TreeViewLogo.gif</ProductLogo>
+		<ProductImage>TreeView.gif</ProductImage>
+		<ProductDescription>
+		<![CDATA[
+<strong>t</strong>elerik r.a.d.<strong>treeview</strong> is the supercharged 
+treeview component for ASP.NET. It facilitates the display, management, and 
+navigation of hierarchical data structures. The product offers many advanced 
+features found in the treeview components for WinForms, but previously 
+unavailable for the web.<br /><br />
+		r.a.d.<b>treeview</b> features an extremely rich client and server-side API, which allows you to achieve the complex behavior found in desktop applications. Added to this is the skinning support that can nicely blend r.a.d.<b>treeview</b> into the interface of your web-site.<br /><br />
+		The product is available individually or as a part of the r.a.d.<b>controls</b> and r.a.d.<b>navigation</b> suites - "Unleashing the power of Thin Client".
+		]]>
+		</ProductDescription>
+		<Price>$249.00</Price>
+	</Product>
+</Products>

@@ -1,0 +1,15 @@
+<%@ Register TagPrefix="radP" Namespace="Telerik.WebControls" Assembly="RadPanelbar" %>
+
+<radP:RadPanelbar Runat="server"
+	CssFile="~/app_themes/Glossy/RadPanelbar/Styles/Glossy.css"
+	CssClass="Panelbar"
+	HeaderExpandedCssClass="panelbarHeaderSelected"
+	HeaderCollapsedCssClass="panelbarHeader"
+	HeaderHoverCollapsedCssClass="panelbarHeader"
+	HeaderHoverExpandedCssClass="panelbarHeaderSelected"
+	ItemCollapsedCssClass="panelbarItem"
+	ItemHoverCollapsedCssClass="panelbarItem"
+	ItemSelectedCssClass="panelbarItem"
+	ImagesBaseDir="~/app_themes/Glossy/RadPanelbar/Img/"
+	SpaceBetweenPanelItems="9"
+	/>
